@@ -84,9 +84,9 @@ details summary{cursor:pointer;font-weight:600}
 <section class="tiles" id="takeaways" aria-label="Takeaways"></section>
 
 <h2 class="sec">Market reaction</h2>
-<section class="card" id="chartE"><h2>E. NVDA price and when reactions landed</h2><p class="sub">Observed price points from news reports. Ticks along the bottom mark time-stamped reactions.</p><div class="plot"></div><p class="note" id="noteE"></p></section>
+<section class="card" id="chartE"><h2>E. NVDA price and when reactions landed</h2><p class="sub" id="subE"></p><div class="legend"><span><i style="background:var(--text);border-radius:50%"></i>NVDA price</span><span><i style="background:var(--support)"></i>Quote in support</span><span><i style="background:var(--oppose)"></i>Opposed</span><span><i style="background:var(--mixed)"></i>Mixed or neutral</span></div><div class="plot"></div><p class="note" id="noteE"></p></section>
 <section class="card" id="chartG"><h2 id="gTitle">Analysts have not restored pre-exit price targets</h2><p class="sub">Each row is one firm: hollow dot is the prior target, filled dot the current one. The vertical line is today's price.</p><div class="legend"><span><i style="background:transparent;border:2px solid var(--faint)"></i>Prior target</span><span><i style="background:var(--line)"></i>Current target</span></div><div class="plot"></div><p class="note" id="noteG"></p></section>
-<section class="card" id="chartH"><h2>The AI supply chain rallied harder than GPU rivals</h2><p class="sub">Same-day % move. NVDA in blue; others in gray, labeled by role.</p><div class="plot"></div><p class="note" id="noteH"></p></section>
+<section class="card" id="chartH"><h2>The AI supply chain rallied harder than GPU rivals</h2><p class="sub">Same-day % move. NVDA in blue, others in gray. The dashed line is the Nasdaq.</p><div class="plot"></div><p class="note" id="noteH"></p></section>
 
 <h2 class="sec">Fundamentals and technicals</h2>
 <section class="card" id="fund"><div id="fundBody"></div></section>
@@ -3886,27 +3886,41 @@ function chartD(){
 }
 
 function chartE(){
-  const P=[{t:PRICE.prior_close.t,price:PRICE.prior_close.price,session:"prior close"},...PRICE.points].map(p=>({...p,ts:new Date(p.t).getTime()}));
-  const today=P.slice(1); const t=R.filter(r=>/T\d\d:\d\d/.test(r.published_at||"")).map(r=>({...r,ts:new Date(r.published_at).getTime()}));
-  const tsAll=[...today.map(p=>p.ts),...t.map(r=>r.ts),new Date(PRICE.announcement).getTime()];
-  const tmin=Math.min(...tsAll)-15*60e3, tmax=Math.max(...tsAll)+15*60e3;
-  const s=svg(document.querySelector("#chartE .plot"),W,340), x0=64,x1=W-120, X=v=>x0+(v-tmin)/(tmax-tmin)*(x1-x0);
-  const lo=120,hi=180, y0=8,y1=248, Y=v=>y1-(v-lo)/(hi-lo)*(y1-y0);
-  for(let v=lo;v<=hi;v+=20){el("line",{x1:x0,x2:x1,y1:Y(v),y2:Y(v),class:"grid"},s);el("text",{x:x0-8,y:Y(v)+5,"text-anchor":"end"},s,"$"+v);}
-  // reference: prior close
-  const pc=PRICE.prior_close.price; el("line",{x1:x0,x2:x1,y1:Y(pc),y2:Y(pc),class:"axis"},s);el("text",{x:x1+8,y:Y(pc)+5},s,"Fri close $"+pc.toFixed(2));
-  const ref=PRICE.reference_levels.find(r=>r.price>170); if(ref){el("line",{x1:x0,x2:x1,y1:Y(ref.price),y2:Y(ref.price),class:"axis"},s);el("text",{x:x1+8,y:Y(ref.price)+5},s,"Nov 11 $"+ref.price.toFixed(2));}
-  const ax=X(new Date(PRICE.announcement).getTime());el("line",{x1:ax,x2:ax,y1:y0,y2:y1,class:"axis"},s);el("text",{x:ax+6,y:y0+14,class:"ink"},s,"Announcement "+fmtET(PRICE.announcement));
-  el("path",{d:"M"+today.map(p=>X(p.ts).toFixed(1)+","+Y(p.price).toFixed(1)).join("L"),fill:"none",stroke:"var(--line)","stroke-width":2,"stroke-linejoin":"round"},s);
-  today.forEach((p,i)=>{const c=el("circle",{cx:X(p.ts),cy:Y(p.price),r:5,fill:"var(--line)",stroke:"var(--surface)","stroke-width":2},s);
-    hover(c,`<b>$${p.price.toFixed(2)}${p.approx?" (approx.)":""}</b>${fmtET(p.t)} ET · ${p.session}<br><span>${((p.price/pc-1)*100).toFixed(1)}% vs Friday close</span>`);
-    if(i===today.length-1)el("text",{x:X(p.ts),y:Y(p.price)+28,"text-anchor":"middle",class:"ink"},s,"$"+p.price.toFixed(2)+" (+"+((p.price/pc-1)*100).toFixed(1)+"%)");});
-  // reaction ticks
-  el("line",{x1:x0,x2:x1,y1:276,y2:276,class:"grid"},s);el("text",{x:x0-8,y:281,"text-anchor":"end"},s,"Quotes");
-  t.forEach(r=>{const x=X(r.ts);const k=el("line",{x1:x,x2:x,y1:266,y2:286,stroke:sentColor(+r.sentiment_score),"stroke-width":3,"stroke-linecap":"round"},s);
-    const h=el("rect",{x:x-6,y:262,width:12,height:28,class:"hit"},s);hover(h,qtip(r)+`<br><span>${fmtET(r.ts)} ET</span>`);});
-  const step=30*60e3;for(let k=Math.ceil(tmin/step)*step;k<=tmax;k+=step)el("text",{x:X(k),y:318,"text-anchor":"middle"},s,fmtET(k));
-  document.getElementById("noteE").textContent=`Only ${today.length} intraday prices were verifiable from reports so far; refreshes add more. Prices: Yahoo Finance, StockAnalysis.`;
+  const host=document.querySelector("#chartE .plot"), W=Math.max(300,Math.min(960,host.clientWidth||960)); // fits the card, no side-scroll
+  // Observed prices only (no intraday feed): dots joined by a faint line, so the line doesn't imply precision.
+  const pc=PRICE.prior_close.price;
+  const today=PRICE.points.map(p=>({...p,ts:new Date(p.t).getTime()}));
+  const t=R.filter(r=>/T\d\d:\d\d/.test(r.published_at||"")).map(r=>({...r,ts:new Date(r.published_at).getTime()}));
+  const day=PRICE.announcement.slice(0,10), at=h=>new Date(`${day}T${h}-05:00`).getTime();
+  const latest=Math.max(...today.map(p=>p.ts),...t.map(r=>r.ts));
+  const tmin=at("08:30:00"), tmax=Math.max(at("16:00:00"),Math.ceil(latest/36e5)*36e5);
+  const s=svg(host,W,320);
+  const probe=["Quotes","$180"].map(x=>el("text",{x:0,y:0},s,x)), x0=Math.ceil(Math.max(...probe.map(e=>e.getComputedTextLength())))+16; probe.forEach(e=>e.remove());
+  const x1=W-24, X=v=>x0+(v-tmin)/(tmax-tmin)*(x1-x0);
+  const lo=120,hi=180, y0=8,y1=232, Y=v=>y1-(v-lo)/(hi-lo)*(y1-y0);
+  for(let v=lo;v<=hi;v+=20){el("line",{x1:x0,x2:x1,y1:Y(v),y2:Y(v),class:v===lo?"axis":"grid"},s);el("text",{x:x0-8,y:Y(v)+5,"text-anchor":"end"},s,"$"+v);}
+  const ax=X(new Date(PRICE.announcement).getTime());el("line",{x1:ax,x2:ax,y1:y0,y2:y1,stroke:"var(--faint)","stroke-width":1,"stroke-dasharray":"3 4"},s);
+  el("text",{x:ax+6,y:y0+14,class:"ink"},s,"Announcement "+fmtET(PRICE.announcement));
+  el("path",{d:"M"+today.map(p=>X(p.ts).toFixed(1)+","+Y(p.price).toFixed(1)).join("L"),fill:"none",stroke:"var(--faint)","stroke-width":1.5,"stroke-dasharray":"2 4","stroke-linecap":"round"},s);
+  today.forEach(p=>{const c=el("circle",{cx:X(p.ts),cy:Y(p.price),r:5,fill:"var(--text)",stroke:"var(--surface)","stroke-width":2},s);
+    hover(c,`<b>$${p.price.toFixed(2)}${p.approx?" (approx.)":""}</b>${fmtET(p.t)} ET · ${p.session}<br><span>+${((p.price/pc-1)*100).toFixed(1)}% vs $${pc.toFixed(2)} Friday close</span>`);});
+  const last=today[today.length-1], lx=X(last.ts), ly=Y(last.price);
+  // End label: inside the plot, on whichever side of the last dot has room.
+  const lab=el("text",{x:lx+10,y:ly+26,class:"ink","font-weight":600},s,`$${last.price.toFixed(2)} (+${((last.price/pc-1)*100).toFixed(1)}%) at ${fmtET(last.ts)}`);
+  const lw=lab.getComputedTextLength();
+  if(lx+10+lw>x1){if(lx-lw>=x0+4){lab.setAttribute("x",lx);lab.setAttribute("text-anchor","end");}else{lab.setAttribute("x",x1);lab.setAttribute("text-anchor","end");}}
+  // Quote ticks, colored by stance (blue support, red oppose, gray mixed or neutral).
+  const ty=262; el("text",{x:x0-8,y:ty+5,"text-anchor":"end"},s,"Quotes");
+  const stc=r=>r.stance==="support"?"var(--support)":r.stance==="oppose"?"var(--oppose)":"var(--mixed)";
+  t.forEach(r=>{const x=X(r.ts);el("line",{x1:x,x2:x,y1:ty-10,y2:ty+10,stroke:stc(r),"stroke-width":3,"stroke-linecap":"round"},s);
+    const h=el("rect",{x:x-6,y:ty-14,width:12,height:28,class:"hit"},s);hover(h,qtip(r)+`<br><span>${fmtET(r.ts)} ET</span>`);});
+  // Hourly time labels; a label that would collide with the previous one is dropped.
+  let prevR=-1e9;for(let k=at("09:00:00");k<=tmax;k+=36e5){const hr=+new Date(k).toLocaleTimeString("en-US",{hour:"numeric",hour12:false,timeZone:"America/New_York"}), h=(hr%12||12)+((hr===9||hr===12||k+36e5>tmax)?(hr<12?" AM":" PM"):"");
+    const x=X(k);el("line",{x1:x,x2:x,y1:y1,y2:y1+5,class:"axis"},s);
+    const tx=el("text",{x,y:302,"text-anchor":"middle"},s,h);const w=tx.getComputedTextLength();
+    if(x-w/2<prevR+8||x+w/2>W)tx.remove();else prevR=x+w/2;}
+  document.getElementById("subE").textContent=`${today.length} observed prices from news reports (dots), since no intraday price feed can be read here. Friday's close was $${pc.toFixed(2)}. Ticks mark time-stamped quotes.`;
+  document.getElementById("noteE").textContent=`Prices: Yahoo Finance, StockAnalysis. Each refresh adds the prices reported since.`;
 }
 
 function chartF(){
@@ -3960,15 +3974,25 @@ function chartG(){
     hover(c,`<b>${esc(r.firm)}${r.analyst?" · "+esc(r.analyst):""}</b>${r.rating?esc(r.rating)+" · ":""}$${r.new_pt}${r.old_pt&&r.old_pt!==r.new_pt?` (from $${r.old_pt})`:r.old_pt===r.new_pt?" (unchanged)":""}<br><span>${esc(r.date)}</span>`);});
 }
 function chartH(){document.getElementById("noteG").textContent=FIN.price_targets_note||"";
-  const rows=[...FIN.peers].sort((a,b)=>b.change_pct-a.change_pct), rh=30, H=rows.length*rh+40, s=svg(document.querySelector("#chartH .plot"),W,H);
-  const x0=200,x1=W-72,mx=Math.ceil(Math.max(...rows.map(r=>r.change_pct))/10)*10,X=v=>x0+v/mx*(x1-x0);
-  for(let v=0;v<=mx;v+=10){el("line",{x1:X(v),x2:X(v),y1:0,y2:rows.length*rh,class:v?"grid":"axis"},s);el("text",{x:X(v),y:rows.length*rh+20,"text-anchor":"middle"},s,v+"%");}
-  const nas=(FIN.indices||[]).find(i=>i.name==="Nasdaq");if(nas){el("line",{x1:X(nas.change_pct),x2:X(nas.change_pct),y1:0,y2:rows.length*rh,stroke:"var(--text)","stroke-width":1},s);el("text",{x:X(nas.change_pct)+6,y:12},s,`Nasdaq +${nas.change_pct}%`);}
-  rows.forEach((r,i)=>{const y=i*rh+5,me=r.ticker==="NVDA";
-    el("text",{x:x0-16,y:y+15,"text-anchor":"end",class:"ink","font-weight":me?600:400},s,`${r.ticker} · ${r.role}`);
-    const w=Math.max(X(r.change_pct)-x0,2);const b=el("path",{d:`M${x0},${y+2}h${w-4}q4,0 4,4v12q0,4 -4,4h${-(w-4)}Z`,fill:me?"var(--line)":"var(--mixed)"},s);
+  const host=document.querySelector("#chartH .plot"), W=Math.max(300,Math.min(960,host.clientWidth||960)); // fits the card, no side-scroll
+  const rows=[...FIN.peers].sort((a,b)=>b.change_pct-a.change_pct), rh=44, n=rows.length, s=svg(host,W,n*rh+64);
+  // Two-line labels (ticker, then role); the label column is sized to the widest label as rendered.
+  const labs=rows.map((r,i)=>{const y=i*rh,me=r.ticker==="NVDA";
+    const a=el("text",{x:0,y:y+19,"text-anchor":"end",class:"ink","font-weight":me?700:600},s,r.ticker);
+    const b=el("text",{x:0,y:y+36,"text-anchor":"end","font-size":12},s,r.role);return [a,b];});
+  const lw=Math.max(...labs.flat().map(e=>e.getComputedTextLength()));
+  const x0=Math.ceil(lw)+20, mx=Math.ceil(Math.max(...rows.map(r=>r.change_pct))/5)*5, x1=W-72, X=v=>x0+v/mx*(x1-x0);
+  labs.flat().forEach(e=>e.setAttribute("x",x0-12));
+  const yb=n*rh, ticks=[];for(let v=0;v<mx;v+=10)ticks.push(v);if(mx-ticks[ticks.length-1]>=5)ticks.push(mx);
+  let prevR=-1e9;ticks.forEach(v=>{el("line",{x1:X(v),x2:X(v),y1:0,y2:yb,class:v?"grid":"axis"},s);const tx=el("text",{x:X(v),y:yb+20,"text-anchor":"middle"},s,v+"%");
+    const w=tx.getComputedTextLength();if(X(v)-w/2<prevR+8)tx.remove();else prevR=X(v)+w/2;});
+  rows.forEach((r,i)=>{const y=i*rh+8,me=r.ticker==="NVDA";
+    const w=Math.max(X(r.change_pct)-x0,2);const b=el("path",{d:`M${x0},${y}h${w-4}q4,0 4,4v16q0,4 -4,4h${-(w-4)}Z`,fill:me?"var(--line)":"var(--mixed)"},s);
     hover(b,`<b>${r.ticker}</b>${esc(r.role)}: +${r.change_pct.toFixed(1)}%`);
-    el("text",{x:X(r.change_pct)+8,y:y+15,class:"ink"},s,`+${r.change_pct.toFixed(1)}%`);});
+    el("text",{x:X(r.change_pct)+8,y:y+17,class:"ink","font-weight":me?600:400},s,`+${r.change_pct.toFixed(1)}%`);});
+  const nas=(FIN.indices||[]).find(i=>i.name==="Nasdaq");
+  if(nas){const nx=X(nas.change_pct);el("line",{x1:nx,x2:nx,y1:0,y2:yb+30,stroke:"var(--text)","stroke-width":1,"stroke-dasharray":"2 4",opacity:.55},s);
+    el("text",{x:nx,y:yb+48,"text-anchor":"middle",class:"ink"},s,`Nasdaq +${nas.change_pct.toFixed(1)}%`);}
   document.getElementById("noteH").textContent=FIN.peers_note||"";
 }
 function fund(){

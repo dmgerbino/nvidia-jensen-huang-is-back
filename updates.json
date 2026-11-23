@@ -3,5 +3,10 @@
     "at": "2026-11-23T13:06:00-05:00",
     "label": "1 PM refresh",
     "note": "First version on this site: 99 verified quotes from 60 voices. Congress is now on record (9 of 10 members opposed, from both parties), Gov. Pritzker is the first governor, Trump said his intervention \"was very important,\" Bernstein upgraded and Citi raised its target to $240. NVDA up 32.5% at 12:33 PM ET."
+  },
+  {
+    "at": "2026-11-23T15:23:48-05:00",
+    "label": "Chart fixes",
+    "note": "Fixed the NVDA price chart and the peer-moves chart for phones: hourly time labels, even gridlines, a legend for quote stance, the end price label inside the plot, the peer axis extended to 35% with NVDA labeled, full ticker labels, and a dashed Nasdaq line. No data changed."
   }
 ]
