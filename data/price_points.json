@@ -1,0 +1,45 @@
+{
+ "ticker": "NVDA",
+ "prior_close": {
+  "t": "2026-11-20T16:00:00-05:00",
+  "price": 125.53
+ },
+ "announcement": "2026-11-23T08:55:00-05:00",
+ "points": [
+  {
+   "t": "2026-11-23T09:00:00-05:00",
+   "price": 159.48,
+   "session": "premarket",
+   "source": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-soars-27-bell-141538654.html"
+  },
+  {
+   "t": "2026-11-23T09:04:00-05:00",
+   "price": 164.95,
+   "session": "premarket",
+   "approx": true,
+   "source": "https://stockanalysis.com/news/nvidia-reinstates-jensen-huang-as-ceo/"
+  },
+  {
+   "t": "2026-11-23T10:02:03-05:00",
+   "price": 167.24,
+   "session": "regular",
+   "source": "https://finance.yahoo.com/markets/article/nvidia-soars-25-as-board-reinstates-jensen-huang-as-ceo-chip-stocks-jump-142353537.html"
+  },
+  {
+   "t": "2026-11-23T12:33:22-05:00",
+   "price": 166.26,
+   "session": "regular",
+   "source": "Yahoo Finance live blog"
+  }
+ ],
+ "reference_levels": [
+  {
+   "label": "Nov 11 close, before he left",
+   "price": 173.73
+  },
+  {
+   "label": "Nov 20 close",
+   "price": 125.53
+  }
+ ]
+}

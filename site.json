@@ -1,0 +1,27 @@
+{
+  "title": "NVIDIA reinstates Jensen Huang: market and political reaction",
+  "description": "Wall Street and the White House cheered; Congress, from Warren to Bacon, lined up against the board. Every verified reaction, sentiment charts, NVDA price targets and technicals, refreshed through the day.",
+  "first_published": "2026-11-23",
+  "card": {
+    "name": "NVIDIA",
+    "exchange": "Nasdaq",
+    "ticker": "NVDA",
+    "quarter": "Q3 FY2027",
+    "event_date": "2026-11-23",
+    "subtitle": "CEO reinstated Nov 23, 2026",
+    "window_label": "reinstatement",
+    "net_income": "$65.3B",
+    "net_income_note": "▲ 104.6% vs. Q3 FY2026",
+    "eps_label": "Adjusted EPS",
+    "eps": "$2.68",
+    "eps_note": "Beat $2.47 consensus"
+  },
+  "next_update": "4 PM ET refresh, after the close",
+  "updated_at": "2026-11-23T13:06:00-05:00",
+  "updated_label": "1:06 PM ET, Nov 23",
+  "latest_price": {
+    "date": "2026-11-23",
+    "price": 166.26,
+    "as_of": "2026-11-23T12:33:22-05:00"
+  }
+}
