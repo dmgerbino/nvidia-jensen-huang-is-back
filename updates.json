@@ -8,5 +8,10 @@
     "at": "2026-11-23T15:23:48-05:00",
     "label": "Chart fixes",
     "note": "Fixed the NVDA price chart and the peer-moves chart for phones: hourly time labels, even gridlines, a legend for quote stance, the end price label inside the plot, the peer axis extended to 35% with NVDA labeled, full ticker labels, and a dashed Nasdaq line. No data changed."
+  },
+  {
+    "at": "2026-11-23T16:12:05-05:00",
+    "label": "4 PM refresh",
+    "note": "155 verified quotes from 92 voices. 15 of 17 members of Congress on record oppose or question the move, now including Jeffries, Cramer, Curtis and Ricketts; none support it. Oppenheimer, StoneX and Melius upgraded. Yale's Sonnenfeld: \"we have seen no weaker board.\" NVDA +30.9% at 1:42 PM ET; the official close was not yet published and will be added at 7 PM."
   }
 ]

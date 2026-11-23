@@ -1,41 +1,44 @@
 {
-  "as_of": "2026-11-23T12:33:22-05:00",
+  "as_of": "2026-11-23T13:42:00-05:00",
   "price": {
-    "last": 166.26,
-    "change_pct": 32.45,
-    "change_abs": 40.73,
+    "last": 164.38,
+    "change_pct": 30.95,
+    "change_abs": 38.85,
     "prior_close": 125.53,
     "pre_exit_close": 173.73,
     "record_close": 239.24,
     "record_date": "2026-10-06",
     "wk52_low": 124.5,
     "wk52_high": 243.37,
-    "volume_m": 300.0,
-    "volume_note": "~300M shares by mid-morning (Investing.com)",
+    "volume_m": 580.0,
+    "volume_note": "~580M shares by 1:42 PM ET (FinanceFeeds, citing Nasdaq); official close not yet published",
     "sources": [
+      "https://financefeeds.com/nvidia-stock-up-30-95-to-164-38-huang-returns/",
       "https://finance.yahoo.com/markets/article/nvidia-soars-25-as-board-reinstates-jensen-huang-as-ceo-chip-stocks-jump-142353537.html",
       "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-soars-27-bell-141538654.html"
     ],
-    "intraday_high": 168.33
+    "intraday_high": 171.5,
+    "intraday_low": 156.93,
+    "close_status": "Official Nov 23 close not yet published when this refresh ran (4:15 PM ET); last verified price is 1:42 PM ET."
   },
   "indices": [
     {
       "name": "Nasdaq",
-      "change_pct": 6.9
+      "change_pct": 6.22
     },
     {
       "name": "S&P 500",
-      "change_pct": 4.97
+      "change_pct": 4.55
     },
     {
       "name": "Dow",
-      "change_pct": 3.19
+      "change_pct": 2.96
     }
   ],
   "peers": [
     {
       "ticker": "NVDA",
-      "change_pct": 32.45,
+      "change_pct": 30.95,
       "role": "Company"
     },
     {
@@ -114,7 +117,7 @@
       "role": "Custom silicon"
     }
   ],
-  "peers_note": "NVDA at 12:33 PM ET; AMD, AVGO, MU at 11:14 AM ET (MarketScreener); others mid-morning (Investing.com, Yahoo Finance). Sources disagree by a few points for some tickers.",
+  "peers_note": "NVDA at 1:42 PM ET; AMD, AVGO, MU at 11:14 AM ET (MarketScreener); others mid-morning (Investing.com, Yahoo Finance). At 1:39 PM ET 24/7 Wall St. had MU +18%, MRVL +17%, DELL, CRWV and NBIS +21%, TSM +15%, SMCI +14%, AMD +7%, AVGO +2%. Closing moves pending.",
   "price_targets": [
     {
       "firm": "Bernstein",
@@ -141,10 +144,26 @@
       "date": "2026-11-23"
     },
     {
-      "firm": "Melius",
+      "firm": "StoneX",
       "analyst": null,
-      "rating": "Buy (upgrade)",
+      "rating": "Buy (upgrade from Hold)",
       "old_pt": null,
+      "new_pt": 270,
+      "date": "2026-11-23"
+    },
+    {
+      "firm": "Oppenheimer",
+      "analyst": "Rick Schafer",
+      "rating": "Outperform (upgrade from Perform)",
+      "old_pt": null,
+      "new_pt": 250,
+      "date": "2026-11-23"
+    },
+    {
+      "firm": "Melius",
+      "analyst": "Ben Reitzes",
+      "rating": "Buy (upgrade)",
+      "old_pt": 185,
       "new_pt": 220,
       "date": "2026-11-23"
     },
@@ -317,7 +336,7 @@
   "valuation": {
     "as_of": "2026-11-20 close (page updated 2026-11-22)",
     "price_basis": 125.53,
-    "market_cap": 4015.0,
+    "market_cap": 3970.0,
     "market_cap_unit_note": "USD billions (=$3.03T)",
     "market_cap_implied_nov23_intraday_derived": 4039,
     "shares_diluted": 24.186,
@@ -335,7 +354,7 @@
       "https://stockanalysis.com/stocks/nvda/",
       "https://stockanalysis.com/stocks/nvda/forecast/"
     ],
-    "market_cap_note": "Implied at $166.26 x 24.15B shares (derived); about $990B added by 9:57 AM ET (24/7 Wall St.); $3.03T at the Nov 20 close (StockAnalysis)"
+    "market_cap_note": "Implied at $164.38 x 24.15B shares (derived); Benzinga put the day's gain near $888B at $162.28; $3.03T at the Nov 20 close (StockAnalysis)"
   },
   "technicals": {
     "as_of": "2026-11-20 close",
@@ -449,5 +468,6 @@
       ]
     }
   ],
-  "price_targets_note": "Nov 23 actions in bold (Bernstein upgraded to Outperform; Citi raised to $240; Melius upgraded, reported second-hand). Other rows are the latest change found, made during Huang's absence or after the Nov 17 earnings report. Wedbush's $293 is Matt Bryson; Dan Ives is now at Yorkville & Ives. Citi's prior $225 is from its cut during Huang's absence."
+  "price_targets_note": "Nov 23 actions in bold: Bernstein and Oppenheimer upgraded to Outperform, StoneX to Buy ($270), Melius to Buy ($185 to $220); Citi raised to $240; Cantor put NVDA back on its Top Picks list without a target change. StoneX, Oppenheimer and Melius are reported second-hand (TheFly, TipRanks). Other rows are the latest change found, made during Huang's absence or after the Nov 17 earnings report. Wedbush's $293 is Matt Bryson; Dan Ives is now at Yorkville & Ives. Citi's prior $225 is from its cut during Huang's absence.",
+  "indices_note": "About 2:49 PM ET (Yahoo Finance); closing moves pending."
 }

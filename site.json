@@ -16,12 +16,12 @@
     "eps": "$2.68",
     "eps_note": "Beat $2.47 consensus"
   },
-  "next_update": "4 PM ET refresh, after the close",
-  "updated_at": "2026-11-23T15:23:48-05:00",
-  "updated_label": "3:23 PM ET, Nov 23",
+  "next_update": "7 PM ET refresh, with the official close",
+  "updated_at": "2026-11-23T16:12:05-05:00",
+  "updated_label": "4:12 PM ET, Nov 23",
   "latest_price": {
     "date": "2026-11-23",
-    "price": 166.26,
-    "as_of": "2026-11-23T12:33:22-05:00"
+    "price": 164.38,
+    "as_of": "2026-11-23T13:42:00-05:00"
   }
 }

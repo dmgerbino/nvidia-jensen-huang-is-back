@@ -30,6 +30,24 @@
    "price": 166.26,
    "session": "regular",
    "source": "Yahoo Finance live blog"
+  },
+  {
+   "t": "2026-11-23T12:49:57-05:00",
+   "price": 163.33,
+   "session": "regular",
+   "source": "Yahoo Finance live blog"
+  },
+  {
+   "t": "2026-11-23T13:21:26-05:00",
+   "price": 165.3,
+   "session": "regular",
+   "source": "Yahoo Finance live blog"
+  },
+  {
+   "t": "2026-11-23T13:42:00-05:00",
+   "price": 164.38,
+   "session": "regular",
+   "source": "https://financefeeds.com/nvidia-stock-up-30-95-to-164-38-huang-returns/"
   }
  ],
  "reference_levels": [

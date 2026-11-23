@@ -3,104 +3,108 @@
     "topic": "Reactions to NVIDIA reinstating Jensen Huang as President, CEO and director",
     "announcement_url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
     "announcement_date": "2026-11-23",
-    "updated_at": "2026-11-23T18:06:26+00:00",
-    "last_batch": "refresh-1pm",
-    "total_reactions": 99,
-    "new_in_last_batch": 52,
+    "updated_at": "2026-11-23T21:09:59+00:00",
+    "last_batch": "refresh-4pm",
+    "total_reactions": 155,
+    "new_in_last_batch": 64,
     "sentiment_scale": "-1.0 (strongly against the reinstatement) to +1.0 (strongly for)",
     "by_group": {
       "tech_media": {
         "family": "Media",
-        "count": 15,
-        "unique_speakers": 7,
-        "mean_sentiment": -0.347,
+        "count": 21,
+        "unique_speakers": 12,
+        "mean_sentiment": -0.326,
         "stance_counts": {
-          "oppose": 7,
-          "mixed": 5,
-          "neutral": 2,
+          "oppose": 10,
+          "mixed": 6,
+          "neutral": 4,
           "support": 1
         }
       },
       "governance_expert": {
         "family": "Experts",
-        "count": 6,
-        "unique_speakers": 2,
-        "mean_sentiment": -0.15,
+        "count": 12,
+        "unique_speakers": 4,
+        "mean_sentiment": -0.504,
         "stance_counts": {
           "mixed": 4,
           "neutral": 1,
-          "oppose": 1
+          "oppose": 7
         }
       },
       "natsec_expert": {
         "family": "Experts",
-        "count": 2,
-        "unique_speakers": 1,
-        "mean_sentiment": -0.25,
+        "count": 4,
+        "unique_speakers": 2,
+        "mean_sentiment": -0.487,
         "stance_counts": {
-          "mixed": 2
+          "mixed": 2,
+          "oppose": 2
         }
       },
       "tech_industry": {
         "family": "Tech industry",
-        "count": 2,
-        "unique_speakers": 2,
-        "mean_sentiment": 0.85,
+        "count": 6,
+        "unique_speakers": 5,
+        "mean_sentiment": 0.75,
         "stance_counts": {
-          "support": 2
+          "support": 5,
+          "mixed": 1
         }
       },
       "news_media": {
         "family": "Media",
-        "count": 19,
-        "unique_speakers": 10,
+        "count": 21,
+        "unique_speakers": 12,
         "mean_sentiment": -0.121,
         "stance_counts": {
           "oppose": 9,
-          "mixed": 3,
+          "mixed": 5,
           "support": 5,
           "neutral": 2
         }
       },
       "social_public": {
         "family": "Public social",
-        "count": 2,
-        "unique_speakers": 2,
-        "mean_sentiment": -0.35,
+        "count": 3,
+        "unique_speakers": 3,
+        "mean_sentiment": 0.0,
         "stance_counts": {
           "neutral": 1,
-          "oppose": 1
+          "oppose": 1,
+          "support": 1
         }
       },
       "congress": {
         "family": "US politics",
-        "count": 11,
-        "unique_speakers": 10,
-        "mean_sentiment": -0.673,
+        "count": 29,
+        "unique_speakers": 18,
+        "mean_sentiment": -0.634,
         "stance_counts": {
-          "oppose": 10,
-          "mixed": 1
+          "oppose": 26,
+          "mixed": 1,
+          "neutral": 2
         }
       },
       "administration": {
         "family": "US politics",
-        "count": 10,
+        "count": 12,
         "unique_speakers": 2,
-        "mean_sentiment": 0.875,
+        "mean_sentiment": 0.867,
         "stance_counts": {
-          "support": 9,
+          "support": 11,
           "mixed": 1
         }
       },
       "market_analyst": {
         "family": "Markets",
-        "count": 18,
-        "unique_speakers": 17,
-        "mean_sentiment": 0.261,
+        "count": 27,
+        "unique_speakers": 23,
+        "mean_sentiment": 0.363,
         "stance_counts": {
-          "support": 10,
+          "support": 18,
           "mixed": 6,
-          "neutral": 1,
+          "neutral": 2,
           "oppose": 1
         }
       },
@@ -135,11 +139,11 @@
       },
       "investor": {
         "family": "Markets",
-        "count": 6,
-        "unique_speakers": 6,
-        "mean_sentiment": 0.217,
+        "count": 8,
+        "unique_speakers": 7,
+        "mean_sentiment": 0.362,
         "stance_counts": {
-          "support": 4,
+          "support": 6,
           "mixed": 1,
           "oppose": 1
         }
@@ -152,11 +156,29 @@
         "stance_counts": {
           "oppose": 1
         }
+      },
+      "civil_society": {
+        "family": "Experts",
+        "count": 3,
+        "unique_speakers": 3,
+        "mean_sentiment": -0.7,
+        "stance_counts": {
+          "oppose": 3
+        }
+      },
+      "political_media": {
+        "family": "Media",
+        "count": 1,
+        "unique_speakers": 1,
+        "mean_sentiment": -0.6,
+        "stance_counts": {
+          "oppose": 1
+        }
       }
     },
-    "unique_speakers": 60,
-    "overall_mean_sentiment": -0.016,
-    "curated_at": "2026-11-23T18:06:52+00:00",
+    "unique_speakers": 92,
+    "overall_mean_sentiment": -0.077,
+    "curated_at": "2026-11-23T21:10:28+00:00",
     "fields": [
       "id",
       "speaker",
@@ -1818,7 +1840,7 @@
       "id": "1c7eff7956c8",
       "source_file": "refresh_1pm_media.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Media"
     },
     {
@@ -1846,7 +1868,7 @@
       "id": "4b54a00c7bd1",
       "source_file": "refresh_1pm_media.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Media"
     },
     {
@@ -1872,7 +1894,7 @@
       "id": "17b9e98bad1d",
       "source_file": "refresh_1pm_media.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Media"
     },
     {
@@ -1898,7 +1920,7 @@
       "id": "0103e7750c5d",
       "source_file": "refresh_1pm_media.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Media"
     },
     {
@@ -1927,7 +1949,7 @@
       "id": "44b3840c0362",
       "source_file": "refresh_1pm_media.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "AI critics"
     },
     {
@@ -1954,7 +1976,7 @@
       "id": "56f15bf51b4e",
       "source_file": "refresh_1pm_media.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "AI critics"
     },
     {
@@ -1982,7 +2004,7 @@
       "id": "9a047e5ffbb3",
       "source_file": "refresh_1pm_media.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Media"
     },
     {
@@ -2009,7 +2031,7 @@
       "id": "93111570cfd0",
       "source_file": "refresh_1pm_media.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Tech industry"
     },
     {
@@ -2036,7 +2058,7 @@
       "id": "f5808fafdb24",
       "source_file": "refresh_1pm_media.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Markets"
     },
     {
@@ -2063,7 +2085,7 @@
       "id": "bc6848eb26b2",
       "source_file": "refresh_1pm_media.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Media"
     },
     {
@@ -2090,7 +2112,7 @@
       "id": "0fdd572c645c",
       "source_file": "refresh_1pm_media.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Media"
     },
     {
@@ -2117,7 +2139,7 @@
       "id": "dc711387c4fb",
       "source_file": "refresh_1pm_media.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Markets"
     },
     {
@@ -2144,7 +2166,7 @@
       "id": "34c2c392c112",
       "source_file": "refresh_1pm_media.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Markets"
     },
     {
@@ -2171,7 +2193,7 @@
       "id": "171fcb39e65b",
       "source_file": "refresh_1pm_media.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Experts"
     },
     {
@@ -2198,7 +2220,7 @@
       "id": "e71a5d68ee94",
       "source_file": "refresh_1pm_media.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Markets"
     },
     {
@@ -2224,7 +2246,7 @@
       "id": "11445f0a88aa",
       "source_file": "refresh_1pm_media.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Markets"
     },
     {
@@ -2250,7 +2272,7 @@
       "id": "39ab85b28a1b",
       "source_file": "refresh_1pm_media.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Markets"
     },
     {
@@ -2277,7 +2299,7 @@
       "id": "9d8e0d4105d9",
       "source_file": "refresh_1pm_media.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Markets"
     },
     {
@@ -2303,7 +2325,7 @@
       "id": "634a16b182ae",
       "source_file": "refresh_1pm_media.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Markets"
     },
     {
@@ -2332,7 +2354,7 @@
       "id": "16559e13fb88",
       "source_file": "refresh_1pm_politics.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "US politics"
     },
     {
@@ -2360,7 +2382,7 @@
       "id": "32ef12a32224",
       "source_file": "refresh_1pm_politics.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "US politics"
     },
     {
@@ -2387,7 +2409,7 @@
       "id": "66bf3a1082ca",
       "source_file": "refresh_1pm_politics.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "US politics"
     },
     {
@@ -2415,7 +2437,7 @@
       "id": "cdf99f47567e",
       "source_file": "refresh_1pm_politics.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "US politics"
     },
     {
@@ -2441,7 +2463,7 @@
       "id": "497cd434d2e9",
       "source_file": "refresh_1pm_politics.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "US politics"
     },
     {
@@ -2468,7 +2490,7 @@
       "id": "0b4bc793e8c3",
       "source_file": "refresh_1pm_politics.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "US politics"
     },
     {
@@ -2493,7 +2515,7 @@
       "id": "4cb5578c8096",
       "source_file": "refresh_1pm_politics.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "US politics"
     },
     {
@@ -2520,7 +2542,7 @@
       "id": "f1d34796b78f",
       "source_file": "refresh_1pm_politics.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "US politics"
     },
     {
@@ -2546,7 +2568,7 @@
       "id": "f8b888f912ce",
       "source_file": "refresh_1pm_politics.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "US politics"
     },
     {
@@ -2572,7 +2594,7 @@
       "id": "823d5e7bef0b",
       "source_file": "refresh_1pm_politics.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "US politics"
     },
     {
@@ -2600,7 +2622,7 @@
       "id": "4b0d662aec8b",
       "source_file": "refresh_1pm_politics.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "US politics"
     },
     {
@@ -2626,7 +2648,7 @@
       "id": "e7efb368ce0f",
       "source_file": "refresh_1pm_politics.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "US politics"
     },
     {
@@ -2654,7 +2676,7 @@
       "id": "ffd549e36c99",
       "source_file": "refresh_1pm_politics.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "US politics"
     },
     {
@@ -2680,7 +2702,7 @@
       "id": "bd2f31d035a4",
       "source_file": "refresh_1pm_politics.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "US politics"
     },
     {
@@ -2709,7 +2731,7 @@
       "id": "0ca4a035d916",
       "source_file": "refresh_1pm_world_markets.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Markets"
     },
     {
@@ -2736,7 +2758,7 @@
       "id": "0b21a21b4d30",
       "source_file": "refresh_1pm_world_markets.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Markets"
     },
     {
@@ -2764,7 +2786,7 @@
       "id": "4286bc175af6",
       "source_file": "refresh_1pm_world_markets.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Markets"
     },
     {
@@ -2790,7 +2812,7 @@
       "id": "cd7e5eeea03e",
       "source_file": "refresh_1pm_world_markets.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Markets"
     },
     {
@@ -2817,7 +2839,7 @@
       "id": "48bd44db7fbe",
       "source_file": "refresh_1pm_world_markets.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Markets"
     },
     {
@@ -2844,7 +2866,7 @@
       "id": "a2fdc2a84ea5",
       "source_file": "refresh_1pm_world_markets.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Markets"
     },
     {
@@ -2871,7 +2893,7 @@
       "id": "55bf332bb2a2",
       "source_file": "refresh_1pm_world_markets.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Markets"
     },
     {
@@ -2897,7 +2919,7 @@
       "id": "925eb9a2e9b3",
       "source_file": "refresh_1pm_world_markets.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Markets"
     },
     {
@@ -2925,7 +2947,7 @@
       "id": "ca5c80f096f7",
       "source_file": "refresh_1pm_world_markets.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Markets"
     },
     {
@@ -2952,7 +2974,7 @@
       "id": "c78f2e9f539e",
       "source_file": "refresh_1pm_world_markets.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Markets"
     },
     {
@@ -2980,7 +3002,7 @@
       "id": "d02d4e102997",
       "source_file": "refresh_1pm_world_markets.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Markets"
     },
     {
@@ -3007,7 +3029,7 @@
       "id": "69e8d34359b3",
       "source_file": "refresh_1pm_world_markets.md",
       "batch": "refresh-1pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Markets"
     },
     {
@@ -3034,6 +3056,1499 @@
       "id": "954ca60814a9",
       "source_file": "refresh_1pm_world_markets.md",
       "batch": "refresh-1pm",
+      "is_new": false,
+      "group_family": "Markets"
+    },
+    {
+      "speaker": "Jeffrey Sonnenfeld",
+      "role": "Lester Crown Professor in Management Practice and Senior Associate Dean",
+      "affiliation": "Yale School of Management / Yale Chief Executive Leadership Institute",
+      "party_faction": null,
+      "group": "governance_expert",
+      "subgroup": "corporate_governance_scholar",
+      "outlet": "Fortune (commentary)",
+      "url": "https://fortune.com/2026/11/23/nvidia-board-reinstates-jensen-huang-twelve-days-sonnenfeld/",
+      "published_at": "2026-11-23T13:30:00-05:00",
+      "quote": "Across decades of studying corporate governance, we have seen no weaker board than Nvidia's.",
+      "context": "Co-written Fortune commentary published hours after the reinstatement, headlined: Nvidia's board ousted Huang for a 'lack of candor', and twelve days later the same directors brought him back. (Byline: Jeffrey Sonnenfeld (with Stephen Henriques and Steven Tian).)",
+      "sentiment_score": -0.85,
+      "sentiment_label": "very_negative",
+      "stance": "oppose",
+      "themes": [
+        "board_independence",
+        "governance_failure",
+        "board_capitulation"
+      ],
+      "verification": "direct_source",
+      "id": "c55d7d185c19",
+      "source_file": "refresh_4pm_media.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "Experts"
+    },
+    {
+      "speaker": "Jeffrey Sonnenfeld",
+      "role": "Lester Crown Professor in Management Practice and Senior Associate Dean",
+      "affiliation": "Yale School of Management / Yale Chief Executive Leadership Institute",
+      "party_faction": null,
+      "group": "governance_expert",
+      "subgroup": "corporate_governance_scholar",
+      "outlet": "Fortune (commentary)",
+      "url": "https://fortune.com/2026/11/23/nvidia-board-reinstates-jensen-huang-twelve-days-sonnenfeld/",
+      "published_at": "2026-11-23T13:30:00-05:00",
+      "quote": "Today's capitulation ranks among the worst decisions of that entire span",
+      "context": "Same piece. The authors call the reversal a capitulation and rank it among the worst board decisions they have studied. (Byline: Jeffrey Sonnenfeld (with Stephen Henriques and Steven Tian).)",
+      "sentiment_score": -0.9,
+      "sentiment_label": "very_negative",
+      "stance": "oppose",
+      "themes": [
+        "board_capitulation",
+        "governance_failure"
+      ],
+      "verification": "direct_source",
+      "id": "1bfa0bae0f12",
+      "source_file": "refresh_4pm_media.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "Experts"
+    },
+    {
+      "speaker": "Jeffrey Sonnenfeld",
+      "role": "Lester Crown Professor in Management Practice and Senior Associate Dean",
+      "affiliation": "Yale School of Management / Yale Chief Executive Leadership Institute",
+      "party_faction": null,
+      "group": "governance_expert",
+      "subgroup": "corporate_governance_scholar",
+      "outlet": "Fortune (commentary)",
+      "url": "https://fortune.com/2026/11/23/nvidia-board-reinstates-jensen-huang-twelve-days-sonnenfeld/",
+      "published_at": "2026-11-23T13:30:00-05:00",
+      "quote": "Reinstating him before the facts are settled serves neither the inquiry nor the company.",
+      "context": "Same piece. Argues the reinstatement came before the internal investigation was finished. Also: \"No one deserves a special standard, however talented\". (Byline: Jeffrey Sonnenfeld (with Stephen Henriques and Steven Tian).)",
+      "sentiment_score": -0.75,
+      "sentiment_label": "negative",
+      "stance": "oppose",
+      "themes": [
+        "investigation_unfinished",
+        "special_treatment",
+        "governance_failure"
+      ],
+      "verification": "direct_source",
+      "id": "1d657939feb1",
+      "source_file": "refresh_4pm_media.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "Experts"
+    },
+    {
+      "speaker": "Jeffrey Sonnenfeld",
+      "role": "Professor and Senior Associate Dean",
+      "affiliation": "Yale School of Management",
+      "party_faction": null,
+      "group": "governance_expert",
+      "subgroup": "corporate_governance_scholar",
+      "outlet": "Techstrong.ai (citing CNBC)",
+      "url": "https://techstrong.ai/articles/jensen-huangs-return-as-nvidia-ceo-sparks-relief-on-wall-street-and-in-silicon-valley-but-outrage-over-governance/",
+      "published_at": "2026-11-23T15:16:00-05:00",
+      "quote": "tremendous degradation of national security",
+      "context": "Techstrong (Jon Swartz) cites this fragment to a CNBC appearance by Sonnenfeld reacting to the reinstatement. The CNBC original is blocked and was not opened.",
+      "sentiment_score": -0.8,
+      "sentiment_label": "very_negative",
+      "stance": "oppose",
+      "themes": [
+        "national_security",
+        "governance_failure"
+      ],
+      "verification": "secondary_report",
+      "id": "18c566057126",
+      "source_file": "refresh_4pm_media.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "Experts"
+    },
+    {
+      "speaker": "Ravi Ramamurti",
+      "role": "Distinguished Professor of International Business and Strategy",
+      "affiliation": "Northeastern University",
+      "party_faction": null,
+      "group": "governance_expert",
+      "subgroup": "business_school_academic",
+      "outlet": "Northeastern Global News",
+      "url": "https://news.northeastern.edu/2026/11/23/nvidia-reinstates-jensen-huang-ceo/",
+      "published_at": "2026-11-23",
+      "quote": "The board of Nvidia has made a fool of itself and should resign,",
+      "context": "Interview with Cyrus Moulton for a Northeastern Global News piece on expert concern over the reinstatement. He also said the decision \"makes a mockery of corporate codes of conduct and the rule of law.\"",
+      "sentiment_score": -0.95,
+      "sentiment_label": "very_negative",
+      "stance": "oppose",
+      "themes": [
+        "board_should_resign",
+        "governance_failure",
+        "rule_of_law"
+      ],
+      "verification": "secondary_report",
+      "id": "221e04d5377e",
+      "source_file": "refresh_4pm_media.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "Experts"
+    },
+    {
+      "speaker": "Ravi Ramamurti",
+      "role": "Distinguished Professor of International Business and Strategy",
+      "affiliation": "Northeastern University",
+      "party_faction": null,
+      "group": "governance_expert",
+      "subgroup": "business_school_academic",
+      "outlet": "Northeastern Global News",
+      "url": "https://news.northeastern.edu/2026/11/23/nvidia-reinstates-jensen-huang-ceo/",
+      "published_at": "2026-11-23",
+      "quote": "It makes it clear that the US now has one rule for oligarchs and friends of the administration and another for everyone else",
+      "context": "Same interview.",
+      "sentiment_score": -0.9,
+      "sentiment_label": "very_negative",
+      "stance": "oppose",
+      "themes": [
+        "cronyism",
+        "two_tier_justice",
+        "political_interference"
+      ],
+      "verification": "secondary_report",
+      "id": "fe5daf8cf2e8",
+      "source_file": "refresh_4pm_media.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "Experts"
+    },
+    {
+      "speaker": "Ryan Ellis",
+      "role": "Assistant Professor of Communication Studies (communication law, infrastructure politics, cybersecurity)",
+      "affiliation": "Northeastern University",
+      "party_faction": null,
+      "group": "natsec_expert",
+      "subgroup": "cybersecurity_policy_academic",
+      "outlet": "Northeastern Global News",
+      "url": "https://news.northeastern.edu/2026/11/23/nvidia-reinstates-jensen-huang-ceo/",
+      "published_at": "2026-11-23",
+      "quote": "Nvidia's board and the president were faced with a choice between national security and the stock market ... they both decided fairly unambiguously that the stock market at this moment was more important,",
+      "context": "Interview for the same Northeastern piece. The two fragments appear consecutively in the article.",
+      "sentiment_score": -0.75,
+      "sentiment_label": "negative",
+      "stance": "oppose",
+      "themes": [
+        "national_security",
+        "stock_market_over_security",
+        "political_interference"
+      ],
+      "verification": "secondary_report",
+      "id": "70e0f8bb6325",
+      "source_file": "refresh_4pm_media.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "Experts"
+    },
+    {
+      "speaker": "Ryan Ellis",
+      "role": "Assistant Professor of Communication Studies",
+      "affiliation": "Northeastern University",
+      "party_faction": null,
+      "group": "natsec_expert",
+      "subgroup": "cybersecurity_policy_academic",
+      "outlet": "Northeastern Global News",
+      "url": "https://news.northeastern.edu/2026/11/23/nvidia-reinstates-jensen-huang-ceo/",
+      "published_at": "2026-11-23",
+      "quote": "During normal times [the national security concerns] would have been immediately disqualifying,",
+      "context": "Same interview. He also warned of an AI bubble: \"If the fortunes of the stock market and this new emerging AI economy are so tightly wedded\" \"to the performance of one company, then we have a lot of reason to worry,\".",
+      "sentiment_score": -0.7,
+      "sentiment_label": "negative",
+      "stance": "oppose",
+      "themes": [
+        "national_security",
+        "ai_bubble",
+        "concentration_risk"
+      ],
+      "verification": "secondary_report",
+      "id": "ce928ad498ae",
+      "source_file": "refresh_4pm_media.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "Experts"
+    },
+    {
+      "speaker": "Didi Kirsten Tatlow",
+      "role": "Senior Correspondent, International Affairs",
+      "affiliation": "Newsweek",
+      "party_faction": null,
+      "group": "news_media",
+      "subgroup": "foreign_affairs_correspondent",
+      "outlet": "Newsweek (analysis)",
+      "url": "https://www.newsweek.com/jensen-huang-is-back-for-nvidia-and-for-us-national-security-12757202",
+      "published_at": "2026-11-23T11:42:00-05:00",
+      "quote": "The Jensen Huang who is back as CEO, president and board director may be a redux version.",
+      "context": "Analysis headlined \"Jensen Huang Is Back for Nvidia—and for US National Security\". It calls the episode \"a game of semiconductor tennis\" and argues: \"[I]t appears the real loss will be to Beijing.\"",
+      "sentiment_score": 0.1,
+      "sentiment_label": "neutral",
+      "stance": "mixed",
+      "themes": [
+        "national_security",
+        "china",
+        "huang_diminished"
+      ],
+      "verification": "direct_source",
+      "id": "95ca321998ea",
+      "source_file": "refresh_4pm_media.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "Media"
+    },
+    {
+      "speaker": "Brad Chacos",
+      "role": "Executive Editor",
+      "affiliation": "PCWorld",
+      "party_faction": null,
+      "group": "tech_media",
+      "subgroup": "opinion_column",
+      "outlet": "PCWorld (opinion)",
+      "url": "https://www.pcworld.com/article/3294371/jensen-huang-is-back-nvidias-ai-money-machine-always-wins.html",
+      "published_at": "2026-11-23",
+      "quote": "there's something deeply unsettling about watching Wall Street and the White House rally around one executive",
+      "context": "Opinion column. Thesis: \"Nvidia's AI empire is too big to rock the boat now, and GeForce gamers shouldn't expect anything to change.\"",
+      "sentiment_score": -0.45,
+      "sentiment_label": "negative",
+      "stance": "oppose",
+      "themes": [
+        "too_big_to_fail",
+        "political_interference",
+        "concentration_risk"
+      ],
+      "verification": "direct_source",
+      "id": "79432bf1a586",
+      "source_file": "refresh_4pm_media.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "Media"
+    },
+    {
+      "speaker": "Brad Chacos",
+      "role": "Executive Editor",
+      "affiliation": "PCWorld",
+      "party_faction": null,
+      "group": "tech_media",
+      "subgroup": "opinion_column",
+      "outlet": "PCWorld (opinion)",
+      "url": "https://www.pcworld.com/article/3294371/jensen-huang-is-back-nvidias-ai-money-machine-always-wins.html",
+      "published_at": "2026-11-23",
+      "quote": "Returning to the CEO's chair isn't the same thing as answering them.",
+      "context": "Same column, on the unanswered questions about the scandal.",
+      "sentiment_score": -0.4,
+      "sentiment_label": "negative",
+      "stance": "oppose",
+      "themes": [
+        "accountability",
+        "unanswered_questions"
+      ],
+      "verification": "direct_source",
+      "id": "358a2389e5ee",
+      "source_file": "refresh_4pm_media.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "Media"
+    },
+    {
+      "speaker": "AJ Dellinger",
+      "role": "Writer",
+      "affiliation": "Gizmodo",
+      "party_faction": null,
+      "group": "tech_media",
+      "subgroup": "tech_news_commentary",
+      "outlet": "Gizmodo",
+      "url": "https://gizmodo.com/gpu-jesus-has-risen-and-the-tech-bros-are-rejoicing-2000844001",
+      "published_at": "2026-11-23T15:20:00-05:00",
+      "quote": "probably because they now know that the rule of law doesn't apply to them.",
+      "context": "From \"GPU Jesus Has Risen, and the Tech Bros Are Rejoicing\", a roundup of tech-figure celebrations. The fetch tool gave this as a standalone author line, so its exact referent (the celebrating tech figures) is inferred from the piece's framing.",
+      "sentiment_score": -0.7,
+      "sentiment_label": "negative",
+      "stance": "oppose",
+      "themes": [
+        "rule_of_law",
+        "tech_elite",
+        "cronyism"
+      ],
+      "verification": "direct_source",
+      "id": "e8a85f90e0bb",
+      "source_file": "refresh_4pm_media.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "Media"
+    },
+    {
+      "speaker": "Jason Calacanis",
+      "role": "Host, All-In Podcast; angel investor",
+      "affiliation": "All-In Podcast",
+      "party_faction": null,
+      "group": "tech_industry",
+      "subgroup": "investor_podcaster",
+      "outlet": "Gizmodo (embedded X post); also Techstrong.ai",
+      "url": "https://gizmodo.com/gpu-jesus-has-risen-and-the-tech-bros-are-rejoicing-2000844001",
+      "published_at": "2026-11-23",
+      "quote": "GPU Jesus has risen!",
+      "context": "X post (@Jason) celebrating the reinstatement, with an edited image. Per Gizmodo he also posted \"Christós anésti!\". The X original is blocked and was not opened.",
+      "sentiment_score": 0.95,
+      "sentiment_label": "very_positive",
+      "stance": "support",
+      "themes": [
+        "founder_value",
+        "celebration"
+      ],
+      "verification": "secondary_report",
+      "id": "bf69139aa6c6",
+      "source_file": "refresh_4pm_media.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "Tech industry"
+    },
+    {
+      "speaker": "Chamath Palihapitiya",
+      "role": "Host, All-In Podcast; investor",
+      "affiliation": "Social Capital / All-In Podcast",
+      "party_faction": null,
+      "group": "tech_industry",
+      "subgroup": "investor_podcaster",
+      "outlet": "Gizmodo (embedded X post)",
+      "url": "https://gizmodo.com/gpu-jesus-has-risen-and-the-tech-bros-are-rejoicing-2000844001",
+      "published_at": "2026-11-23",
+      "quote": "POTUS and JD's intervention this weekend prevented a massive economic own goal this week for the US. ... They gave the Board what they needed to bring Jensen back.",
+      "context": "X post (@chamath) crediting Trump and Vance for the reversal. Gizmodo gives two sentences; whether they are contiguous was not confirmed.",
+      "sentiment_score": 0.85,
+      "sentiment_label": "very_positive",
+      "stance": "support",
+      "themes": [
+        "government_intervention_praised",
+        "economic_stakes",
+        "founder_value"
+      ],
+      "verification": "secondary_report",
+      "id": "0f55af8a3759",
+      "source_file": "refresh_4pm_media.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "Tech industry"
+    },
+    {
+      "speaker": "Bill Ackman",
+      "role": "CEO",
+      "affiliation": "Pershing Square Capital Management",
+      "party_faction": null,
+      "group": "investor",
+      "subgroup": "hedge_fund",
+      "outlet": "Gizmodo (embedded X post)",
+      "url": "https://gizmodo.com/gpu-jesus-has-risen-and-the-tech-bros-are-rejoicing-2000844001",
+      "published_at": "2026-11-23",
+      "quote": "The wisdom of the crowd prevails",
+      "context": "X post (@BillAckman) after the reinstatement. Ackman had publicly pushed for Huang's return.",
+      "sentiment_score": 0.8,
+      "sentiment_label": "very_positive",
+      "stance": "support",
+      "themes": [
+        "shareholder_pressure",
+        "founder_value"
+      ],
+      "verification": "secondary_report",
+      "id": "bad6c862e6b4",
+      "source_file": "refresh_4pm_media.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "Markets"
+    },
+    {
+      "speaker": "Bill Ackman",
+      "role": "CEO",
+      "affiliation": "Pershing Square Capital Management",
+      "party_faction": null,
+      "group": "investor",
+      "subgroup": "hedge_fund",
+      "outlet": "Techstrong.ai (citing social posts); also Decrypt",
+      "url": "https://techstrong.ai/articles/jensen-huangs-return-as-nvidia-ceo-sparks-relief-on-wall-street-and-in-silicon-valley-but-outrage-over-governance/",
+      "published_at": "2026-11-23",
+      "quote": "Actually, sanity prevails.",
+      "context": "Techstrong reports that Ackman first posted \"better governance prevails\" and then amended it to this line. Decrypt also quotes \"sanity prevails.\"",
+      "sentiment_score": 0.8,
+      "sentiment_label": "very_positive",
+      "stance": "support",
+      "themes": [
+        "founder_value",
+        "board_correction"
+      ],
+      "verification": "secondary_report",
+      "id": "1861faccef41",
+      "source_file": "refresh_4pm_media.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "Markets"
+    },
+    {
+      "speaker": "Ben Narasin",
+      "role": "Founder and General Partner",
+      "affiliation": "Tenacity Venture Capital",
+      "party_faction": null,
+      "group": "tech_industry",
+      "subgroup": "venture_capital",
+      "outlet": "Techstrong.ai",
+      "url": "https://techstrong.ai/articles/jensen-huangs-return-as-nvidia-ceo-sparks-relief-on-wall-street-and-in-silicon-valley-but-outrage-over-governance/",
+      "published_at": "2026-11-23T15:16:00-05:00",
+      "quote": "Exceptional decision. In the end, the board did the best and right thing,",
+      "context": "Comment to Techstrong's Jon Swartz.",
+      "sentiment_score": 0.8,
+      "sentiment_label": "very_positive",
+      "stance": "support",
+      "themes": [
+        "founder_value",
+        "board_correction"
+      ],
+      "verification": "secondary_report",
+      "id": "86096797cdd4",
+      "source_file": "refresh_4pm_media.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "Tech industry"
+    },
+    {
+      "speaker": "Ben Narasin",
+      "role": "Founder and General Partner",
+      "affiliation": "Tenacity Venture Capital",
+      "party_faction": null,
+      "group": "tech_industry",
+      "subgroup": "venture_capital",
+      "outlet": "Techstrong.ai",
+      "url": "https://techstrong.ai/articles/jensen-huangs-return-as-nvidia-ceo-sparks-relief-on-wall-street-and-in-silicon-valley-but-outrage-over-governance/",
+      "published_at": "2026-11-23T15:16:00-05:00",
+      "quote": "Though it is more odd to reinstate him before the investigation is complete than it was to depose him before it even began.",
+      "context": "Same comment. He backs the outcome but questions the process and timing.",
+      "sentiment_score": 0.2,
+      "sentiment_label": "neutral",
+      "stance": "mixed",
+      "themes": [
+        "investigation_unfinished",
+        "process_concerns"
+      ],
+      "verification": "secondary_report",
+      "id": "8ca9431175f0",
+      "source_file": "refresh_4pm_media.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "Tech industry"
+    },
+    {
+      "speaker": "Matt Stoller",
+      "role": "Director of Research, American Economic Liberties Project; author of the BIG newsletter",
+      "affiliation": "American Economic Liberties Project",
+      "party_faction": null,
+      "group": "civil_society",
+      "subgroup": "antimonopoly_advocate",
+      "outlet": "Gizmodo (embedded X post)",
+      "url": "https://gizmodo.com/gpu-jesus-has-risen-and-the-tech-bros-are-rejoicing-2000844001",
+      "published_at": "2026-11-23",
+      "quote": "On CNBC two anchors spend a few minutes mocking the idea that the Democrats would do anything about Jensen Huang",
+      "context": "X post (@matthewstoller) criticizing business-TV coverage of the reinstatement. Gizmodo quotes it as embedded; the X original is blocked. His role is from public knowledge, since Gizmodo does not state it.",
+      "sentiment_score": -0.35,
+      "sentiment_label": "negative",
+      "stance": "oppose",
+      "themes": [
+        "media_criticism",
+        "accountability"
+      ],
+      "verification": "secondary_report",
+      "id": "c0798d2021b0",
+      "source_file": "refresh_4pm_media.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "Experts"
+    },
+    {
+      "speaker": "Allison Carter",
+      "role": "Editorial Director",
+      "affiliation": "PR Daily / Ragan.com",
+      "party_faction": null,
+      "group": "news_media",
+      "subgroup": "communications_trade_press",
+      "outlet": "PR Daily (The Scoop)",
+      "url": "https://www.prdaily.com/the-scoop-in-shocking-move-nvidia-board-reinstates-jensen-huang/",
+      "published_at": "2026-11-23T10:53:00-05:00",
+      "quote": "Going from a clear, blunt statement to doing the exact opposite over the weekend is extraordinary, to say the least.",
+      "context": "PR analysis of the reversal. She argues that reinstating Huang before the investigation ends risks further damaging revelations. Also: \"With that kind of response, traditional PR rules go out the window.\"",
+      "sentiment_score": -0.35,
+      "sentiment_label": "negative",
+      "stance": "mixed",
+      "themes": [
+        "credibility",
+        "reversal",
+        "investigation_unfinished"
+      ],
+      "verification": "direct_source",
+      "id": "53a0c4e323dc",
+      "source_file": "refresh_4pm_media.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "Media"
+    },
+    {
+      "speaker": "Jose Antonio Lanz",
+      "role": "Writer",
+      "affiliation": "Decrypt",
+      "party_faction": null,
+      "group": "tech_media",
+      "subgroup": "crypto_ai_media",
+      "outlet": "Decrypt",
+      "url": "https://decrypt.co/383841/why-nvidia-needed-jensen-huang-back-what-return-changes",
+      "published_at": "2026-11-23",
+      "quote": "In other words, Nvidia couldn't survive the scandal—not the one about Huang cheating, but the one about Huang leaving.",
+      "context": "Explainer, \"Why Nvidia Needed Jensen Huang Back—And What His Return Really Changes\". It closes: \"What he has not yet won back is an unquestioned mandate to lead.\"",
+      "sentiment_score": 0.2,
+      "sentiment_label": "neutral",
+      "stance": "mixed",
+      "themes": [
+        "founder_dependence",
+        "mandate_weakened"
+      ],
+      "verification": "direct_source",
+      "id": "95cb65a3c2ef",
+      "source_file": "refresh_4pm_media.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "Media"
+    },
+    {
+      "speaker": "Kris Holt",
+      "role": "Reporter",
+      "affiliation": "Engadget",
+      "party_faction": null,
+      "group": "tech_media",
+      "subgroup": "tech_news",
+      "outlet": "Engadget",
+      "url": "https://www.engadget.com/2324897/nvidia-reinstates-jensen-huang-as-ceo-and-president-effective-immediately/",
+      "published_at": "2026-11-23T09:16:00-05:00",
+      "quote": "So much for the board not intending to bring him back.",
+      "context": "Article subtitle (it may have been written by an editor rather than the byline author). A wry note on the board's reversal of its Nov 17 statement.",
+      "sentiment_score": -0.2,
+      "sentiment_label": "neutral",
+      "stance": "neutral",
+      "themes": [
+        "reversal",
+        "board_credibility"
+      ],
+      "verification": "direct_source",
+      "id": "988ac1f73dd7",
+      "source_file": "refresh_4pm_media.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "Media"
+    },
+    {
+      "speaker": "Andrew E. Freedman",
+      "role": "Senior Editor",
+      "affiliation": "Tom's Hardware",
+      "party_faction": null,
+      "group": "tech_media",
+      "subgroup": "tech_news",
+      "outlet": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/jensen-huang-returns-to-applause-from-employees-at-nvidia-hq-some-employees-reportedly-disgruntled-by-return-saying-this-is-the-worst-outcome",
+      "published_at": "2026-11-23",
+      "quote": "The videos of cheering employees make it look like Huang came home to a hero's welcome, but not everyone seems happy.",
+      "context": "Piece on Huang's return to HQ, contrasting cheering employees with an anonymous engineer quoted by Yahoo Finance who called it \"the worst outcome\".",
+      "sentiment_score": -0.1,
+      "sentiment_label": "neutral",
+      "stance": "neutral",
+      "themes": [
+        "employee_reaction",
+        "workplace_culture"
+      ],
+      "verification": "direct_source",
+      "id": "33976f2a8e71",
+      "source_file": "refresh_4pm_media.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "Media"
+    },
+    {
+      "speaker": "@cantworkitout (X user)",
+      "role": "X user",
+      "affiliation": null,
+      "party_faction": null,
+      "group": "social_public",
+      "subgroup": "x_post",
+      "outlet": "Tom's Hardware (embedded X post)",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/jensen-huang-returns-to-applause-from-employees-at-nvidia-hq-some-employees-reportedly-disgruntled-by-return-saying-this-is-the-worst-outcome",
+      "published_at": "2026-11-23",
+      "quote": "if you come for the king, you best not miss",
+      "context": "X post embedded in the Tom's Hardware piece on Huang's return to HQ. The account's identity is unknown, and the X original was not opened.",
+      "sentiment_score": 0.7,
+      "sentiment_label": "positive",
+      "stance": "support",
+      "themes": [
+        "founder_value",
+        "celebration"
+      ],
+      "verification": "secondary_report",
+      "id": "f20bb84af6a8",
+      "source_file": "refresh_4pm_media.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "Public social"
+    },
+    {
+      "speaker": "Nidhi Hegde",
+      "role": "Executive Director",
+      "affiliation": "American Economic Liberties Project",
+      "party_faction": null,
+      "group": "civil_society",
+      "subgroup": "antimonopoly_advocacy_group",
+      "outlet": "Common Dreams newswire (Economic Liberties press release)",
+      "url": "https://www.commondreams.org/newswire/economic-liberties-statement-on-nvidia-reinstating-jensen-huang-calls-for-congressional-investigation",
+      "published_at": "2026-11-23T11:39:00-05:00",
+      "quote": "Eleven days ago Jensen Huang resigned because he was deemed a threat to U.S. national security.",
+      "context": "Opening of the group's statement on the reinstatement. It argues Huang returned after Trump pressed the board. It continues: \"Congress should press Huang for answers, and state attorneys general should treat Nvidia's grip on the market as\" a competition problem (the tool truncated the rest). It also calls for subpoenas of executives, directors and the officials who gave the \"input\".",
+      "sentiment_score": -0.85,
+      "sentiment_label": "very_negative",
+      "stance": "oppose",
+      "themes": [
+        "national_security",
+        "monopoly_power",
+        "congressional_investigation",
+        "political_interference",
+        "ai_bubble"
+      ],
+      "verification": "direct_source",
+      "id": "9174758aff5e",
+      "source_file": "refresh_4pm_media.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "Experts"
+    },
+    {
+      "speaker": "Jeff Hauser",
+      "role": "Executive Director",
+      "affiliation": "Revolving Door Project",
+      "party_faction": null,
+      "group": "civil_society",
+      "subgroup": "government_accountability_group",
+      "outlet": "Revolving Door Project (press release)",
+      "url": "https://therevolvingdoorproject.org/release-shun-nvidia/",
+      "published_at": "2026-11-23T10:38:00-05:00",
+      "quote": "Nvidia's Board of Directors should be treated as persona non grata.",
+      "context": "Release, \"Shun Nvidia's Board of Directors and Trade Associations\". It calls for freezing out trade associations that keep Nvidia as a member, for shunning Nvidia lobbyists who don't resign, and for a congressional stock-ownership ban. (The page has a double space before \"be\".)",
+      "sentiment_score": -0.9,
+      "sentiment_label": "very_negative",
+      "stance": "oppose",
+      "themes": [
+        "accountability",
+        "lobbying",
+        "congressional_stock_ban",
+        "political_interference"
+      ],
+      "verification": "direct_source",
+      "id": "da4fe6bace68",
+      "source_file": "refresh_4pm_media.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "Experts"
+    },
+    {
+      "speaker": "Hakeem Jeffries",
+      "role": "U.S. Representative (NY-08), House Democratic Leader",
+      "affiliation": "Democratic Party",
+      "party_faction": "D-mainstream",
+      "group": "congress",
+      "subgroup": "house_leadership",
+      "outlet": "CBS News",
+      "url": "https://www.cbsnews.com/news/jensen-huang-congress-reinstatement-nvidia/",
+      "published_at": "2026-11-23T15:29:00-05:00",
+      "quote": "indefensible, irresponsible and incomprehensible",
+      "context": "CBS reports this as Jeffries' description of the board's decision to reinstate Huang on Monday. CBS describes him as set to become Speaker. Only this fragment is quoted, and the venue is not stated.",
+      "sentiment_score": -0.9,
+      "sentiment_label": "very_negative",
+      "stance": "oppose",
+      "themes": [
+        "corporate_governance",
+        "accountability"
+      ],
+      "verification": "secondary_report",
+      "id": "002727ea3030",
+      "source_file": "refresh_4pm_politics.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "US politics"
+    },
+    {
+      "speaker": "Robert Garcia",
+      "role": "U.S. Representative (CA-42), Ranking Member, House Oversight Committee (set to chair in the new Congress)",
+      "affiliation": "Democratic Party",
+      "party_faction": "D-mainstream",
+      "group": "congress",
+      "subgroup": "house_committee_leader",
+      "outlet": "CBS News",
+      "url": "https://www.cbsnews.com/news/jensen-huang-congress-reinstatement-nvidia/",
+      "published_at": "2026-11-23T15:29:00-05:00",
+      "quote": "No president who has invested in a private company should be involved in their board decisions",
+      "context": "Statement on Monday aimed at Trump's role in the reinstatement. The quote may be truncated in CBS's text.",
+      "sentiment_score": -0.7,
+      "sentiment_label": "negative",
+      "stance": "oppose",
+      "themes": [
+        "administration_role",
+        "conflict_of_interest",
+        "presidential_involvement"
+      ],
+      "verification": "secondary_report",
+      "id": "c2988794203f",
+      "source_file": "refresh_4pm_politics.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "US politics"
+    },
+    {
+      "speaker": "Jim Himes",
+      "role": "U.S. Representative (CT-04), Ranking Member, House Intelligence Committee",
+      "affiliation": "Democratic Party",
+      "party_faction": "D-mainstream",
+      "group": "congress",
+      "subgroup": "house_intelligence",
+      "outlet": "CBS News",
+      "url": "https://www.cbsnews.com/news/jensen-huang-congress-reinstatement-nvidia/",
+      "published_at": "2026-11-23T15:29:00-05:00",
+      "quote": "We expect to see him on Capitol Hill next week.",
+      "context": "Told CBS News on Monday that Huang's scheduled testimony stands despite the reinstatement.",
+      "sentiment_score": -0.2,
+      "sentiment_label": "neutral",
+      "stance": "neutral",
+      "themes": [
+        "testimony",
+        "congressional_oversight"
+      ],
+      "verification": "secondary_report",
+      "id": "f89d92cb8dda",
+      "source_file": "refresh_4pm_politics.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "US politics"
+    },
+    {
+      "speaker": "House Intelligence Committee spokesperson (unnamed)",
+      "role": "Committee spokesperson",
+      "affiliation": "U.S. House Permanent Select Committee on Intelligence",
+      "party_faction": null,
+      "group": "congress",
+      "subgroup": "house_intelligence",
+      "outlet": "CBS News",
+      "url": "https://www.cbsnews.com/news/jensen-huang-congress-reinstatement-nvidia/",
+      "published_at": "2026-11-23T15:29:00-05:00",
+      "quote": "The fact that he has been reinstated as CEO, changes nothing.",
+      "context": "Told CBS News on Monday that the planned closed-door testimony next week will go ahead. CBS does not say which side of the committee the spokesperson works for.",
+      "sentiment_score": -0.2,
+      "sentiment_label": "neutral",
+      "stance": "neutral",
+      "themes": [
+        "testimony",
+        "congressional_oversight"
+      ],
+      "verification": "secondary_report",
+      "id": "f2bc51f44415",
+      "source_file": "refresh_4pm_politics.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "US politics"
+    },
+    {
+      "speaker": "John Curtis",
+      "role": "U.S. Senator (UT)",
+      "affiliation": "Republican Party",
+      "party_faction": "R-mainstream",
+      "group": "congress",
+      "subgroup": "senate",
+      "outlet": "The Hill (via Yahoo News)",
+      "url": "https://www.yahoo.com/news/politics/articles/gop-lawmakers-decry-white-house-170239451.html",
+      "published_at": "2026-11-23T12:02:00-05:00",
+      "quote": "Who in our government weighed in? What did they tell the board? And on what basis did the board conclude there was no risk?",
+      "context": "X post reacting to Monday's announcement and the board's note that it received 'input from senior levels of the United States government.' The Hill (Mira Bhakta) published at 17:02 UTC and updated at 12:58 p.m. ET. This is not his Nov 17 'la-la land' remark, which is excluded.",
+      "sentiment_score": -0.5,
+      "sentiment_label": "negative",
+      "stance": "oppose",
+      "themes": [
+        "administration_role",
+        "national_security",
+        "transparency"
+      ],
+      "verification": "secondary_report",
+      "id": "3c3f6f082ebb",
+      "source_file": "refresh_4pm_politics.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "US politics"
+    },
+    {
+      "speaker": "John Curtis",
+      "role": "U.S. Senator (UT)",
+      "affiliation": "Republican Party",
+      "party_faction": "R-mainstream",
+      "group": "congress",
+      "subgroup": "senate",
+      "outlet": "Deseret News (via Yahoo News); CBS News",
+      "url": "https://www.yahoo.com/news/politics/articles/congress-demands-answers-nvidia-ceo-190420727.html",
+      "published_at": "2026-11-23T14:04:00-05:00",
+      "quote": "I'd like to know what changed.",
+      "context": "Written statement on the reinstatement. It also says: 'Just 11 days after Nvidia announced his departure, the board brought him back' and notes that the board had said last week it 'didn't intend to reinstate him.' CBS also quotes 'I have some questions' from his X post.",
+      "sentiment_score": -0.5,
+      "sentiment_label": "negative",
+      "stance": "oppose",
+      "themes": [
+        "corporate_governance",
+        "transparency",
+        "board_reversal"
+      ],
+      "verification": "secondary_report",
+      "id": "bb82f1aec2c4",
+      "source_file": "refresh_4pm_politics.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "US politics"
+    },
+    {
+      "speaker": "Kevin Cramer",
+      "role": "U.S. Senator (ND), Senate Banking Committee",
+      "affiliation": "Republican Party",
+      "party_faction": "R-mainstream",
+      "group": "congress",
+      "subgroup": "senate",
+      "outlet": "CBS News",
+      "url": "https://www.cbsnews.com/news/jensen-huang-congress-reinstatement-nvidia/",
+      "published_at": "2026-11-23T15:29:00-05:00",
+      "quote": "risk of extortion by a Chinese asset who's been banned by Singapore is risk enough to not rehire Huang",
+      "context": "X post on Monday. The Plains Sentinel quotes the same sentence beginning 'The risk of extortion...'. Cramer had called on Huang to resign on Nov 11.",
+      "sentiment_score": -0.85,
+      "sentiment_label": "very_negative",
+      "stance": "oppose",
+      "themes": [
+        "china_espionage",
+        "national_security",
+        "extortion_risk"
+      ],
+      "verification": "secondary_report",
+      "id": "55cc38092396",
+      "source_file": "refresh_4pm_politics.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "US politics"
+    },
+    {
+      "speaker": "Kevin Cramer",
+      "role": "U.S. Senator (ND), Senate Banking Committee",
+      "affiliation": "Republican Party",
+      "party_faction": "R-mainstream",
+      "group": "congress",
+      "subgroup": "senate",
+      "outlet": "CBS News",
+      "url": "https://www.cbsnews.com/news/jensen-huang-congress-reinstatement-nvidia/",
+      "published_at": "2026-11-23T15:29:00-05:00",
+      "quote": "The legal and reputational risk of hiring a CEO who may very well be convicted in the United States",
+      "context": "Same X post on Monday. CBS quotes only this fragment.",
+      "sentiment_score": -0.85,
+      "sentiment_label": "very_negative",
+      "stance": "oppose",
+      "themes": [
+        "legal_risk",
+        "reputational_risk",
+        "corporate_governance"
+      ],
+      "verification": "secondary_report",
+      "id": "a3a8684a431a",
+      "source_file": "refresh_4pm_politics.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "US politics"
+    },
+    {
+      "speaker": "Pete Ricketts",
+      "role": "U.S. Senator (NE)",
+      "affiliation": "Republican Party",
+      "party_faction": "R-mainstream",
+      "group": "congress",
+      "subgroup": "senate",
+      "outlet": "The Hill (via Yahoo News); CBS News",
+      "url": "https://www.yahoo.com/news/politics/articles/gop-lawmakers-decry-white-house-170239451.html",
+      "published_at": "2026-11-23T12:36:11-05:00",
+      "quote": "Nvidia's decision today doesn't excuse Jensen Huang from testifying before Congress.",
+      "context": "X post. The time is inferred by decoding the snowflake ID of his X status 2124919958836781211 (17:36:11 UTC); the post itself was not opened because X blocks automated reading. Earlier in the post he says Huang's 'behavior does not support reinstatement' and cites the board's finding that he lacked 'candor.' The Plains Sentinel headline calls this a split from the White House.",
+      "sentiment_score": -0.7,
+      "sentiment_label": "negative",
+      "stance": "oppose",
+      "themes": [
+        "testimony",
+        "corporate_governance",
+        "republican_split_with_white_house"
+      ],
+      "verification": "secondary_report",
+      "id": "3652ab49aff0",
+      "source_file": "refresh_4pm_politics.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "US politics"
+    },
+    {
+      "speaker": "Pete Ricketts",
+      "role": "U.S. Senator (NE)",
+      "affiliation": "Republican Party",
+      "party_faction": "R-mainstream",
+      "group": "congress",
+      "subgroup": "senate",
+      "outlet": "The Plains Sentinel",
+      "url": "https://plains-sentinel.com/p/ricketts-splits-from-white-house",
+      "published_at": "2026-11-23",
+      "quote": "It also doesn't absolve Nvidia of answering for national security concerns and unaccounted-for chips.",
+      "context": "Part of the same Monday X post or follow-up. He adds: 'I look forward to Mr. Huang coming to the Senate in December.' The Plains Sentinel is a small outlet (byline Lewis Thune, College Fix writing fellow). The page was last modified at 20:22 UTC.",
+      "sentiment_score": -0.6,
+      "sentiment_label": "negative",
+      "stance": "oppose",
+      "themes": [
+        "national_security",
+        "export_controls",
+        "chip_diversion"
+      ],
+      "verification": "secondary_report",
+      "id": "a939e16a47eb",
+      "source_file": "refresh_4pm_politics.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "US politics"
+    },
+    {
+      "speaker": "John Cornyn",
+      "role": "U.S. Senator (TX)",
+      "affiliation": "Republican Party",
+      "party_faction": "R-mainstream",
+      "group": "congress",
+      "subgroup": "senate",
+      "outlet": "The Hill (via Yahoo News)",
+      "url": "https://www.yahoo.com/news/politics/articles/gop-lawmakers-decry-white-house-170239451.html",
+      "published_at": "2026-11-23T12:02:00-05:00",
+      "quote": "Again, did the FBI do a defensive briefing of Huang? If not, why not?",
+      "context": "Second X post, following his already-captured 'No national security risk? Based on what?'",
+      "sentiment_score": -0.6,
+      "sentiment_label": "negative",
+      "stance": "oppose",
+      "themes": [
+        "national_security",
+        "fbi",
+        "counterintelligence"
+      ],
+      "verification": "secondary_report",
+      "id": "a6218f45ad41",
+      "source_file": "refresh_4pm_politics.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "US politics"
+    },
+    {
+      "speaker": "Don Bacon",
+      "role": "U.S. Representative (NE-02), retiring",
+      "affiliation": "Republican Party",
+      "party_faction": "R-mainstream",
+      "group": "congress",
+      "subgroup": "house",
+      "outlet": "Reuters (via SRN News); The Hill (via Yahoo)",
+      "url": "https://srnnews.com/us-lawmakers-criticize-nvidia-decision-to-reinstate-huang-as-ceo/",
+      "published_at": "2026-11-23T10:54:00-05:00",
+      "quote": "Congress needs to get to the bottom of who approved high-end computer chips sales to China.",
+      "context": "X post on Monday. The Hill renders it as 'high end'. It was previously recorded only in the context of his captured quote.",
+      "sentiment_score": -0.6,
+      "sentiment_label": "negative",
+      "stance": "oppose",
+      "themes": [
+        "export_controls",
+        "congressional_oversight",
+        "china"
+      ],
+      "verification": "secondary_report",
+      "id": "00cc26b71090",
+      "source_file": "refresh_4pm_politics.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "US politics"
+    },
+    {
+      "speaker": "Don Bacon",
+      "role": "U.S. Representative (NE-02), retiring",
+      "affiliation": "Republican Party",
+      "party_faction": "R-mainstream",
+      "group": "congress",
+      "subgroup": "house",
+      "outlet": "Reuters (via SRN News)",
+      "url": "https://srnnews.com/us-lawmakers-criticize-nvidia-decision-to-reinstate-huang-as-ceo/",
+      "published_at": "2026-11-23T10:54:00-05:00",
+      "quote": "Huang was compromised and exploited by a Chinese spy.",
+      "context": "Monday reaction as quoted by Reuters (David Shepardson). The Hill paraphrases it as Nvidia's head being 'compromised and exploited by a Chinese spy.'",
+      "sentiment_score": -0.8,
+      "sentiment_label": "very_negative",
+      "stance": "oppose",
+      "themes": [
+        "china_espionage",
+        "national_security"
+      ],
+      "verification": "secondary_report",
+      "id": "10bc4d510bd6",
+      "source_file": "refresh_4pm_politics.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "US politics"
+    },
+    {
+      "speaker": "Debbie Dingell",
+      "role": "U.S. Representative (MI-06)",
+      "affiliation": "Democratic Party",
+      "party_faction": "D-mainstream",
+      "group": "congress",
+      "subgroup": "house",
+      "outlet": "The Detroit News (via Yahoo News); Reuters (via SRN)",
+      "url": "https://www.yahoo.com/news/politics/articles/huizenga-wants-answers-reinstated-nvidia-181921706.html",
+      "published_at": "2026-11-23T13:19:00-05:00",
+      "quote": "There are serious national security questions that still need to be answered.",
+      "context": "Second sentence of her written statement on Nov 23. The first sentence, 'irresponsible decision', is already captured.",
+      "sentiment_score": -0.6,
+      "sentiment_label": "negative",
+      "stance": "oppose",
+      "themes": [
+        "national_security",
+        "congressional_oversight"
+      ],
+      "verification": "secondary_report",
+      "id": "b40de18ca080",
+      "source_file": "refresh_4pm_politics.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "US politics"
+    },
+    {
+      "speaker": "Bill Huizenga",
+      "role": "U.S. Representative (MI-04)",
+      "affiliation": "Republican Party",
+      "party_faction": "R-mainstream",
+      "group": "congress",
+      "subgroup": "house",
+      "outlet": "The Detroit News (via Yahoo News)",
+      "url": "https://www.yahoo.com/news/politics/articles/huizenga-wants-answers-reinstated-nvidia-181921706.html",
+      "published_at": "2026-11-23T13:19:00-05:00",
+      "quote": "I hope that he would take a conversation with Congress seriously. I'm afraid that he won't,",
+      "context": "Told The Detroit News (Melissa Nann Burke) on Nov 23, shortly after the reinstatement. Asked whether his concerns can be addressed with Huang back in charge, he said: 'we're going to find that out.' His Nov 22 X post 'Ummm… she was, and is, a spy' is excluded as pre-announcement.",
+      "sentiment_score": -0.6,
+      "sentiment_label": "negative",
+      "stance": "oppose",
+      "themes": [
+        "testimony",
+        "congressional_oversight",
+        "china_hawk"
+      ],
+      "verification": "secondary_report",
+      "id": "9fcc287f985a",
+      "source_file": "refresh_4pm_politics.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "US politics"
+    },
+    {
+      "speaker": "Bill Huizenga",
+      "role": "U.S. Representative (MI-04)",
+      "affiliation": "Republican Party",
+      "party_faction": "R-mainstream",
+      "group": "congress",
+      "subgroup": "house",
+      "outlet": "The Detroit News (via Yahoo News)",
+      "url": "https://www.yahoo.com/news/politics/articles/huizenga-wants-answers-reinstated-nvidia-181921706.html",
+      "published_at": "2026-11-23T13:19:00-05:00",
+      "quote": "I believe that his belief in how it should go has caused them to be and him to be reckless",
+      "context": "Told The Detroit News on Nov 23. The quote is about Trump's influence on Huang and Nvidia.",
+      "sentiment_score": -0.7,
+      "sentiment_label": "negative",
+      "stance": "oppose",
+      "themes": [
+        "administration_role",
+        "recklessness"
+      ],
+      "verification": "secondary_report",
+      "id": "5a28dbe1fa28",
+      "source_file": "refresh_4pm_politics.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "US politics"
+    },
+    {
+      "speaker": "Chuck Schumer",
+      "role": "U.S. Senator (NY), Senate Democratic Leader",
+      "affiliation": "Democratic Party",
+      "party_faction": "D-mainstream",
+      "group": "congress",
+      "subgroup": "senate_leadership",
+      "outlet": "Deseret News (via Yahoo News)",
+      "url": "https://www.yahoo.com/news/politics/articles/congress-demands-answers-nvidia-ceo-190420727.html",
+      "published_at": "2026-11-23T14:04:00-05:00",
+      "quote": "We'll also work on a bipartisan basis to continue advancing policies that stop the flow of our most powerful technology",
+      "context": "From the same Monday statement as his captured 'wield their full power' line. The quote may be truncated. Excluded: the Plains Sentinel's undated Schumer quote 'Trump is putting his own financial interests...', because its date could not be confirmed.",
+      "sentiment_score": -0.5,
+      "sentiment_label": "negative",
+      "stance": "oppose",
+      "themes": [
+        "export_controls",
+        "legislation",
+        "bipartisanship"
+      ],
+      "verification": "secondary_report",
+      "id": "06d9423ade8c",
+      "source_file": "refresh_4pm_politics.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "US politics"
+    },
+    {
+      "speaker": "Elizabeth Warren",
+      "role": "U.S. Senator (MA), Ranking Member, Senate Banking Committee",
+      "affiliation": "Democratic Party",
+      "party_faction": "D-progressive",
+      "group": "congress",
+      "subgroup": "senate",
+      "outlet": "Deseret News (via Yahoo News)",
+      "url": "https://www.yahoo.com/news/politics/articles/congress-demands-answers-nvidia-ceo-190420727.html",
+      "published_at": "2026-11-23T14:04:00-05:00",
+      "quote": "The Trump Administration also needs to explain to Congress what 'input' was given",
+      "context": "From the same Nov 23 statement as her captured quote. It refers to the board's 'input from senior levels of the United States government.' Not re-checked on banking.senate.gov in this pass.",
+      "sentiment_score": -0.6,
+      "sentiment_label": "negative",
+      "stance": "oppose",
+      "themes": [
+        "administration_role",
+        "transparency",
+        "congressional_oversight"
+      ],
+      "verification": "secondary_report",
+      "id": "7c92481935ae",
+      "source_file": "refresh_4pm_politics.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "US politics"
+    },
+    {
+      "speaker": "Donald Trump",
+      "role": "President of the United States",
+      "affiliation": "Trump Administration",
+      "party_faction": "R-administration",
+      "group": "administration",
+      "subgroup": "president",
+      "outlet": "The New Republic",
+      "url": "https://newrepublic.com/post/218308/trump-vance-jensen-huang-nvidia-board",
+      "published_at": "2026-11-23T15:40:00-05:00",
+      "quote": "We gave them assurances at least with everything we know, and we know a lot,",
+      "context": "CNBC interview on Monday, about the national security assurances given to Nvidia's board. In the same interview he said he was 'dealing with a vice president, JD Vance, who's great'. TNR cites a WSJ report that Vance told the board the government did not view Huang as a security risk.",
+      "sentiment_score": 0.85,
+      "sentiment_label": "very_positive",
+      "stance": "support",
+      "themes": [
+        "national_security_clearance",
+        "presidential_involvement",
+        "vance_role"
+      ],
+      "verification": "secondary_report",
+      "id": "48d72cc0d2ad",
+      "source_file": "refresh_4pm_politics.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "US politics"
+    },
+    {
+      "speaker": "Donald Trump",
+      "role": "President of the United States",
+      "affiliation": "Trump Administration",
+      "party_faction": "R-administration",
+      "group": "administration",
+      "subgroup": "president",
+      "outlet": "The Hill (via Yahoo News)",
+      "url": "https://www.yahoo.com/news/politics/articles/gop-lawmakers-decry-white-house-170239451.html",
+      "published_at": "2026-11-23T12:02:00-05:00",
+      "quote": "And I felt more strongly as I saw what was happening with the company,",
+      "context": "CNBC interview on Monday. It follows 'I've been speaking to the board directly and indirectly, and I felt very strongly about it'.",
+      "sentiment_score": 0.8,
+      "sentiment_label": "very_positive",
+      "stance": "support",
+      "themes": [
+        "presidential_involvement",
+        "company_performance"
+      ],
+      "verification": "secondary_report",
+      "id": "1df533c3cb19",
+      "source_file": "refresh_4pm_politics.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "US politics"
+    },
+    {
+      "speaker": "Rachel Kahn",
+      "role": "Staff writer",
+      "affiliation": "The New Republic",
+      "party_faction": null,
+      "group": "political_media",
+      "subgroup": "left_liberal_magazine",
+      "outlet": "The New Republic",
+      "url": "https://newrepublic.com/post/218308/trump-vance-jensen-huang-nvidia-board",
+      "published_at": "2026-11-23T15:40:00-05:00",
+      "quote": "What President Donald Trump wants, he gets. Well, JD Vance gets it for him.",
+      "context": "Opening line of a TNR post on reports that Vance pressed Nvidia's board to reinstate Huang. A different quote from her earlier captured TNR piece.",
+      "sentiment_score": -0.6,
+      "sentiment_label": "negative",
+      "stance": "oppose",
+      "themes": [
+        "administration_role",
+        "vance_role",
+        "presidential_involvement"
+      ],
+      "verification": "secondary_report",
+      "id": "d8d6dba33619",
+      "source_file": "refresh_4pm_politics.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "Media"
+    },
+    {
+      "speaker": "David Russell",
+      "role": "Global head of market strategy",
+      "affiliation": "TradeStation",
+      "party_faction": null,
+      "group": "market_analyst",
+      "subgroup": "strategist",
+      "outlet": "Reuters (via Investing.com)",
+      "url": "https://ca.investing.com/news/stock-market-news/wall-street-roars-back-as-nvidia-reinstates-jensen-huang-as-ceo-4976467",
+      "published_at": "2026-11-23T12:31:00-05:00",
+      "quote": "Huang's return marks one of the biggest reversals in the history of the stock market.",
+      "context": "Reuters midday markets story 'Wall Street roars back as Nvidia reinstates Jensen Huang as CEO' (published 12:31 PM, updated 12:38 PM).",
+      "sentiment_score": 0.4,
+      "sentiment_label": "positive",
+      "stance": "support",
+      "themes": [
+        "market_reaction",
+        "key_person",
+        "ai_trade"
+      ],
+      "verification": "secondary_report",
+      "id": "f766678f833c",
+      "source_file": "refresh_4pm_world_markets.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "Markets"
+    },
+    {
+      "speaker": "David Russell",
+      "role": "Global head of market strategy",
+      "affiliation": "TradeStation",
+      "party_faction": null,
+      "group": "market_analyst",
+      "subgroup": "strategist",
+      "outlet": "Reuters (via Investing.com)",
+      "url": "https://ca.investing.com/news/stock-market-news/wall-street-roars-back-as-nvidia-reinstates-jensen-huang-as-ceo-4976467",
+      "published_at": "2026-11-23T12:31:00-05:00",
+      "quote": "Wall Street envisioned a stock market without his leadership and didn't like what it saw.",
+      "context": "Same Reuters story; explains the market's view of the reinstatement.",
+      "sentiment_score": 0.6,
+      "sentiment_label": "positive",
+      "stance": "support",
+      "themes": [
+        "market_reaction",
+        "key_person",
+        "leadership"
+      ],
+      "verification": "secondary_report",
+      "id": "3f8db1ad4a11",
+      "source_file": "refresh_4pm_world_markets.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "Markets"
+    },
+    {
+      "speaker": "Rick Schafer",
+      "role": "Semiconductor analyst",
+      "affiliation": "Oppenheimer",
+      "party_faction": null,
+      "group": "market_analyst",
+      "subgroup": "sell_side",
+      "outlet": "TipRanks / TheFly (AI Daily)",
+      "url": "https://www.tipranks.com/news/the-fly/ai-daily-nvidia-surges-after-jensen-huang-restored-as-ceo-thefly-news",
+      "published_at": "2026-11-23T13:10:26-05:00",
+      "quote": "win for AI and a win for investors",
+      "context": "Oppenheimer upgrades NVDA from Perform to Outperform with a $250 target, saying the news lifts a 'major cloud of uncertainty' and that Nvidia's full-stack platform will 'keep competitors chasing'. Timestamp is the page's last update.",
+      "sentiment_score": 0.8,
+      "sentiment_label": "positive",
+      "stance": "support",
+      "themes": [
+        "rating_change",
+        "uncertainty_removed",
+        "competition"
+      ],
+      "verification": "secondary_report",
+      "id": "c28b565b43cd",
+      "source_file": "refresh_4pm_world_markets.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "Markets"
+    },
+    {
+      "speaker": "StoneX analyst (unnamed)",
+      "role": "Equity analyst",
+      "affiliation": "StoneX",
+      "party_faction": null,
+      "group": "market_analyst",
+      "subgroup": "sell_side",
+      "outlet": "TipRanks / TheFly",
+      "url": "https://www.tipranks.com/news/the-fly/stonex-gives-nvidia-fourth-upgrade-after-return-of-huang-thefly-news",
+      "published_at": "2026-11-23T12:20:18-05:00",
+      "quote": "The return of CEO Jensen Huang reverses most of the concerns behind StoneX's November 12 downgrade",
+      "context": "StoneX upgrades NVDA from Hold to Buy with a $270 target, the 'fourth upgrade' of the day; also says 'StoneX expects Huang to keep Nvidia's balance sheet behind the neocloud and frontier-lab buyers'. The wording may be TheFly's paraphrase of the note. Page updated 12:20 PM ET, just before the 12:30 window.",
+      "sentiment_score": 0.7,
+      "sentiment_label": "positive",
+      "stance": "support",
+      "themes": [
+        "rating_change",
+        "neoclouds",
+        "key_person"
+      ],
+      "verification": "secondary_report",
+      "id": "91f838083f0c",
+      "source_file": "refresh_4pm_world_markets.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "Markets"
+    },
+    {
+      "speaker": "Ben Reitzes",
+      "role": "Head of technology research",
+      "affiliation": "Melius Research",
+      "party_faction": null,
+      "group": "market_analyst",
+      "subgroup": "sell_side",
+      "outlet": "TipRanks (Solomon Oladipupo)",
+      "url": "https://www.tipranks.com/news/nvidia-stock-nvda-surges-33-as-analysts-say-buy-see-jensen-huang-return-as-relief-for-ai-trade",
+      "published_at": "2026-11-23T11:30:46-05:00",
+      "quote": "Jensen's back — so are we.",
+      "context": "Melius upgrades NVDA from Hold to Buy, raising the target from $185 to $220, and calls the return 'relief for the AI trade too'. Names the analyst that reactions.json leaves unconfirmed. Published before 12:30 PM ET; missed by earlier passes. The role title is not stated in the source.",
+      "sentiment_score": 0.8,
+      "sentiment_label": "positive",
+      "stance": "support",
+      "themes": [
+        "rating_change",
+        "ai_trade",
+        "key_person"
+      ],
+      "verification": "secondary_report",
+      "id": "2f9fac97e2c1",
+      "source_file": "refresh_4pm_world_markets.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "Markets"
+    },
+    {
+      "speaker": "C.J. Muse",
+      "role": "Semiconductor analyst",
+      "affiliation": "Cantor Fitzgerald",
+      "party_faction": null,
+      "group": "market_analyst",
+      "subgroup": "sell_side",
+      "outlet": "Yahoo Finance Nvidia live blog (Daniel Howley)",
+      "url": "https://finance.yahoo.com/markets/stocks/live/nvidia-live-updates-jensen-huang-reinstated-as-ceo-trump-says-he-convinced-board-165423793.html",
+      "published_at": "2026-11-23T11:09:00-05:00",
+      "quote": "win for innovation, confidence in the necessary spending",
+      "context": "Live-blog entry 'Cantor adds Nvidia back to Top Picks'. Published before 12:30 PM ET; missed by earlier passes.",
+      "sentiment_score": 0.8,
+      "sentiment_label": "positive",
+      "stance": "support",
+      "themes": [
+        "top_pick",
+        "ai_capex",
+        "innovation"
+      ],
+      "verification": "secondary_report",
+      "id": "0626a62cb1c7",
+      "source_file": "refresh_4pm_world_markets.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "Markets"
+    },
+    {
+      "speaker": "Ruben Roy",
+      "role": "Semiconductor analyst",
+      "affiliation": "Stifel",
+      "party_faction": null,
+      "group": "market_analyst",
+      "subgroup": "sell_side",
+      "outlet": "Yahoo Finance Nvidia live blog (Grace O'Donnell)",
+      "url": "https://finance.yahoo.com/markets/stocks/live/nvidia-live-updates-jensen-huang-reinstated-as-ceo-trump-says-he-convinced-board-165423793.html",
+      "published_at": "2026-11-23T11:07:00-05:00",
+      "quote": "removing a key-person overhang on the AI infrastructure roadmap",
+      "context": "Entry 'Stifel says Nvidia's BoomerHuang removes key-person overhang'; Buy reiterated with a $205 target. The entry credits Stifel; Roy is named as the analyst in finance.json. Published before 12:30 PM ET.",
+      "sentiment_score": 0.7,
+      "sentiment_label": "positive",
+      "stance": "support",
+      "themes": [
+        "key_person",
+        "roadmap"
+      ],
+      "verification": "secondary_report",
+      "id": "0fae569fdf0e",
+      "source_file": "refresh_4pm_world_markets.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "Markets"
+    },
+    {
+      "speaker": "Tristan Gerra",
+      "role": "Semiconductor analyst",
+      "affiliation": "Baird",
+      "party_faction": null,
+      "group": "market_analyst",
+      "subgroup": "sell_side",
+      "outlet": "Yahoo Finance Nvidia live blog (Daniel Howley)",
+      "url": "https://finance.yahoo.com/markets/stocks/live/nvidia-live-updates-jensen-huang-reinstated-as-ceo-trump-says-he-convinced-board-165423793.html",
+      "published_at": "2026-11-23T11:32:00-05:00",
+      "quote": "The combination of these two actions probably represents the worst-case scenario for China.",
+      "context": "Entry 'Baird calls Jensen Huang's reinstatement a worst-case scenario for China'. A different quote from Gerra's existing reactions.json record. Published before 12:30 PM ET.",
+      "sentiment_score": 0.4,
+      "sentiment_label": "positive",
+      "stance": "support",
+      "themes": [
+        "china",
+        "geopolitics",
+        "competition"
+      ],
+      "verification": "secondary_report",
+      "id": "07c70514a249",
+      "source_file": "refresh_4pm_world_markets.md",
+      "batch": "refresh-4pm",
+      "is_new": true,
+      "group_family": "Markets"
+    },
+    {
+      "speaker": "Charlie McElligott",
+      "role": "Cross-asset strategist",
+      "affiliation": "Nomura",
+      "party_faction": null,
+      "group": "market_analyst",
+      "subgroup": "strategist",
+      "outlet": "Yahoo Finance live blog",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-surge-after-nvidia-reinstates-jensen-huang-182039397.html",
+      "published_at": "2026-11-23T12:18:00-05:00",
+      "quote": "This 'Mechanical Bounce' guarantees us nothing.",
+      "context": "Second quote from McElligott, in the 12:18 PM ET entry; reactions.json already has his 'It's naive...' line. Skeptical about how long the rally will last rather than about the reinstatement itself.",
+      "sentiment_score": -0.1,
+      "sentiment_label": "skeptical",
+      "stance": "neutral",
+      "themes": [
+        "market_reaction",
+        "volatility"
+      ],
+      "verification": "secondary_report",
+      "id": "41e663e28755",
+      "source_file": "refresh_4pm_world_markets.md",
+      "batch": "refresh-4pm",
       "is_new": true,
       "group_family": "Markets"
     }
@@ -3080,13 +4595,28 @@
       "quote": "[paraphrase] Upgraded Nvidia to outperform after the reinstatement but said the episode leaves questions, including the investigation outcome, board governance and Huang's judgement.",
       "url": "https://finance.yahoo.com/markets/stocks/live/nvidia-live-updates-jensen-huang-reinstated-as-ceo-trump-says-no-reason-to-believe-huang-a-national-security-risk-152429808.html",
       "reason": "paraphrase, not a quote; Rasgon's verbatim line is 0ca4a035d916"
+    },
+    {
+      "id": "732e301ddd3f",
+      "speaker": "Bill Ackman",
+      "quote": "sanity prevails",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-nvidia-needed-jensen-huang-195721312.html",
+      "reason": "duplicate of 1861faccef41 (same Ackman 'sanity prevails' post)"
+    },
+    {
+      "id": "46ee19984945",
+      "speaker": "TASS",
+      "quote": "TASS has compiled the key facts about the situation.",
+      "url": "https://tass.com/economy/2223607",
+      "reason": "not a reaction: TASS fact summary with no view on the reinstatement"
     }
   ],
   "coverage_gaps": {
     "R-far_right": "No reaction found yet (checked Bannon/War Room and MAGA-populist media)",
     "DSA": "No reaction found yet (checked Jacobin, DSA-endorsed members)",
-    "world_leader": "No official reaction yet; Asia was overnight. Next: China MFA briefing and Taiwan Executive Yuan, Nov 24",
-    "tech_industry_execs": "Only Musk and Altman so far",
+    "world_leader": "No official foreign-government reaction found through 4 PM ET; Taipei Times quotes no official. Next: China MFA briefing, Taiwan Executive Yuan, Japan and Korea, Nov 24",
+    "tech_industry_execs": "Musk, Altman, Calacanis, Palihapitiya, Ackman, Narasin; no chip or hyperscaler CEO on record yet",
+    "anti_ai_activist": "No AI-safety or anti-AI activist reaction found through 4 PM ET (Gary Marcus is the only AI critic on record)",
     "blocked_sources": "CNN live blog, NBC, CNBC, Bloomberg, Mediaite, X pages cannot be read automatically; quotes from them come via syndicated copies (secondary_report)"
   }
 }
