@@ -5,3 +5,4 @@
 | Ticker | Source | Range | Read on |
 |---|---|---|---|
 | NVDA | Yahoo Finance historical prices, https://finance.yahoo.com/quote/NVDA/history/ | Aug 24 – Nov 20, 2026 | Nov 23, 2026 |
+| NVDA | Nov 23 close $165.05, Motley Fool Stock Market Today (4:40 PM ET), https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-nvidia-surges-31-adding-nearly-usd1-trillion-in-market-value-as-jensen-huang-reclaims-ceo-role/ | Nov 23, 2026 | Nov 23, 2026 |

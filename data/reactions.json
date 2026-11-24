@@ -3,10 +3,10 @@
     "topic": "Reactions to NVIDIA reinstating Jensen Huang as President, CEO and director",
     "announcement_url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
     "announcement_date": "2026-11-23",
-    "updated_at": "2026-11-23T21:09:59+00:00",
-    "last_batch": "refresh-4pm",
-    "total_reactions": 155,
-    "new_in_last_batch": 64,
+    "updated_at": "2026-11-24T00:07:47+00:00",
+    "last_batch": "refresh-7pm",
+    "total_reactions": 180,
+    "new_in_last_batch": 33,
     "sentiment_scale": "-1.0 (strongly against the reinstatement) to +1.0 (strongly for)",
     "by_group": {
       "tech_media": {
@@ -23,13 +23,13 @@
       },
       "governance_expert": {
         "family": "Experts",
-        "count": 12,
-        "unique_speakers": 4,
-        "mean_sentiment": -0.504,
+        "count": 13,
+        "unique_speakers": 5,
+        "mean_sentiment": -0.519,
         "stance_counts": {
           "mixed": 4,
           "neutral": 1,
-          "oppose": 7
+          "oppose": 8
         }
       },
       "natsec_expert": {
@@ -44,24 +44,24 @@
       },
       "tech_industry": {
         "family": "Tech industry",
-        "count": 6,
-        "unique_speakers": 5,
-        "mean_sentiment": 0.75,
+        "count": 10,
+        "unique_speakers": 6,
+        "mean_sentiment": 0.78,
         "stance_counts": {
-          "support": 5,
+          "support": 9,
           "mixed": 1
         }
       },
       "news_media": {
         "family": "Media",
-        "count": 21,
-        "unique_speakers": 12,
-        "mean_sentiment": -0.121,
+        "count": 28,
+        "unique_speakers": 16,
+        "mean_sentiment": -0.22,
         "stance_counts": {
-          "oppose": 9,
-          "mixed": 5,
+          "oppose": 14,
+          "mixed": 6,
           "support": 5,
-          "neutral": 2
+          "neutral": 3
         }
       },
       "social_public": {
@@ -77,11 +77,11 @@
       },
       "congress": {
         "family": "US politics",
-        "count": 29,
+        "count": 33,
         "unique_speakers": 18,
-        "mean_sentiment": -0.634,
+        "mean_sentiment": -0.633,
         "stance_counts": {
-          "oppose": 26,
+          "oppose": 30,
           "mixed": 1,
           "neutral": 2
         }
@@ -98,13 +98,13 @@
       },
       "market_analyst": {
         "family": "Markets",
-        "count": 27,
-        "unique_speakers": 23,
-        "mean_sentiment": 0.363,
+        "count": 30,
+        "unique_speakers": 26,
+        "mean_sentiment": 0.35,
         "stance_counts": {
-          "support": 18,
-          "mixed": 6,
-          "neutral": 2,
+          "support": 19,
+          "mixed": 7,
+          "neutral": 3,
           "oppose": 1
         }
       },
@@ -139,11 +139,11 @@
       },
       "investor": {
         "family": "Markets",
-        "count": 8,
-        "unique_speakers": 7,
-        "mean_sentiment": 0.362,
+        "count": 9,
+        "unique_speakers": 8,
+        "mean_sentiment": 0.411,
         "stance_counts": {
-          "support": 6,
+          "support": 7,
           "mixed": 1,
           "oppose": 1
         }
@@ -159,26 +159,28 @@
       },
       "civil_society": {
         "family": "Experts",
-        "count": 3,
-        "unique_speakers": 3,
-        "mean_sentiment": -0.7,
+        "count": 4,
+        "unique_speakers": 4,
+        "mean_sentiment": -0.675,
         "stance_counts": {
-          "oppose": 3
+          "oppose": 4
         }
       },
       "political_media": {
         "family": "Media",
-        "count": 1,
-        "unique_speakers": 1,
-        "mean_sentiment": -0.6,
+        "count": 5,
+        "unique_speakers": 3,
+        "mean_sentiment": -0.47,
         "stance_counts": {
-          "oppose": 1
+          "oppose": 3,
+          "neutral": 1,
+          "mixed": 1
         }
       }
     },
-    "unique_speakers": 92,
-    "overall_mean_sentiment": -0.077,
-    "curated_at": "2026-11-23T21:10:28+00:00",
+    "unique_speakers": 105,
+    "overall_mean_sentiment": -0.09,
+    "curated_at": "2026-11-24T00:07:55+00:00",
     "fields": [
       "id",
       "speaker",
@@ -3083,7 +3085,7 @@
       "id": "c55d7d185c19",
       "source_file": "refresh_4pm_media.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Experts"
     },
     {
@@ -3109,7 +3111,7 @@
       "id": "1bfa0bae0f12",
       "source_file": "refresh_4pm_media.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Experts"
     },
     {
@@ -3136,7 +3138,7 @@
       "id": "1d657939feb1",
       "source_file": "refresh_4pm_media.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Experts"
     },
     {
@@ -3162,7 +3164,7 @@
       "id": "18c566057126",
       "source_file": "refresh_4pm_media.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Experts"
     },
     {
@@ -3189,7 +3191,7 @@
       "id": "221e04d5377e",
       "source_file": "refresh_4pm_media.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Experts"
     },
     {
@@ -3216,7 +3218,7 @@
       "id": "fe5daf8cf2e8",
       "source_file": "refresh_4pm_media.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Experts"
     },
     {
@@ -3243,7 +3245,7 @@
       "id": "70e0f8bb6325",
       "source_file": "refresh_4pm_media.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Experts"
     },
     {
@@ -3270,7 +3272,7 @@
       "id": "ce928ad498ae",
       "source_file": "refresh_4pm_media.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Experts"
     },
     {
@@ -3297,7 +3299,7 @@
       "id": "95ca321998ea",
       "source_file": "refresh_4pm_media.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Media"
     },
     {
@@ -3324,7 +3326,7 @@
       "id": "79432bf1a586",
       "source_file": "refresh_4pm_media.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Media"
     },
     {
@@ -3350,7 +3352,7 @@
       "id": "358a2389e5ee",
       "source_file": "refresh_4pm_media.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Media"
     },
     {
@@ -3377,7 +3379,7 @@
       "id": "e8a85f90e0bb",
       "source_file": "refresh_4pm_media.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Media"
     },
     {
@@ -3403,7 +3405,7 @@
       "id": "bf69139aa6c6",
       "source_file": "refresh_4pm_media.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Tech industry"
     },
     {
@@ -3430,7 +3432,7 @@
       "id": "0f55af8a3759",
       "source_file": "refresh_4pm_media.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Tech industry"
     },
     {
@@ -3456,7 +3458,7 @@
       "id": "bad6c862e6b4",
       "source_file": "refresh_4pm_media.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Markets"
     },
     {
@@ -3482,7 +3484,7 @@
       "id": "1861faccef41",
       "source_file": "refresh_4pm_media.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Markets"
     },
     {
@@ -3508,7 +3510,7 @@
       "id": "86096797cdd4",
       "source_file": "refresh_4pm_media.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Tech industry"
     },
     {
@@ -3534,7 +3536,7 @@
       "id": "8ca9431175f0",
       "source_file": "refresh_4pm_media.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Tech industry"
     },
     {
@@ -3560,7 +3562,7 @@
       "id": "c0798d2021b0",
       "source_file": "refresh_4pm_media.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Experts"
     },
     {
@@ -3587,7 +3589,7 @@
       "id": "53a0c4e323dc",
       "source_file": "refresh_4pm_media.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Media"
     },
     {
@@ -3613,7 +3615,7 @@
       "id": "95cb65a3c2ef",
       "source_file": "refresh_4pm_media.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Media"
     },
     {
@@ -3639,7 +3641,7 @@
       "id": "988ac1f73dd7",
       "source_file": "refresh_4pm_media.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Media"
     },
     {
@@ -3665,7 +3667,7 @@
       "id": "33976f2a8e71",
       "source_file": "refresh_4pm_media.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Media"
     },
     {
@@ -3691,7 +3693,7 @@
       "id": "f20bb84af6a8",
       "source_file": "refresh_4pm_media.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Public social"
     },
     {
@@ -3720,7 +3722,7 @@
       "id": "9174758aff5e",
       "source_file": "refresh_4pm_media.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Experts"
     },
     {
@@ -3748,7 +3750,7 @@
       "id": "da4fe6bace68",
       "source_file": "refresh_4pm_media.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Experts"
     },
     {
@@ -3774,7 +3776,7 @@
       "id": "002727ea3030",
       "source_file": "refresh_4pm_politics.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "US politics"
     },
     {
@@ -3801,7 +3803,7 @@
       "id": "c2988794203f",
       "source_file": "refresh_4pm_politics.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "US politics"
     },
     {
@@ -3827,7 +3829,7 @@
       "id": "f89d92cb8dda",
       "source_file": "refresh_4pm_politics.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "US politics"
     },
     {
@@ -3853,7 +3855,7 @@
       "id": "f2bc51f44415",
       "source_file": "refresh_4pm_politics.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "US politics"
     },
     {
@@ -3880,7 +3882,7 @@
       "id": "3c3f6f082ebb",
       "source_file": "refresh_4pm_politics.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "US politics"
     },
     {
@@ -3907,7 +3909,7 @@
       "id": "bb82f1aec2c4",
       "source_file": "refresh_4pm_politics.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "US politics"
     },
     {
@@ -3934,7 +3936,7 @@
       "id": "55cc38092396",
       "source_file": "refresh_4pm_politics.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "US politics"
     },
     {
@@ -3961,7 +3963,7 @@
       "id": "a3a8684a431a",
       "source_file": "refresh_4pm_politics.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "US politics"
     },
     {
@@ -3988,7 +3990,7 @@
       "id": "3652ab49aff0",
       "source_file": "refresh_4pm_politics.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "US politics"
     },
     {
@@ -4015,7 +4017,7 @@
       "id": "a939e16a47eb",
       "source_file": "refresh_4pm_politics.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "US politics"
     },
     {
@@ -4042,7 +4044,7 @@
       "id": "a6218f45ad41",
       "source_file": "refresh_4pm_politics.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "US politics"
     },
     {
@@ -4069,7 +4071,7 @@
       "id": "00cc26b71090",
       "source_file": "refresh_4pm_politics.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "US politics"
     },
     {
@@ -4095,7 +4097,7 @@
       "id": "10bc4d510bd6",
       "source_file": "refresh_4pm_politics.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "US politics"
     },
     {
@@ -4121,7 +4123,7 @@
       "id": "b40de18ca080",
       "source_file": "refresh_4pm_politics.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "US politics"
     },
     {
@@ -4148,7 +4150,7 @@
       "id": "9fcc287f985a",
       "source_file": "refresh_4pm_politics.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "US politics"
     },
     {
@@ -4174,7 +4176,7 @@
       "id": "5a28dbe1fa28",
       "source_file": "refresh_4pm_politics.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "US politics"
     },
     {
@@ -4201,7 +4203,7 @@
       "id": "06d9423ade8c",
       "source_file": "refresh_4pm_politics.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "US politics"
     },
     {
@@ -4228,7 +4230,7 @@
       "id": "7c92481935ae",
       "source_file": "refresh_4pm_politics.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "US politics"
     },
     {
@@ -4255,7 +4257,7 @@
       "id": "48d72cc0d2ad",
       "source_file": "refresh_4pm_politics.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "US politics"
     },
     {
@@ -4281,7 +4283,7 @@
       "id": "1df533c3cb19",
       "source_file": "refresh_4pm_politics.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "US politics"
     },
     {
@@ -4308,7 +4310,7 @@
       "id": "d8d6dba33619",
       "source_file": "refresh_4pm_politics.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Media"
     },
     {
@@ -4335,7 +4337,7 @@
       "id": "f766678f833c",
       "source_file": "refresh_4pm_world_markets.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Markets"
     },
     {
@@ -4362,7 +4364,7 @@
       "id": "3f8db1ad4a11",
       "source_file": "refresh_4pm_world_markets.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Markets"
     },
     {
@@ -4389,7 +4391,7 @@
       "id": "c28b565b43cd",
       "source_file": "refresh_4pm_world_markets.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Markets"
     },
     {
@@ -4416,7 +4418,7 @@
       "id": "91f838083f0c",
       "source_file": "refresh_4pm_world_markets.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Markets"
     },
     {
@@ -4443,7 +4445,7 @@
       "id": "2f9fac97e2c1",
       "source_file": "refresh_4pm_world_markets.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Markets"
     },
     {
@@ -4470,7 +4472,7 @@
       "id": "0626a62cb1c7",
       "source_file": "refresh_4pm_world_markets.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Markets"
     },
     {
@@ -4496,7 +4498,7 @@
       "id": "0fae569fdf0e",
       "source_file": "refresh_4pm_world_markets.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Markets"
     },
     {
@@ -4523,7 +4525,7 @@
       "id": "07c70514a249",
       "source_file": "refresh_4pm_world_markets.md",
       "batch": "refresh-4pm",
-      "is_new": true,
+      "is_new": false,
       "group_family": "Markets"
     },
     {
@@ -4549,8 +4551,672 @@
       "id": "41e663e28755",
       "source_file": "refresh_4pm_world_markets.md",
       "batch": "refresh-4pm",
+      "is_new": false,
+      "group_family": "Markets"
+    },
+    {
+      "speaker": "Tom Nichols",
+      "role": "Staff writer",
+      "affiliation": "The Atlantic",
+      "party_faction": null,
+      "group": "news_media",
+      "subgroup": "magazine_column",
+      "outlet": "Raw Story (citing The Atlantic)",
+      "url": "https://www.rawstory.com/trump-jensen-huang-2678505874/",
+      "published_at": "2026-11-23T16:46:00-05:00",
+      "quote": "Americans learned—yet again—that their president does not care about the national security of the United States.",
+      "context": "Atlantic column published Monday on Trump's role in getting Nvidia to reinstate Huang, as quoted by Raw Story. The Atlantic page itself was blocked.",
+      "sentiment_score": -0.8,
+      "sentiment_label": "very_negative",
+      "stance": "oppose",
+      "themes": [
+        "national_security",
+        "trump_intervention",
+        "presidential_conduct"
+      ],
+      "verification": "secondary_report",
+      "id": "ff2f6e77a1ae",
+      "source_file": "refresh_7pm_us.md",
+      "batch": "refresh-7pm",
+      "is_new": true,
+      "group_family": "Media"
+    },
+    {
+      "speaker": "Tom Nichols",
+      "role": "Staff writer",
+      "affiliation": "The Atlantic",
+      "party_faction": null,
+      "group": "news_media",
+      "subgroup": "magazine_column",
+      "outlet": "Raw Story (citing The Atlantic)",
+      "url": "https://www.rawstory.com/trump-jensen-huang-2678505874/",
+      "published_at": "2026-11-23T16:46:00-05:00",
+      "quote": "That means exactly nothing.",
+      "context": "Nichols on the Attorney General's assurance, cited in Trump's post, that the government has no evidence Huang's return poses a security risk.",
+      "sentiment_score": -0.7,
+      "sentiment_label": "negative",
+      "stance": "oppose",
+      "themes": [
+        "national_security",
+        "doj_assurance",
+        "trump_intervention"
+      ],
+      "verification": "secondary_report",
+      "id": "e445aa4e1424",
+      "source_file": "refresh_7pm_us.md",
+      "batch": "refresh-7pm",
+      "is_new": true,
+      "group_family": "Media"
+    },
+    {
+      "speaker": "Tom Nichols",
+      "role": "Staff writer",
+      "affiliation": "The Atlantic",
+      "party_faction": null,
+      "group": "news_media",
+      "subgroup": "magazine_column",
+      "outlet": "Raw Story (citing The Atlantic)",
+      "url": "https://www.rawstory.com/trump-jensen-huang-2678505874/",
+      "published_at": "2026-11-23T16:46:00-05:00",
+      "quote": "It is perhaps an insult to foreign agents to say that Trump is acting like them.",
+      "context": "Nichols' closing judgment on Trump's push to restore Huang despite the Chinese-intelligence concerns.",
+      "sentiment_score": -0.9,
+      "sentiment_label": "very_negative",
+      "stance": "oppose",
+      "themes": [
+        "national_security",
+        "china",
+        "trump_intervention"
+      ],
+      "verification": "secondary_report",
+      "id": "feb06352b773",
+      "source_file": "refresh_7pm_us.md",
+      "batch": "refresh-7pm",
+      "is_new": true,
+      "group_family": "Media"
+    },
+    {
+      "speaker": "Charles Gasparino",
+      "role": "Senior correspondent",
+      "affiliation": "Fox Business",
+      "party_faction": null,
+      "group": "news_media",
+      "subgroup": "business_tv",
+      "outlet": "Raw Story (citing X post)",
+      "url": "https://www.rawstory.com/trump-jensen-huang-2678501091/",
+      "published_at": "2026-11-23T10:13:00-05:00",
+      "quote": "has all the earmarks of a modern-day Watergate for this administration",
+      "context": "X post after Nvidia announced Huang's return. He warned that Democrats would be emboldened to make 'L'affaire Jensen' part of an impeachment push.",
+      "sentiment_score": -0.6,
+      "sentiment_label": "negative",
+      "stance": "oppose",
+      "themes": [
+        "political_scandal",
+        "trump_intervention",
+        "impeachment"
+      ],
+      "verification": "secondary_report",
+      "id": "afe1f0431020",
+      "source_file": "refresh_7pm_us.md",
+      "batch": "refresh-7pm",
+      "is_new": true,
+      "group_family": "Media"
+    },
+    {
+      "speaker": "Charles Gasparino",
+      "role": "Senior correspondent",
+      "affiliation": "Fox Business",
+      "party_faction": null,
+      "group": "news_media",
+      "subgroup": "business_tv",
+      "outlet": "Raw Story (citing X post)",
+      "url": "https://www.rawstory.com/trump-jensen-huang-2678501091/",
+      "published_at": "2026-11-23T10:13:00-05:00",
+      "quote": "Huang can't save it from what is at the very least a normal adjustment to valuations.",
+      "context": "Same X post. He argued Huang's return will not shield Nvidia from a valuation reset.",
+      "sentiment_score": -0.3,
+      "sentiment_label": "negative",
+      "stance": "mixed",
+      "themes": [
+        "valuation",
+        "market_reaction"
+      ],
+      "verification": "secondary_report",
+      "id": "1cccafe74d9d",
+      "source_file": "refresh_7pm_us.md",
+      "batch": "refresh-7pm",
+      "is_new": true,
+      "group_family": "Media"
+    },
+    {
+      "speaker": "John Casey",
+      "role": "Columnist",
+      "affiliation": "Raw Story",
+      "party_faction": null,
+      "group": "political_media",
+      "subgroup": "progressive_opinion",
+      "outlet": "Raw Story",
+      "url": "https://www.rawstory.com/raw-investigates/jensen-huang-trump/",
+      "published_at": "2026-11-23T11:29:00-05:00",
+      "quote": "Nvidia's board buckled to Donald Trump's demand that Huang be reinstated.",
+      "context": "Opinion column headlined 'A last treasonous gasp is all that's left of Trump's collapsing power'.",
+      "sentiment_score": -0.8,
+      "sentiment_label": "very_negative",
+      "stance": "oppose",
+      "themes": [
+        "board_capitulation",
+        "trump_intervention"
+      ],
+      "verification": "direct_source",
+      "id": "a2ceee6c4a2d",
+      "source_file": "refresh_7pm_us.md",
+      "batch": "refresh-7pm",
+      "is_new": true,
+      "group_family": "Media"
+    },
+    {
+      "speaker": "John Casey",
+      "role": "Columnist",
+      "affiliation": "Raw Story",
+      "party_faction": null,
+      "group": "political_media",
+      "subgroup": "progressive_opinion",
+      "outlet": "Raw Story",
+      "url": "https://www.rawstory.com/raw-investigates/jensen-huang-trump/",
+      "published_at": "2026-11-23T11:29:00-05:00",
+      "quote": "Huang's reinstatement has dragged us to the depths of depravity.",
+      "context": "Same column. He argued that in Trump's Washington loyalty buys absolution.",
+      "sentiment_score": -0.95,
+      "sentiment_label": "very_negative",
+      "stance": "oppose",
+      "themes": [
+        "corruption",
+        "national_security",
+        "trump_intervention"
+      ],
+      "verification": "direct_source",
+      "id": "99c39368bd9a",
+      "source_file": "refresh_7pm_us.md",
+      "batch": "refresh-7pm",
+      "is_new": true,
+      "group_family": "Media"
+    },
+    {
+      "speaker": "Ed Morrissey",
+      "role": "Senior editor",
+      "affiliation": "Hot Air",
+      "party_faction": null,
+      "group": "political_media",
+      "subgroup": "conservative_blog",
+      "outlet": "Hot Air",
+      "url": "https://hotair.com/ed-morrissey/2026/11/23/ny-times-sure-looks-like-a-honeypot-op-at-nvidia-n3821260",
+      "published_at": "2026-11-23",
+      "quote": "Looks like Nvidia decided it can't live with Jensen, but also can't live without him",
+      "context": "Update appended to his post on the NYT honeypot report (originally 9:00 AM; update time not shown), headlined 'UPDATE: Nvidia Reinstates Jensen; Shares Jump 30%'.",
+      "sentiment_score": 0.0,
+      "sentiment_label": "neutral",
+      "stance": "neutral",
+      "themes": [
+        "board_reversal",
+        "founder_dependence"
+      ],
+      "verification": "direct_source",
+      "id": "9799506e0233",
+      "source_file": "refresh_7pm_us.md",
+      "batch": "refresh-7pm",
+      "is_new": true,
+      "group_family": "Media"
+    },
+    {
+      "speaker": "Ed Morrissey",
+      "role": "Senior editor",
+      "affiliation": "Hot Air",
+      "party_faction": null,
+      "group": "political_media",
+      "subgroup": "conservative_blog",
+      "outlet": "Hot Air",
+      "url": "https://hotair.com/ed-morrissey/2026/11/23/ny-times-sure-looks-like-a-honeypot-op-at-nvidia-n3821260",
+      "published_at": "2026-11-23",
+      "quote": "Either the NY Times and the Wall Street Journal and practically everyone else got this story wrong, or Jensen Huang turned out to be as critical to Nvidia and the tech sector as Trump and Musk argued over the last couple of weeks.",
+      "context": "Same update, weighing the espionage reporting against the board's reversal.",
+      "sentiment_score": 0.0,
+      "sentiment_label": "neutral",
+      "stance": "mixed",
+      "themes": [
+        "media_reporting",
+        "founder_dependence",
+        "national_security"
+      ],
+      "verification": "direct_source",
+      "id": "8b510d100557",
+      "source_file": "refresh_7pm_us.md",
+      "batch": "refresh-7pm",
+      "is_new": true,
+      "group_family": "Media"
+    },
+    {
+      "speaker": "Jason Calacanis",
+      "role": "Angel investor, podcast host (All-In)",
+      "affiliation": "LAUNCH / All-In",
+      "party_faction": null,
+      "group": "tech_industry",
+      "subgroup": "investor_podcaster",
+      "outlet": "Raw Story (citing MS NOW)",
+      "url": "https://www.rawstory.com/jason-calacanis-nvidia/",
+      "published_at": "2026-11-23T11:39:00-05:00",
+      "quote": "I think the board rushed to judgment, and I think he is obviously not guilty on any of these charges",
+      "context": "MS NOW panel with host Stephanie Ruhle that aired 'Monday morning' (presumed after the 8:55 AM announcement; airtime not given).",
+      "sentiment_score": 0.8,
+      "sentiment_label": "very_positive",
+      "stance": "support",
+      "themes": [
+        "defense_of_huang",
+        "board_criticism"
+      ],
+      "verification": "secondary_report",
+      "id": "ecdbc9084d9c",
+      "source_file": "refresh_7pm_us.md",
+      "batch": "refresh-7pm",
+      "is_new": true,
+      "group_family": "Tech industry"
+    },
+    {
+      "speaker": "Jason Calacanis",
+      "role": "Angel investor, podcast host (All-In)",
+      "affiliation": "LAUNCH / All-In",
+      "party_faction": null,
+      "group": "tech_industry",
+      "subgroup": "investor_podcaster",
+      "outlet": "Raw Story (citing MS NOW)",
+      "url": "https://www.rawstory.com/jason-calacanis-nvidia/",
+      "published_at": "2026-11-23T11:39:00-05:00",
+      "quote": "there is no way he would ever commit treason. He's an incredible American.",
+      "context": "Same MS NOW exchange, in which he clashed with Ruhle.",
+      "sentiment_score": 0.8,
+      "sentiment_label": "very_positive",
+      "stance": "support",
+      "themes": [
+        "defense_of_huang",
+        "patriotism",
+        "national_security"
+      ],
+      "verification": "secondary_report",
+      "id": "8b423819174a",
+      "source_file": "refresh_7pm_us.md",
+      "batch": "refresh-7pm",
+      "is_new": true,
+      "group_family": "Tech industry"
+    },
+    {
+      "speaker": "Stephanie Ruhle",
+      "role": "Anchor",
+      "affiliation": "MS NOW",
+      "party_faction": null,
+      "group": "news_media",
+      "subgroup": "cable_news",
+      "outlet": "Raw Story (citing MS NOW)",
+      "url": "https://www.rawstory.com/jason-calacanis-nvidia/",
+      "published_at": "2026-11-23T11:39:00-05:00",
+      "quote": "Just because the government tells us? Hold on. Just because the government tells us",
+      "context": "Ruhle pushing back on Calacanis's reliance on the government's assurance that Huang poses no risk.",
+      "sentiment_score": -0.4,
+      "sentiment_label": "negative",
+      "stance": "oppose",
+      "themes": [
+        "government_assurance",
+        "skepticism"
+      ],
+      "verification": "secondary_report",
+      "id": "ff4194582e90",
+      "source_file": "refresh_7pm_us.md",
+      "batch": "refresh-7pm",
+      "is_new": true,
+      "group_family": "Media"
+    },
+    {
+      "speaker": "John Curtis",
+      "role": "U.S. Senator (R-Utah)",
+      "affiliation": "U.S. Senate",
+      "party_faction": "R-mainstream",
+      "group": "congress",
+      "subgroup": "senate_republican",
+      "outlet": "CBS News",
+      "url": "https://www.cbsnews.com/news/jensen-huang-congress-reinstatement-nvidia/",
+      "published_at": "2026-11-23T15:29:00-05:00",
+      "quote": "Mr. Huang was right to step down when the affair came to light.",
+      "context": "X post quoted by CBS. He also asked what changed.",
+      "sentiment_score": -0.5,
+      "sentiment_label": "negative",
+      "stance": "oppose",
+      "themes": [
+        "accountability",
+        "board_reversal"
+      ],
+      "verification": "secondary_report",
+      "id": "ab413c8a359a",
+      "source_file": "refresh_7pm_us.md",
+      "batch": "refresh-7pm",
+      "is_new": true,
+      "group_family": "US politics"
+    },
+    {
+      "speaker": "Pete Ricketts",
+      "role": "U.S. Senator (R-Neb.)",
+      "affiliation": "U.S. Senate",
+      "party_faction": "R-mainstream",
+      "group": "congress",
+      "subgroup": "senate_republican",
+      "outlet": "CBS News",
+      "url": "https://www.cbsnews.com/news/jensen-huang-congress-reinstatement-nvidia/",
+      "published_at": "2026-11-23T15:29:00-05:00",
+      "quote": "does not support reinstatement",
+      "context": "Fragment of an X post quoted by CBS.",
+      "sentiment_score": -0.6,
+      "sentiment_label": "negative",
+      "stance": "oppose",
+      "themes": [
+        "national_security",
+        "gop_split"
+      ],
+      "verification": "secondary_report",
+      "id": "92edda9b2a30",
+      "source_file": "refresh_7pm_us.md",
+      "batch": "refresh-7pm",
+      "is_new": true,
+      "group_family": "US politics"
+    },
+    {
+      "speaker": "Robert Garcia",
+      "role": "U.S. Representative (D-Calif.), incoming House Oversight chair",
+      "affiliation": "U.S. House",
+      "party_faction": "D-mainstream",
+      "group": "congress",
+      "subgroup": "house_democrat",
+      "outlet": "CBS News",
+      "url": "https://www.cbsnews.com/news/jensen-huang-congress-reinstatement-nvidia/",
+      "published_at": "2026-11-23T15:29:00-05:00",
+      "quote": "raises serious national security and corruption questions",
+      "context": "Statement to CBS on the reinstatement and Trump's involvement.",
+      "sentiment_score": -0.7,
+      "sentiment_label": "negative",
+      "stance": "oppose",
+      "themes": [
+        "national_security",
+        "corruption",
+        "oversight"
+      ],
+      "verification": "secondary_report",
+      "id": "c03ccd143503",
+      "source_file": "refresh_7pm_us.md",
+      "batch": "refresh-7pm",
+      "is_new": true,
+      "group_family": "US politics"
+    },
+    {
+      "speaker": "Elizabeth Warren",
+      "role": "U.S. Senator (D-Mass.), ranking member, Senate Banking",
+      "affiliation": "U.S. Senate",
+      "party_faction": "D-progressive",
+      "group": "congress",
+      "subgroup": "senate_democrat",
+      "outlet": "Techstrong.ai (citing X post)",
+      "url": "https://techstrong.ai/articles/jensen-huangs-return-as-nvidia-ceo-sparks-relief-on-wall-street-and-in-silicon-valley-but-outrage-over-governance/",
+      "published_at": "2026-11-23T15:16:00-05:00",
+      "quote": "reckless",
+      "context": "One-word characterization of the reinstatement in an X post, as reported by Techstrong. She also demanded the White House explain what 'input' it gave.",
+      "sentiment_score": -0.7,
+      "sentiment_label": "negative",
+      "stance": "oppose",
+      "themes": [
+        "national_security",
+        "oversight"
+      ],
+      "verification": "secondary_report",
+      "id": "8912a9662e2e",
+      "source_file": "refresh_7pm_us.md",
+      "batch": "refresh-7pm",
+      "is_new": true,
+      "group_family": "US politics"
+    },
+    {
+      "speaker": "Elon Musk",
+      "role": "CEO",
+      "affiliation": "Tesla / SpaceX / xAI",
+      "party_faction": null,
+      "group": "tech_industry",
+      "subgroup": "tech_ceo",
+      "outlet": "Techstrong.ai (citing X post)",
+      "url": "https://techstrong.ai/articles/jensen-huangs-return-as-nvidia-ceo-sparks-relief-on-wall-street-and-in-silicon-valley-but-outrage-over-governance/",
+      "published_at": "2026-11-23T15:16:00-05:00",
+      "quote": "It is done,",
+      "context": "X post on the reinstatement, alongside his captured 'The mistake has been corrected.'",
+      "sentiment_score": 0.8,
+      "sentiment_label": "very_positive",
+      "stance": "support",
+      "themes": [
+        "celebration",
+        "founder_return"
+      ],
+      "verification": "secondary_report",
+      "id": "0bb8c53ec003",
+      "source_file": "refresh_7pm_us.md",
+      "batch": "refresh-7pm",
+      "is_new": true,
+      "group_family": "Tech industry"
+    },
+    {
+      "speaker": "David Miller",
+      "role": "Chief Investment Officer and senior portfolio manager",
+      "affiliation": "Catalyst Funds",
+      "party_faction": null,
+      "group": "investor",
+      "subgroup": "fund_manager",
+      "outlet": "Kiplinger",
+      "url": "https://kiplinger.com/investing/stocks/nasdaq-soars-1-471-points-as-huang-returns-to-nvidia-stock-market-today",
+      "published_at": "2026-11-23",
+      "quote": "Jensen Huang's return is an enormous positive for Nvidia and the broader AI trade, removing a major source of uncertainty",
+      "context": "Comment in Kiplinger's Nov 23 'Stock Market Today' close wrap (Karee Venema)",
+      "sentiment_score": 0.8,
+      "sentiment_label": "very_positive",
+      "stance": "support",
+      "themes": [
+        "ai_trade",
+        "uncertainty_removed",
+        "market_relief"
+      ],
+      "verification": "secondary_report",
+      "id": "e22c7d25e39b",
+      "source_file": "refresh_7pm_world_markets.md",
+      "batch": "refresh-7pm",
       "is_new": true,
       "group_family": "Markets"
+    },
+    {
+      "speaker": "Mark Hackett",
+      "role": "Chief market strategist",
+      "affiliation": "Nationwide",
+      "party_faction": null,
+      "group": "market_analyst",
+      "subgroup": "strategist",
+      "outlet": "Kiplinger",
+      "url": "https://kiplinger.com/investing/stocks/nasdaq-soars-1-471-points-as-huang-returns-to-nvidia-stock-market-today",
+      "published_at": "2026-11-23",
+      "quote": "Nvidia wasn't worth that much less on Friday, and it isn't suddenly worth 30% more today.",
+      "context": "Skeptical take on the size of the one-day swing, in Kiplinger's Nov 23 close wrap",
+      "sentiment_score": 0.0,
+      "sentiment_label": "neutral",
+      "stance": "neutral",
+      "themes": [
+        "valuation",
+        "market_overreaction",
+        "volatility"
+      ],
+      "verification": "secondary_report",
+      "id": "046872be4f9c",
+      "source_file": "refresh_7pm_world_markets.md",
+      "batch": "refresh-7pm",
+      "is_new": true,
+      "group_family": "Markets"
+    },
+    {
+      "speaker": "Goldman Sachs analyst (unnamed)",
+      "role": "Equity research analyst",
+      "affiliation": "Goldman Sachs",
+      "party_faction": null,
+      "group": "market_analyst",
+      "subgroup": "sell_side",
+      "outlet": "TipRanks / TheFly",
+      "url": "https://tipranks.com/news/the-fly/goldman-says-huang-return-positive-for-nvidia-and-broader-ai-ecosystem-thefly-news",
+      "published_at": "2026-11-23T10:25:22-05:00",
+      "quote": "a positive for the stock and broader AI ecosystem",
+      "context": "Goldman, Buy rating, on Huang's reinstatement (TheFly item, updated 15:25 UTC). The Motley Fool adds that Goldman maintained Buy and flagged scrutiny risks",
+      "sentiment_score": 0.6,
+      "sentiment_label": "positive",
+      "stance": "support",
+      "themes": [
+        "ai_ecosystem",
+        "analyst_rating",
+        "leadership_continuity"
+      ],
+      "verification": "secondary_report",
+      "id": "419dc06f8569",
+      "source_file": "refresh_7pm_world_markets.md",
+      "batch": "refresh-7pm",
+      "is_new": true,
+      "group_family": "Markets"
+    },
+    {
+      "speaker": "Bernstein (analyst not named in source; Stacy Rasgon leads NVDA coverage)",
+      "role": "Equity research",
+      "affiliation": "Bernstein",
+      "party_faction": null,
+      "group": "market_analyst",
+      "subgroup": "sell_side",
+      "outlet": "The Motley Fool",
+      "url": "https://www.fool.com/investing/2026/11/23/nvidia-stock-adds-usd950-billion-in-a-day-as-jensen-huang-returns-here-s-what-analysts-now-project/",
+      "published_at": "2026-11-23T16:18:00-05:00",
+      "quote": "this whole mess has brought up some legitimate questions",
+      "context": "From Bernstein's Nov 23 upgrade to Outperform ($200 target kept), as quoted by the Fool (Jonathan Ponciano). This quote is new; Bernstein's 'clown-like' line is already on file",
+      "sentiment_score": 0.1,
+      "sentiment_label": "mixed",
+      "stance": "mixed",
+      "themes": [
+        "governance",
+        "open_questions",
+        "analyst_rating"
+      ],
+      "verification": "secondary_report",
+      "id": "810b3f96606a",
+      "source_file": "refresh_7pm_world_markets.md",
+      "batch": "refresh-7pm",
+      "is_new": true,
+      "group_family": "Markets"
+    },
+    {
+      "speaker": "Charles Elson",
+      "role": "Chair (founding director), Weinberg Center for Corporate Governance",
+      "affiliation": "University of Delaware",
+      "party_faction": null,
+      "group": "governance_expert",
+      "subgroup": "academic",
+      "outlet": "ABC News (Australia), citing wires",
+      "url": "https://www.abc.net.au/news/2026-11-24/nvidia-jensen-huang-timeline/107419314",
+      "published_at": "2026-11-23T15:23:31-05:00",
+      "quote": "there is no accountability for his actions",
+      "context": "ABC Australia says Elson made this point about the board's reinstatement decision. The original time of the remark is not shown, so the item is from a wire report",
+      "sentiment_score": -0.7,
+      "sentiment_label": "negative",
+      "stance": "oppose",
+      "themes": [
+        "governance",
+        "accountability"
+      ],
+      "verification": "secondary_report",
+      "id": "13e8afb8ea53",
+      "source_file": "refresh_7pm_world_markets.md",
+      "batch": "refresh-7pm",
+      "is_new": true,
+      "group_family": "Experts"
+    },
+    {
+      "speaker": "Ben Winters",
+      "role": "Director of AI and privacy",
+      "affiliation": "Consumer Federation of America",
+      "party_faction": null,
+      "group": "civil_society",
+      "subgroup": "consumer_advocacy",
+      "outlet": "ABC News (Australia), citing wires",
+      "url": "https://www.abc.net.au/news/2026-11-24/nvidia-jensen-huang-timeline/107419314",
+      "published_at": "2026-11-23T15:23:31-05:00",
+      "quote": "highly inappropriate",
+      "context": "Describing President Trump's intervention in Nvidia's reinstatement decision, as reported by ABC Australia. The original time of the remark is not shown",
+      "sentiment_score": -0.6,
+      "sentiment_label": "negative",
+      "stance": "oppose",
+      "themes": [
+        "political_interference",
+        "governance"
+      ],
+      "verification": "secondary_report",
+      "id": "e5e225dad4f6",
+      "source_file": "refresh_7pm_world_markets.md",
+      "batch": "refresh-7pm",
+      "is_new": true,
+      "group_family": "Experts"
+    },
+    {
+      "speaker": "Kamin Gock and Thomas Morgan",
+      "role": "North America correspondent; reporter",
+      "affiliation": "ABC News (Australia)",
+      "party_faction": null,
+      "group": "news_media",
+      "subgroup": "foreign_press_asia_pacific",
+      "outlet": "ABC News (Australia)",
+      "url": "https://www.abc.net.au/news/2026-11-24/nvidia-jensen-huang-timeline/107419314",
+      "published_at": "2026-11-23T15:23:31-05:00",
+      "quote": "marks a significant victory for his supporters",
+      "context": "Australian public broadcaster's explainer. It adds that Huang 'is still expected to face continued scrutiny' and that Trump is 'claiming credit'",
+      "sentiment_score": 0.1,
+      "sentiment_label": "neutral",
+      "stance": "neutral",
+      "themes": [
+        "comeback",
+        "continued_scrutiny",
+        "political_interference"
+      ],
+      "verification": "direct_source",
+      "id": "fbd83c198d8e",
+      "source_file": "refresh_7pm_world_markets.md",
+      "batch": "refresh-7pm",
+      "is_new": true,
+      "group_family": "Media"
+    },
+    {
+      "speaker": "Nvidia Taiwan employees (unnamed)",
+      "role": "Employees",
+      "affiliation": "Nvidia Taiwan",
+      "party_faction": null,
+      "group": "tech_industry",
+      "subgroup": "employees",
+      "outlet": "United Daily News (UDN, Taipei)",
+      "url": "https://udn.com/news/story/7238/9897454",
+      "published_at": "2026-11-24T00:10:00+08:00",
+      "quote": "真的回來了！太棒了 [translation: 'He's really back! That's great!']",
+      "context": "Reaction of Taiwan-based Nvidia staff to the reinstatement, reported by UDN reporter Jian Yong-xiang. UDN quotes no Taiwan officials",
+      "sentiment_score": 0.9,
+      "sentiment_label": "very_positive",
+      "stance": "support",
+      "themes": [
+        "employee_morale",
+        "taiwan",
+        "comeback"
+      ],
+      "verification": "secondary_report",
+      "id": "730f6591848d",
+      "source_file": "refresh_7pm_world_markets.md",
+      "batch": "refresh-7pm",
+      "is_new": true,
+      "group_family": "Tech industry"
     }
   ],
   "excluded": [
