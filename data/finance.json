@@ -158,7 +158,7 @@
       "firm": "Oppenheimer",
       "analyst": "Rick Schafer",
       "rating": "Outperform (upgrade from Perform)",
-      "old_pt": null,
+      "old_pt": 315,
       "new_pt": 250,
       "date": "2026-11-23"
     },
@@ -173,10 +173,10 @@
     {
       "firm": "Yorkville & Ives",
       "analyst": "Dan Ives",
-      "rating": "Outperform",
+      "rating": "Outperform ($300 bull case)",
       "old_pt": 225,
-      "new_pt": 225,
-      "date": "2026-11-23"
+      "new_pt": 250,
+      "date": "2026-11-24"
     },
     {
       "firm": "Phillip Securities",
@@ -376,20 +376,22 @@
     "market_cap_note": "About $3.98T at the Nov 23 close (Motley Fool; FinanceFeeds citing CNBC: $3.978T); about $950B added in the day (Investopedia, Motley Fool)"
   },
   "technicals": {
-    "as_of": "2026-11-20 close",
-    "sma_50": 207.0,
-    "sma_200": 203.35,
-    "rsi_14": 15.05,
+    "as_of": "Nov 23 close",
+    "sma_50": 206.1,
+    "sma_200": 203.2,
+    "rsi_14": 42.9,
     "avg_volume": 287364317,
     "avg_volume_window": "20-day",
-    "last_session_volume": 633336951,
+    "last_session_volume": 772500000,
     "price_vs_sma_50": "below",
     "price_vs_sma_200": "below",
     "nov23_intraday_vs_smas": "still below both at ~$167 (derived)",
     "sources": [
       "https://stockanalysis.com/stocks/nvda/statistics/",
       "https://stockanalysis.com/stocks/nvda/"
-    ]
+    ],
+    "rsi_note": "up from about 15 on Nov 20; period not stated by the source",
+    "source_label": "Investing.com, Nov 24"
   },
   "trend": [
     {
@@ -487,51 +489,97 @@
       ]
     }
   ],
-  "price_targets_note": "Nov 23 actions in bold: Bernstein and Oppenheimer upgraded to Outperform, StoneX to Buy ($270), Melius to Buy ($185 to $220); Citi raised to $240; BMO, Baird and Stifel reiterated; Goldman Sachs kept Buy without a stated target; Cantor put NVDA back on its Top Picks. StoneX, Oppenheimer, Melius and Goldman are reported second-hand (TheFly, TipRanks). Other rows are the latest change found, made during Huang's absence or after the Nov 17 earnings report. Wedbush's $293 is Matt Bryson; Dan Ives is now at Yorkville & Ives.",
+  "price_targets_note": "Nov 23-24 actions in bold: Bernstein and Oppenheimer upgraded to Outperform (Oppenheimer's prior $315 per TipRanks), StoneX to Buy ($270), Melius to Buy ($185 to $220); Citi raised to $240 and Dan Ives (Yorkville & Ives) to $250 on Nov 24; BMO, Baird and Stifel reiterated; Goldman Sachs kept Buy without a stated target; Cantor put NVDA back on its Top Picks. Several are reported second-hand (TheFly, TipRanks, StockTwits). Other rows are the latest change found, made during Huang's absence or after the Nov 17 earnings report. Street average target: $232 (TipRanks, 44 ratings) or $244 (24/7 Wall St).",
   "indices_note": "Closing moves (Motley Fool and others); Philadelphia Semiconductor index +14.03%.",
   "asia_next_day": {
-    "as_of": "2026-11-24 morning Asia (about 8-9 PM ET Nov 23)",
+    "as_of": "Tue Nov 24 closes",
     "items": [
       {
-        "name": "TSMC",
-        "move": "Limit-up 10% at the open, NT$2,230",
-        "source": "Focus Taiwan, 09:39 Taipei"
-      },
-      {
-        "name": "Hon Hai (Foxconn)",
-        "move": "At its 10% daily limit",
+        "name": "TAIEX",
+        "move": "+8.99% to 40,122.35",
         "source": "Focus Taiwan"
       },
       {
-        "name": "SK Hynix",
-        "move": "+8.48%",
-        "source": "Yonhap via Korea Times, 10:05 KST"
+        "name": "TSMC",
+        "move": "+10% (limit-up) to NT$2,230",
+        "source": "Focus Taiwan"
       },
       {
-        "name": "Samsung Electronics",
-        "move": "+7.35%",
-        "source": "Yonhap via Korea Times, 10:05 KST"
-      },
-      {
-        "name": "Advantest",
-        "move": "+12% to +14.8% (sources differ)",
-        "source": "Investing.com; CNBC copy"
+        "name": "Hon Hai (Foxconn)",
+        "move": "NT$226.50, limit-up at the open",
+        "source": "Focus Taiwan"
       },
       {
         "name": "KOSPI",
-        "move": "+5.68% at 9:15 KST",
-        "source": "Yonhap"
+        "move": "+6.32% to 5,006",
+        "source": "Korea JoongAng Daily"
       },
       {
-        "name": "Taiwan index",
-        "move": "+9.1%",
-        "source": "Reuters via Investing.com"
+        "name": "SK Hynix",
+        "move": "+6.73%",
+        "source": "Korea JoongAng Daily"
+      },
+      {
+        "name": "Samsung Electronics",
+        "move": "+6.70%",
+        "source": "Korea JoongAng Daily"
       },
       {
         "name": "Nikkei",
-        "move": "+4.5%",
-        "source": "Reuters via Investing.com"
+        "move": "+3.91% to 58,644.63",
+        "source": "Xinhua"
+      },
+      {
+        "name": "Advantest",
+        "move": "+12.45%",
+        "source": "Xinhua"
+      },
+      {
+        "name": "Tokyo Electron",
+        "move": "+7.66%",
+        "source": "Xinhua"
+      },
+      {
+        "name": "SoftBank Group",
+        "move": "+4.66%",
+        "source": "TradingKey"
       }
     ]
+  },
+  "next_day": {
+    "label": "Tuesday, Nov 24 (so far)",
+    "text": "$153.52, \u22127.0% at 10:21 AM ET; range $153.18\u2013$159.92; 109.8M shares by then (Motley Fool). Premarket $158.89 (\u22123.7%) at 4:50 AM (Yahoo).",
+    "points": [
+      {
+        "t": "2026-11-24T04:50:44-05:00",
+        "price": 158.89,
+        "pct": -3.73,
+        "source": "https://finance.yahoo.com/markets/stocks/article/nvidia-stock-falls-after-epic-rally-on-jensen-huangs-return-as-ceo-094535877.html"
+      },
+      {
+        "t": "2026-11-24T09:22:00-05:00",
+        "price": 156.78,
+        "pct": -5.01,
+        "source": "https://finance.yahoo.com/markets/article/nvidia-amd-broadcom-lead-chip-stocks-lower-as-ai-trade-comes-under-pressure-141635463.html"
+      },
+      {
+        "t": "2026-11-24T10:01:00-05:00",
+        "price": 155.74,
+        "pct": -5.64,
+        "source": "https://www.stocktitan.net/articles/stock-market-today-live-november-24-2026"
+      },
+      {
+        "t": "2026-11-24T10:21:00-05:00",
+        "price": 153.52,
+        "pct": -6.99,
+        "source": "https://www.fool.com/investing/2026/11/24/why-nvidia-stock-gave-back-some-gains-today/"
+      }
+    ],
+    "indices_10_17am": {
+      "Nasdaq": -1.55,
+      "S&P 500": -0.61,
+      "Dow": 0.39
+    },
+    "sox_note": "Philadelphia Semiconductor index down about 8% intraday around 10:34 AM ET (ChainCatcher; level not given)."
   }
 }
