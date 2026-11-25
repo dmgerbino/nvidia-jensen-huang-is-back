@@ -4,10 +4,10 @@
   "event": "CEO reinstatement (Jensen Huang)",
   "event_date": "2026-11-23",
   "release_url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
-  "generated_at": "2026-11-25T18:08:34+00:00",
-  "batch": "refresh-nov25-1pm",
-  "thesis": "Up 31.5%, then down two days running: by Wednesday midday NVDA had given back about half of its comeback rally, and Congress is lining up hearings.",
-  "lede": "NVIDIA's board unanimously reinstated Jensen Huang as President, CEO and director on Nov 23, citing input from senior levels of the US government. NVDA closed Monday at $165.05, up 31.5%; it fell 5.9% Tuesday to $155.38 and was down another 7.2% at $144.21 at 12:36 PM ET Wednesday, about 15.5% below Monday's close, as hot inflation data and new tariff plans hit chips worldwide. In 390 verified quotes from 237 voices, opposition outnumbers support about two to one. No member of Congress on record supports the move; on Wednesday Sen. Cory Booker wrote to board chair Harvey Jones asking whether NVIDIA is \"too big to hold accountable.\" The administration doubled down: Trump said a pardon is \"always an option.\" In Taiwan, the public mood is warmer: most people quoted on the street and online welcomed him back. Huang faces a closed House Intelligence session on Dec 1 and a public Senate Banking hearing on Dec 3.",
+  "generated_at": "2026-11-25T23:07:57+00:00",
+  "batch": "eod-nov25",
+  "thesis": "Up 31.5%, then down two days in a row: Huang is back, the stock has given back about a third of the rally, and the hearings start Dec 1.",
+  "lede": "NVIDIA's board unanimously reinstated Jensen Huang as President, CEO and director on Nov 23, citing input from senior levels of the US government. NVDA closed Monday at $165.05, up 31.5%; it fell 5.9% Tuesday and 3.9% Wednesday to $149.30, after being down 9.1% at Wednesday's low, as hot inflation data and new tariff plans hit chip stocks worldwide. In 419 verified quotes from 255 voices, opposition outnumbers support about two to one. No member of Congress on record supports the move; Sen. Cory Booker asked the board whether NVIDIA is \"too big to hold accountable.\" The administration doubled down: Trump said a pardon is \"always an option,\" and on Wednesday Vice President JD Vance said \"I don't think he needs a pardon at all\" and that it was \"the board's decision.\" In Taiwan, most people quoted on the street welcomed him back. Huang faces a closed House Intelligence session on Dec 1 and a public Senate Banking hearing on Dec 3.",
   "takeaways": [
     {
       "big": "+31.5%",
@@ -15,24 +15,24 @@
       "note": "$165.05; about $950B added"
     },
     {
-      "big": "−7.2%",
-      "label": "NVDA, Wed 12:36 PM ET",
-      "note": "$144.21, after −5.9% Tuesday"
+      "big": "$149.30",
+      "label": "NVDA close, Wed Nov 25",
+      "note": "−5.9% Tue, −3.9% Wed"
     },
     {
       "big": "0 of 38",
       "label": "Congressional voices in favor",
-      "note": "Members and committees; Booker letter Wed"
+      "note": "Members and committees"
     },
     {
-      "big": "194 / 102",
+      "big": "202 / 111",
       "label": "Oppose vs support quotes",
-      "note": "Plus 62 mixed, 32 neutral"
+      "note": "Plus 69 mixed, 37 neutral"
     },
     {
-      "big": "237",
+      "big": "255",
       "label": "Named voices",
-      "note": "390 verified quotes, 8 batches"
+      "note": "419 verified quotes, 9 batches"
     }
   ],
   "market": {
@@ -658,8 +658,8 @@
     },
     "later_days": [
       {
-        "label": "Wednesday, Nov 25, 12:36 PM ET",
-        "text": "$144.21, −$11.17 (−7.2%) vs Tuesday's $155.38; day range $141.17–$145.98 as of 10:36 AM; pre-market $147.24 at 4:51 AM. Down about 15.5% from Monday's close (Yahoo, Motley Fool, Unusual Whales, StockTitan).",
+        "label": "Wednesday, Nov 25 close",
+        "text": "$149.30, −$6.08 (−3.9%); range $141.17–$150.37, down as much as 9.1% before a late rebound; 357.6M shares vs 183.9M average. About 9.5% below Monday's close. After hours $149.13 (−0.1%) at 5 PM ET (Yahoo, Motley Fool, StockTitan, Public.com).",
         "points": [
           {
             "t": "2026-11-25T04:50:59-05:00",
@@ -696,22 +696,33 @@
             "price": 144.21,
             "pct": -7.19,
             "source": "Yahoo Finance"
+          },
+          {
+            "t": "2026-11-25T16:00:01-05:00",
+            "price": 149.3,
+            "pct": -3.91,
+            "source": "Yahoo Finance"
           }
         ],
         "indices": {
-          "Nasdaq": -2.18,
-          "S&P 500": -1.2,
-          "Dow": -0.14
+          "Nasdaq": -0.62,
+          "S&P 500": -0.25,
+          "Dow": 0.33,
+          "Philadelphia Semiconductor": -0.7
         },
-        "indices_note": "Yahoo, 12:36 PM ET (losses pared from Nasdaq −3.98% at 11:31 AM); SOX down more than 6% at 10:21 AM.",
+        "indices_note": "Closes (Yahoo, Motley Fool). Intraday lows: Nasdaq −4.6%, SOX −8.0%. VIX 27.98 (+6.2%).",
         "peers": {
-          "AMD": "−9.6% (11:31)",
-          "MU": "−11.2% (11:02)",
-          "LRCX": "−11.6% (11:02)",
-          "DELL": "−7.7% (11:01)",
-          "AVGO": "−6.3% (~11:11)",
-          "CRWV": "below −10% (~11:11)",
-          "MSFT": "−3.7% (~11:11)"
+          "LRCX": "−5.7% to −6.5%",
+          "ORCL": "−4.8% to −5.1%",
+          "MU": "−4.5%",
+          "AMAT": "−3.9% to −4.4%",
+          "TSM": "−2.0%",
+          "AMD": "−1.8%",
+          "MRVL": "−0.5%",
+          "CRWV": "−0.1%",
+          "AVGO": "−0.1%",
+          "DELL": "+0.6%",
+          "SMCI": "+3.1%"
         },
         "asia": {
           "TAIEX": "−4.80% (38,195.43)",
@@ -726,14 +737,35 @@
           "SoftBank": "−14.8%"
         },
         "why": [
-          "The comeback rally fading, with Huang's Dec 1 closed House Intelligence session and Dec 3 Senate Banking hearing ahead (Motley Fool)",
-          "Hot October core PCE, 3.3% vs 3.2% expected, and about 98% odds of a December rate hike (Yahoo)",
-          "Proposed new tariffs of up to 20% (Yahoo)",
-          "Worries about how the AI buildout is financed (GuruFocus, Coinpaper)"
-        ]
+          "Hot October PCE (core 3.3%) raising December rate-hike odds, and proposed tariffs of up to 20% (Yahoo, Motley Fool)",
+          "AI spending and financing worries (Investing.com, Proactive)",
+          "Governance questions and the probes and Dec 1 and Dec 3 hearings ahead (Motley Fool, TECHi)",
+          "Falling Treasury yields drove the afternoon rebound (Yahoo)"
+        ],
+        "close": {
+          "price": 149.3,
+          "change_abs": -6.08,
+          "change_pct": -3.91,
+          "low": 141.17,
+          "high": 150.37,
+          "volume_m": 357.6,
+          "after_hours": {
+            "price": 149.13,
+            "change_pct": -0.12,
+            "t": "2026-11-25T17:00:00-05:00",
+            "source": "Public.com"
+          }
+        },
+        "europe": {
+          "ASML": "−5.8%",
+          "ASM International": "−7.8%",
+          "Infineon": "−6.5%",
+          "BESI": "−5.6%",
+          "Stoxx 600": "−1.1%"
+        }
       }
     ],
-    "later_days_note": "Intraday figures as timed; European chip closes for Nov 25 not yet verified."
+    "later_days_note": "S&P Global reportedly put NVIDIA's credit rating on watch over governance risk (via StockTitan citing CNBC; time not given)."
   },
   "computed": {
     "recovered_pct_of_slide": 82.0,
@@ -743,12 +775,12 @@
     "pct_below_record": -31.0
   },
   "sentiment": {
-    "total_quotes": 390,
-    "support": 102,
-    "oppose": 194,
-    "mixed": 62,
-    "neutral": 32,
-    "overall_mean": -0.174,
+    "total_quotes": 419,
+    "support": 111,
+    "oppose": 202,
+    "mixed": 69,
+    "neutral": 37,
+    "overall_mean": -0.168,
     "by_group": {
       "tech_media": {
         "family": "Media",
@@ -764,13 +796,13 @@
       },
       "governance_expert": {
         "family": "Experts",
-        "count": 35,
-        "unique_speakers": 16,
-        "mean_sentiment": -0.544,
+        "count": 39,
+        "unique_speakers": 18,
+        "mean_sentiment": -0.56,
         "stance_counts": {
           "mixed": 10,
           "neutral": 1,
-          "oppose": 24
+          "oppose": 28
         }
       },
       "natsec_expert": {
@@ -810,13 +842,13 @@
       },
       "social_public": {
         "family": "Public social",
-        "count": 18,
-        "unique_speakers": 17,
-        "mean_sentiment": 0.406,
+        "count": 21,
+        "unique_speakers": 20,
+        "mean_sentiment": 0.457,
         "stance_counts": {
           "neutral": 2,
           "oppose": 3,
-          "support": 12,
+          "support": 15,
           "mixed": 1
         }
       },
@@ -833,35 +865,35 @@
       },
       "administration": {
         "family": "US politics",
-        "count": 22,
-        "unique_speakers": 4,
-        "mean_sentiment": 0.718,
+        "count": 26,
+        "unique_speakers": 5,
+        "mean_sentiment": 0.685,
         "stance_counts": {
-          "support": 20,
+          "support": 24,
           "mixed": 1,
           "neutral": 1
         }
       },
       "market_analyst": {
         "family": "Markets",
-        "count": 50,
-        "unique_speakers": 41,
-        "mean_sentiment": 0.28,
+        "count": 55,
+        "unique_speakers": 44,
+        "mean_sentiment": 0.213,
         "stance_counts": {
           "support": 27,
-          "mixed": 15,
-          "neutral": 6,
+          "mixed": 17,
+          "neutral": 9,
           "oppose": 2
         }
       },
       "ecosystem_commentary": {
         "family": "Markets",
-        "count": 5,
-        "unique_speakers": 3,
-        "mean_sentiment": 0.16,
+        "count": 9,
+        "unique_speakers": 5,
+        "mean_sentiment": 0.1,
         "stance_counts": {
           "support": 2,
-          "mixed": 2,
+          "mixed": 6,
           "neutral": 1
         }
       },
@@ -887,14 +919,14 @@
       },
       "investor": {
         "family": "Markets",
-        "count": 26,
-        "unique_speakers": 19,
-        "mean_sentiment": 0.204,
+        "count": 29,
+        "unique_speakers": 22,
+        "mean_sentiment": 0.152,
         "stance_counts": {
           "support": 13,
-          "mixed": 5,
+          "mixed": 6,
           "oppose": 5,
-          "neutral": 3
+          "neutral": 5
         }
       },
       "governor": {
@@ -908,23 +940,23 @@
       },
       "civil_society": {
         "family": "Experts",
-        "count": 11,
-        "unique_speakers": 7,
-        "mean_sentiment": -0.645,
+        "count": 15,
+        "unique_speakers": 10,
+        "mean_sentiment": -0.68,
         "stance_counts": {
-          "oppose": 11
+          "oppose": 15
         }
       },
       "political_media": {
         "family": "Media",
-        "count": 26,
-        "unique_speakers": 20,
-        "mean_sentiment": -0.448,
+        "count": 28,
+        "unique_speakers": 21,
+        "mean_sentiment": -0.352,
         "stance_counts": {
           "oppose": 19,
           "neutral": 2,
           "mixed": 2,
-          "support": 3
+          "support": 5
         }
       },
       "world_leader": {
@@ -964,7 +996,7 @@
   "script_seed": [
     {
       "state": "tier-0",
-      "text": "Up 31.5%, then down two days running: by Wednesday midday NVDA had given back about half of its comeback rally, and Congress is lining up hearings."
+      "text": "Up 31.5%, then down two days in a row: Huang is back, the stock has given back about a third of the rally, and the hearings start Dec 1."
     },
     {
       "state": "tier-1",
@@ -980,7 +1012,7 @@
     },
     {
       "state": "tier-4",
-      "text": "102 vs 194: Quotes for vs. against. Net sentiment −0.17."
+      "text": "111 vs 202: Quotes for vs. against. Net sentiment −0.17."
     }
   ]
 }
