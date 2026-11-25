@@ -548,7 +548,7 @@
   },
   "next_day": {
     "label": "Tuesday, Nov 24 close",
-    "text": "$155.38, \u2212$9.67 (\u22125.9%); range $150.50\u2013$159.92; 379.2M shares; about $240B of Monday's gain given back (Motley Fool, Yahoo, AP). After hours $151.86 (\u22122.3%) at 7:30 PM ET (Yahoo).",
+    "text": "$155.38, −$9.67 (−5.9%); range $150.50–$159.92; 379.2M shares; about $240B of Monday's gain given back (Motley Fool, Yahoo, AP). After hours $151.86 (−2.3%) at 7:30 PM ET (Yahoo).",
     "points": [
       {
         "t": "2026-11-24T04:50:44-05:00",
@@ -575,7 +575,7 @@
         "source": "https://www.fool.com/investing/2026/11/24/why-nvidia-stock-gave-back-some-gains-today/"
       }
     ],
-    "sox_note": "Philadelphia Semiconductor index closed \u22127.9% at 8,832.5 (BigGo, Bloomingbit).",
+    "sox_note": "Philadelphia Semiconductor index closed −7.9% at 8,832.5 (BigGo, Bloomingbit).",
     "close": {
       "price": 155.38,
       "change_abs": -9.67,
@@ -618,5 +618,83 @@
       "AI-spending and bubble doubts (Reuters, AP)",
       "Expected new tariffs and a possible December Fed hike before Wednesday's PCE report (Reuters, Yahoo)"
     ]
-  }
+  },
+  "later_days": [
+    {
+      "label": "Wednesday, Nov 25, 12:36 PM ET",
+      "text": "$144.21, −$11.17 (−7.2%) vs Tuesday's $155.38; day range $141.17–$145.98 as of 10:36 AM; pre-market $147.24 at 4:51 AM. Down about 15.5% from Monday's close (Yahoo, Motley Fool, Unusual Whales, StockTitan).",
+      "points": [
+        {
+          "t": "2026-11-25T04:50:59-05:00",
+          "price": 147.24,
+          "pct": -5.24,
+          "source": "Yahoo Finance"
+        },
+        {
+          "t": "2026-11-25T09:39:00-05:00",
+          "price": 142.37,
+          "pct": -8.4,
+          "source": "Unusual Whales"
+        },
+        {
+          "t": "2026-11-25T10:00:00-05:00",
+          "price": 141.43,
+          "pct": -8.2,
+          "source": "Yahoo/GuruFocus"
+        },
+        {
+          "t": "2026-11-25T10:36:00-05:00",
+          "price": 144.16,
+          "pct": -7.22,
+          "source": "Motley Fool"
+        },
+        {
+          "t": "2026-11-25T11:02:00-05:00",
+          "price": 142.38,
+          "pct": -8.37,
+          "source": "StockTitan"
+        },
+        {
+          "t": "2026-11-25T12:36:00-05:00",
+          "price": 144.21,
+          "pct": -7.19,
+          "source": "Yahoo Finance"
+        }
+      ],
+      "indices": {
+        "Nasdaq": -2.18,
+        "S&P 500": -1.2,
+        "Dow": -0.14
+      },
+      "indices_note": "Yahoo, 12:36 PM ET (losses pared from Nasdaq −3.98% at 11:31 AM); SOX down more than 6% at 10:21 AM.",
+      "peers": {
+        "AMD": "−9.6% (11:31)",
+        "MU": "−11.2% (11:02)",
+        "LRCX": "−11.6% (11:02)",
+        "DELL": "−7.7% (11:01)",
+        "AVGO": "−6.3% (~11:11)",
+        "CRWV": "below −10% (~11:11)",
+        "MSFT": "−3.7% (~11:11)"
+      },
+      "asia": {
+        "TAIEX": "−4.80% (38,195.43)",
+        "TSMC": "−3.6%",
+        "MediaTek": "−10%",
+        "KOSPI": "−6.2% (4,697.51)",
+        "SK Hynix": "−11.1%",
+        "Samsung": "−9.9%",
+        "Nikkei": "−2.78% (57,011.62)",
+        "Advantest": "below −12%",
+        "Tokyo Electron": "below −12%",
+        "SoftBank": "−14.8%"
+      },
+      "why": [
+        "The comeback rally fading, with Huang's Dec 1 closed House Intelligence session and Dec 3 Senate Banking hearing ahead (Motley Fool)",
+        "Hot October core PCE, 3.3% vs 3.2% expected, and about 98% odds of a December rate hike (Yahoo)",
+        "Proposed new tariffs of up to 20% (Yahoo)",
+        "Worries about how the AI buildout is financed (GuruFocus, Coinpaper)"
+      ]
+    }
+  ],
+  "later_days_note": "Intraday figures as timed; European chip closes for Nov 25 not yet verified."
 }
