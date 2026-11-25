@@ -1,27 +1,32 @@
 # Wall Street cheers Huang's return; critics cry capture
 
-*Final recap, Tue Nov 24, 2026, 11 AM ET. Source release: [NVIDIA, Nov 23, 2026](https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director).*
+*End-of-day recap, Tue Nov 24, 2026, evening ET. Source release: [NVIDIA, Nov 23, 2026](https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director).*
 
-**A 31.5% rally, a 7% giveback, and a Congress that wants answers: Huang is back, but the questions that ousted him are not settled.**
+**A 31.5% rally, a 5.9% giveback, and a Congress that wants answers: Huang is back, but the questions that ousted him are not settled.**
 
-NVIDIA's board unanimously reinstated Jensen Huang as President, CEO and director on Nov 23, citing input from senior levels of the US government. NVDA closed at $165.05, up 31.5%, adding about $950 billion in market value; Taipei and Seoul followed with TSMC limit-up, but on Tuesday morning NVDA gave back about 7% as analysts at Goldman, Raymond James and BofA warned that scrutiny is not over. In 283 verified quotes from 171 voices, opposition outnumbers support about two to one. Wall Street and the White House cheered; none of the 31 members of Congress on record supports the move, from Van Hollen and Schiff to Cotton, Cornyn and Cramer, and the WSJ editorial board called it "a political bailout." Abroad, Israel's Netanyahu welcomed it, China's foreign ministry had "no comment," and Singapore's Lawrence Wong said "So be it." What decides the next chapter is Huang's Dec 3 testimony and the board's own investigation.
+NVIDIA's board unanimously reinstated Jensen Huang as President, CEO and director on Nov 23, citing input from senior levels of the US government. NVDA closed Monday at $165.05, up 31.5%, adding about $950 billion; on Tuesday it gave back 5.9% to $155.38 and the chip index fell 7.9%, on profit-taking and the political and regulatory risk still hanging over the company. In 357 verified quotes from 216 voices, opposition outnumbers support about two to one. None of the 36 members of Congress on record supports the move, from Sanders and Van Hollen to Rick Scott, Britt and Cotton; the FT called it "a triumph of money over morals" and the WSJ editorial board "a political bailout." The administration doubled down: Trump said a pardon is "always an option," and Attorney General Todd Blanche asked what Huang would have been investigated for. Abroad, Netanyahu welcomed it, China's foreign ministry had "no comment," and Singapore's Lawrence Wong said "So be it." Huang's Dec 3 testimony and the board's investigation decide what comes next.
 
 ## Key numbers
 
 | | | |
 |---|---|---|
-| **+31.5%** | NVDA close, Nov 23 | $165.05; about $950B added |
-| **−7.0%** | NVDA Tue, 10:21 AM ET | $153.52; analysts: scrutiny not over |
-| **0 of 31** | Members of Congress in favor | Both parties oppose or question it |
-| **140 / 72** | Oppose vs support quotes | Plus 48 mixed, 23 neutral |
-| **171** | Named voices | 283 verified quotes, 6 batches |
+| **+31.5%** | NVDA close, Mon Nov 23 | $165.05; about $950B added |
+| **−5.9%** | NVDA close, Tue Nov 24 | $155.38; chip index −7.9% |
+| **0 of 36** | Members of Congress in favor | Both parties oppose or question it |
+| **182 / 88** | Oppose vs support quotes | Plus 58 mixed, 29 neutral |
+| **216** | Named voices | 357 verified quotes, 7 batches |
 
 ## Market reaction
 
 - **Nov 23 close:** $165.05, up $39.52 (+31.48%) from $125.53. Day range $156.93–$171.50. Volume 772.5M shares, about 330% above the 3-month average (Motley Fool).
 - **Market value:** About $3.98T at the Nov 23 close (Motley Fool; FinanceFeeds citing CNBC: $3.978T); about $950B added in the day (Investopedia, Motley Fool).
 - **Indexes, Nov 23 close:** Nasdaq +6.51%, S&P 500 +4.73%, Dow +3.01%. Closing moves (Motley Fool and others); Philadelphia Semiconductor index +14.03%.
-- **Tuesday, Nov 24 (so far):** $153.52, −7.0% at 10:21 AM ET; range $153.18–$159.92; 109.8M shares by then (Motley Fool). Premarket $158.89 (−3.7%) at 4:50 AM (Yahoo). Indexes about 10:17 AM ET: Nasdaq -1.55%, S&P 500 -0.61%, Dow +0.39%. Philadelphia Semiconductor index down about 8% intraday around 10:34 AM ET (ChainCatcher; level not given).
+- **Tuesday, Nov 24 close:** $155.38, −$9.67 (−5.9%); range $150.50–$159.92; 379.2M shares; about $240B of Monday's gain given back (Motley Fool, Yahoo, AP). After hours $151.86 (−2.3%) at 7:30 PM ET (Yahoo). Index closes: Nasdaq -1.48%, S&P 500 -0.50%, Dow +0.85%, Philadelphia Semiconductor -7.88%.
+- **Peers, Tuesday close:** DELL -11.8%, CRWV -11.8%, MU -11.0%, NBIS -10.7%, MRVL -9.1%, AMD -8.9%, ARM -8.6%, AVGO -4.0%, TSM -4.0%, ORCL -3.7%, META -1.3%, AMZN -1.2%, GOOGL -1.1%.
+  - Why: Profit-taking after Monday's surge (Reuters).
+  - Why: Political and governance risk around the reinstatement, with DOJ, Commerce and California AG probes and congressional hearings ahead (Reuters, Bloomingbit).
+  - Why: AI-spending and bubble doubts (Reuters, AP).
+  - Why: Expected new tariffs and a possible December Fed hike before Wednesday's PCE report (Reuters, Yahoo).
 - **Recovery:** before Huang left (Nov 11) NVDA closed at $173.73; the record close is $239.24 (2026-10-06).
 
 ### Peers, Nov 23 close
@@ -78,7 +83,7 @@ NVIDIA's board unanimously reinstated Jensen Huang as President, CEO and directo
 | Baird | Tristan Gerra | Neutral (reiterated) | $200 | $200 | 2026-11-23 |
 | Wedbush | Matt Bryson | Buy/Outperform | $275 | $293 | 2026-11-19 |
 | UBS | Timothy Arcuri | Buy | $240 | $220 | 2026-11-19 |
-| Rosenblatt Securities | Kevin Cassidy | Buy |  | $300 | 2026-11-18 |
+| Rosenblatt Securities | Kevin Cassidy | Buy (reiterated) | $300 | $300 | 2026-11-24 |
 | Piper Sandler |  |  | $300 | $230 | 2026-11-18 |
 | Jefferies |  | Buy | $300 | $250 | 2026-11-18 |
 | Wells Fargo |  |  | $300 | $250 | 2026-11-18 |
@@ -89,7 +94,7 @@ NVIDIA's board unanimously reinstated Jensen Huang as President, CEO and directo
 | Truist |  |  | $346 | $174 | 2026-11-12 to 20 |
 | HSBC |  |  |  | $170 | 2026-11-12 to 20 |
 
-*Nov 23-24 actions in bold: Bernstein and Oppenheimer upgraded to Outperform (Oppenheimer's prior $315 per TipRanks), StoneX to Buy ($270), Melius to Buy ($185 to $220); Citi raised to $240 and Dan Ives (Yorkville & Ives) to $250 on Nov 24; BMO, Baird and Stifel reiterated; Goldman Sachs kept Buy without a stated target; Cantor put NVDA back on its Top Picks. Several are reported second-hand (TheFly, TipRanks, StockTwits). Other rows are the latest change found, made during Huang's absence or after the Nov 17 earnings report. Street average target: $232 (TipRanks, 44 ratings) or $244 (24/7 Wall St).*
+*Nov 23-24 actions in bold: Bernstein and Oppenheimer upgraded to Outperform (Oppenheimer's prior $315 per TipRanks), StoneX to Buy ($270), Melius to Buy ($185 to $220); Citi raised to $240 and Dan Ives (Yorkville & Ives) to $250 on Nov 24; BMO, Baird, Stifel and Rosenblatt ($300, Nov 24) reiterated; Goldman Sachs kept Buy without a stated target; Cantor put NVDA back on its Top Picks. Several are reported second-hand (TheFly, TipRanks, StockTwits). Other rows are the latest change found, made during Huang's absence or after the Nov 17 earnings report. Street average target: $232 (TipRanks, 44 ratings) or $244 (24/7 Wall St).*
 
 ## Fundamentals and technicals
 
@@ -100,39 +105,42 @@ NVIDIA's board unanimously reinstated Jensen Huang as President, CEO and directo
 
 ## Reaction sentiment
 
-283 verified quotes from 171 named voices. Stance: 140 oppose, 72 support, 48 mixed, 23 neutral. Mean sentiment -0.18 on a −1 (against) to +1 (for) scale. No weighting.
+357 verified quotes from 216 named voices. Stance: 182 oppose, 88 support, 58 mixed, 29 neutral. Mean sentiment -0.19 on a −1 (against) to +1 (for) scale. No weighting.
 
 | Group | Family | Quotes | Voices | Mean | Support | Oppose | Mixed | Neutral |
 |---|---|---|---|---|---|---|---|---|
 | governor | US politics | 2 | 2 | -0.75 | 0 | 2 | 0 | 0 |
-| civil_society | Experts | 5 | 4 | -0.70 | 0 | 5 | 0 | 0 |
-| congress | US politics | 64 | 32 | -0.66 | 0 | 61 | 1 | 2 |
-| anti_ai_activist | AI critics | 3 | 1 | -0.60 | 0 | 3 | 0 | 0 |
-| natsec_expert | Experts | 7 | 4 | -0.58 | 0 | 5 | 2 | 0 |
-| political_media | Media | 18 | 14 | -0.55 | 1 | 14 | 2 | 1 |
-| governance_expert | Experts | 22 | 10 | -0.54 | 0 | 15 | 6 | 1 |
-| tech_media | Media | 21 | 12 | -0.33 | 1 | 10 | 6 | 4 |
+| congress | US politics | 76 | 37 | -0.66 | 0 | 73 | 1 | 2 |
+| civil_society | Experts | 11 | 7 | -0.65 | 0 | 11 | 0 | 0 |
+| anti_ai_activist | AI critics | 4 | 2 | -0.62 | 0 | 4 | 0 | 0 |
+| political_org | US politics | 2 | 2 | -0.60 | 0 | 2 | 0 | 0 |
+| natsec_expert | Experts | 11 | 6 | -0.54 | 0 | 8 | 3 | 0 |
+| governance_expert | Experts | 28 | 13 | -0.52 | 0 | 18 | 9 | 1 |
+| political_media | Media | 26 | 20 | -0.45 | 3 | 19 | 2 | 2 |
+| tech_media | Media | 24 | 14 | -0.33 | 1 | 11 | 8 | 4 |
+| news_media | Media | 38 | 25 | -0.30 | 5 | 21 | 8 | 4 |
 | foreign_state_media | World | 6 | 5 | -0.27 | 0 | 2 | 3 | 1 |
-| news_media | Media | 31 | 18 | -0.26 | 5 | 16 | 6 | 4 |
 | ecosystem_commentary | Markets | 5 | 3 | +0.16 | 2 | 0 | 2 | 1 |
-| social_public | Public social | 7 | 7 | +0.19 | 3 | 1 | 1 | 2 |
+| investor | Markets | 24 | 19 | +0.20 | 12 | 5 | 4 | 3 |
+| social_public | Public social | 10 | 10 | +0.24 | 5 | 2 | 1 | 2 |
 | world_leader | World | 5 | 3 | +0.26 | 2 | 0 | 0 | 3 |
-| investor | Markets | 16 | 14 | +0.29 | 10 | 3 | 2 | 1 |
-| market_analyst | Markets | 44 | 36 | +0.34 | 26 | 1 | 14 | 3 |
+| market_analyst | Markets | 48 | 40 | +0.31 | 27 | 2 | 14 | 5 |
 | tech_industry | Tech industry | 15 | 9 | +0.53 | 11 | 2 | 2 | 0 |
-| administration | US politics | 12 | 2 | +0.87 | 11 | 0 | 1 | 0 |
+| administration | US politics | 22 | 4 | +0.72 | 20 | 0 | 1 | 1 |
 
 ## What people said
 
-**White House: all in.** Trump told CNBC "I believe my intervention was very important" and later said "We gave them assurances at least with everything we know, and we know a lot." Spokesman Steven Cheung: "President Trump was totally involved and this is a great decision by the NVIDIA board."
+**White House: all in.** Trump told CNBC "I believe my intervention was very important" and on Tuesday told the New York Post a pardon is "always an option, I guess," adding he found Huang "100% aboveboard." Attorney General Todd Blanche: "What does that mean had Huang been investigated? For what?" Spokesman Steven Cheung: "President Trump was totally involved and this is a great decision by the NVIDIA board."
 
-**Congress: bipartisan pushback.** Sen. Chris Van Hollen: "This is what a rigged system looks like." House Democratic leader Hakeem Jeffries called it "indefensible, irresponsible and incomprehensible." Republican Sen. John Curtis: "billionaire helping billionaire." Sen. Kevin Cramer: "The worst part of this is what we may never know." Rep. Gregory Meeks: "We need to know why Trump put his thumb on the scale."
+**Congress: bipartisan pushback.** Sen. Chris Van Hollen: "This is what a rigged system looks like." Sen. Bernie Sanders: "The fate of one man caused the stock market to lose and then regain trillions of dollars in value." Republican Sen. Rick Scott: "This looks terrible on its face." Sen. Katie Britt said Huang's actions "raised national security concerns." Sen. Kevin Cramer: "The worst part of this is what we may never know."
 
 **Governors.** Illinois Gov. JB Pritzker: "This is the greed and lack of accountability that the country just rejected." Pennsylvania Gov. Josh Shapiro called it "another example of the dangerous combination governing this country" (partial quote).
 
-**Editorial pages and the right.** The Wall Street Journal editorial board called it "a political bailout" and wrote: "That must be the quickest very thorough investigation in history." Laura Loomer: "Reinstating Jensen Huang is going to blow back on our national security." Fox Business's Charles Gasparino: "a modern-day Watergate for this administration."
+**Editorial pages and the right.** The FT's Lex column: "Jensen Huang's return is a triumph of money over morals." The WSJ editorial board called it "a political bailout": "That must be the quickest very thorough investigation in history." Bill O'Reilly: "I disagree with the president on the action." Laura Loomer: "Reinstating Jensen Huang is going to blow back on our national security."
 
 **Governance experts and investors.** Yale's Jeffrey Sonnenfeld: "we have seen no weaker board." NYC Comptroller Mark Levine: "They have proven they're not independent." Nada Kakabadse: "It hands the board's judgment to the state." Charles Elson: "It shows a weakness."
+
+**Activists and civil society.** Public Citizen's Robert Weissman: "Trump's tough talk on national security and all his anti-Chinese belligerence suddenly fades away when money—and Trump's personal investments—are at stake." AI Now's Aya Ibrahim: "nobody is too big to fail or too big to fire." SOAS's Steve Tsang: "Beijing could not have been happier with Huang's return."
 
 **Wall Street: upgrades, then caution.** Bernstein upgraded while calling the board's handling "frankly, clown-like"; Dan Ives raised his target to $250. By Tuesday Goldman's TMT desk wrote that "better sentiment is not the same as a clearing event for semis," and BofA: "Reinstatement should not be confused with the end of scrutiny."
 
@@ -142,7 +150,7 @@ NVIDIA's board unanimously reinstated Jensen Huang as President, CEO and directo
 
 - The rally was broad across AI infrastructure customers and suppliers (neoclouds, memory, foundry, servers, optics), more than direct GPU rivals, which reads as relief for the whole capex chain.
 - Asia followed on Tuesday: Taiwan's TAIEX closed up 9%, with TSMC limit-up; Korea's KOSPI rose 6.3% past 5,000 with SK Hynix and Samsung up about 6.7%; Japan's Nikkei rose 3.9%, led by Advantest (+12%) (Focus Taiwan, JoongAng Daily, Xinhua).
-- The relief did not hold in New York: on Tuesday morning NVDA fell about 7% and the semiconductor index about 8% intraday, as notes from Goldman, Raymond James and BofA said leadership risk had eased but regulatory and political overhangs remain.
+- The relief did not hold in New York: on Tuesday NVDA closed down 5.9% and the semiconductor index 7.9%, with Micron, Dell and CoreWeave down about 11-12% and AMD about 9%; Europe's chip stocks also fell (ASM International, Infineon). Reporting cited profit-taking, AI-spending doubts and the political overhang.
 - Analysts frame the risk that just went away as leadership, not demand: Ives says "the demand side was never in question."
 - Unresolved: export controls and China sales, the independent investigation, and Huang's Dec 1 closed-door interview with three House committees.
 
@@ -155,8 +163,8 @@ NVIDIA's board unanimously reinstated Jensen Huang as President, CEO and directo
 
 ## What to watch
 
-- Whether NVDA holds above the $157 support named by technical analysts; it was $153.52 at 10:21 AM ET Tuesday.
-- Huang's Dec 3 testimony and the House committees' requests (China, Intelligence, Foreign Affairs, Judiciary Democrats).
+- Whether NVDA holds the $150.50 Tuesday low; it traded at $151.86 after hours.
+- Huang's Dec 3 testimony, the House committees' requests, and DOJ, Commerce and California AG probes.
 - The board's independent investigation and any proxy-adviser (ISS, Glass Lewis) view; none so far.
 - Taiwan, Japan and Korea government statements; none on record yet.
 
@@ -165,7 +173,7 @@ NVIDIA's board unanimously reinstated Jensen Huang as President, CEO and directo
 - World: Israel, China (no comment) and Singapore are the only governments on record; nothing from Taiwan, Japan, Korea, India, the EU or the UK.
 - Only one far-right voice (Laura Loomer); no DSA statement, no organized AI-safety or anti-AI group, no proxy adviser, and no chip or hyperscaler CEO on record.
 - CNN, NBC, CNBC, Bloomberg, Mediaite, The Atlantic and X block automated reading, so many posts are known only through other outlets' reporting (marked secondary). See blocked-sources.md for fixes.
-- Quotes are counted, not people: Trump accounts for 11 rows. No weighting is applied, by design. Sentiment scores are analyst judgments on a −1 to +1 scale.
+- Quotes are counted, not people: Trump accounts for 16 rows. No weighting is applied, by design. Sentiment scores are analyst judgments on a −1 to +1 scale.
 - *R-far_right:* Only Laura Loomer so far (opposed); nothing from Bannon/War Room, Breitbart or far-right members of Congress
 - *DSA:* No reaction found yet (checked Jacobin, DSA-endorsed members)
 - *world_leader:* Three governments on record by 11 AM ET Nov 24: Israel (Netanyahu, supportive), China MFA ('no comment') and Singapore (PM Wong, neutral). Nothing from Taiwan, Japan, South Korea, India, the EU or the UK
@@ -175,6 +183,6 @@ NVIDIA's board unanimously reinstated Jensen Huang as President, CEO and directo
 
 ## Method
 
-Reactions are limited to responses to NVIDIA's Nov 23 release. Every quote is verbatim from a page that was opened, or marked `secondary_report` when only another outlet's reporting could be read. Scores are hand-assigned from −1 to +1 with a stance tag. Duplicates and pre-announcement remarks are excluded (11 records, each with a reason, in `excluded[]`). Batches: initial-10am 53, refresh-1pm 46, refresh-4pm 56, refresh-7pm 25, refresh-9pm 42, recap-nov24 61. Market figures come from Yahoo Finance, Motley Fool, Investing.com, StockAnalysis, MarketScreener, Focus Taiwan, JoongAng Daily and Xinhua, timed as noted. Not investment advice.
+Reactions are limited to responses to NVIDIA's Nov 23 release. Every quote is verbatim from a page that was opened, or marked `secondary_report` when only another outlet's reporting could be read. Scores are hand-assigned from −1 to +1 with a stance tag. Duplicates and pre-announcement remarks are excluded (17 records, each with a reason, in `excluded[]`). Batches: initial-10am 53, refresh-1pm 46, refresh-4pm 56, refresh-7pm 25, refresh-9pm 42, recap-nov24 61, eod-nov24 74. Market figures come from Yahoo Finance, Motley Fool, Investing.com, StockAnalysis, MarketScreener, Focus Taiwan, JoongAng Daily and Xinhua, timed as noted. Not investment advice.
 
 Files: `reactions.json` (all quotes, machine-readable), `finance.json`, `price_points.json`, `NVDA-huang-return-data.json` (snapshot with `script_seed` for infographic-to-video-v2), `charts/`, `infographic/`, `blocked-sources.md`.
