@@ -4,10 +4,10 @@
   "event": "CEO reinstatement (Jensen Huang)",
   "event_date": "2026-11-23",
   "release_url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
-  "generated_at": "2026-11-25T23:07:57+00:00",
-  "batch": "eod-nov25",
+  "generated_at": "2026-11-26T23:05:16+00:00",
+  "batch": "sweep-nov26",
   "thesis": "Up 31.5%, then down two days in a row: Huang is back, the stock has given back about a third of the rally, and the hearings start Dec 1.",
-  "lede": "NVIDIA's board unanimously reinstated Jensen Huang as President, CEO and director on Nov 23, citing input from senior levels of the US government. NVDA closed Monday at $165.05, up 31.5%; it fell 5.9% Tuesday and 3.9% Wednesday to $149.30, after being down 9.1% at Wednesday's low, as hot inflation data and new tariff plans hit chip stocks worldwide. In 419 verified quotes from 255 voices, opposition outnumbers support about two to one. No member of Congress on record supports the move; Sen. Cory Booker asked the board whether NVIDIA is \"too big to hold accountable.\" The administration doubled down: Trump said a pardon is \"always an option,\" and on Wednesday Vice President JD Vance said \"I don't think he needs a pardon at all\" and that it was \"the board's decision.\" In Taiwan, most people quoted on the street welcomed him back. Huang faces a closed House Intelligence session on Dec 1 and a public Senate Banking hearing on Dec 3.",
+  "lede": "NVIDIA's board unanimously reinstated Jensen Huang as President, CEO and director on Nov 23, citing input from senior levels of the US government. NVDA closed Monday at $165.05, up 31.5%; it fell 5.9% Tuesday and 3.9% Wednesday to $149.30, after being down 9.1% at Wednesday's low, as hot inflation data and new tariff plans hit chip stocks worldwide. In 435 verified quotes from 268 voices, opposition outnumbers support about two to one. No member of Congress on record supports the move; Sen. Cory Booker asked the board whether NVIDIA is \"too big to hold accountable.\" The administration doubled down: Trump said a pardon is \"always an option,\" and on Wednesday Vice President JD Vance said \"I don't think he needs a pardon at all\" and that it was \"the board's decision.\" In Taiwan, most people quoted on the street welcomed him back. Huang faces a closed House Intelligence session on Dec 1 and a public Senate Banking hearing on Dec 3.",
   "takeaways": [
     {
       "big": "+31.5%",
@@ -20,19 +20,19 @@
       "note": "−5.9% Tue, −3.9% Wed"
     },
     {
-      "big": "0 of 38",
+      "big": "0 of 40",
       "label": "Congressional voices in favor",
       "note": "Members and committees"
     },
     {
-      "big": "202 / 111",
+      "big": "215 / 112",
       "label": "Oppose vs support quotes",
-      "note": "Plus 69 mixed, 37 neutral"
+      "note": "Plus 70 mixed, 38 neutral"
     },
     {
-      "big": "255",
+      "big": "268",
       "label": "Named voices",
-      "note": "419 verified quotes, 9 batches"
+      "note": "435 verified quotes, 10 batches"
     }
   ],
   "market": {
@@ -775,34 +775,34 @@
     "pct_below_record": -31.0
   },
   "sentiment": {
-    "total_quotes": 419,
-    "support": 111,
-    "oppose": 202,
-    "mixed": 69,
-    "neutral": 37,
-    "overall_mean": -0.168,
+    "total_quotes": 435,
+    "support": 112,
+    "oppose": 215,
+    "mixed": 70,
+    "neutral": 38,
+    "overall_mean": -0.182,
     "by_group": {
       "tech_media": {
         "family": "Media",
-        "count": 26,
-        "unique_speakers": 15,
-        "mean_sentiment": -0.271,
+        "count": 27,
+        "unique_speakers": 16,
+        "mean_sentiment": -0.265,
         "stance_counts": {
           "oppose": 11,
           "mixed": 8,
-          "neutral": 4,
+          "neutral": 5,
           "support": 3
         }
       },
       "governance_expert": {
         "family": "Experts",
-        "count": 39,
-        "unique_speakers": 18,
-        "mean_sentiment": -0.56,
+        "count": 45,
+        "unique_speakers": 22,
+        "mean_sentiment": -0.583,
         "stance_counts": {
           "mixed": 10,
           "neutral": 1,
-          "oppose": 28
+          "oppose": 34
         }
       },
       "natsec_expert": {
@@ -842,23 +842,23 @@
       },
       "social_public": {
         "family": "Public social",
-        "count": 21,
-        "unique_speakers": 20,
-        "mean_sentiment": 0.457,
+        "count": 24,
+        "unique_speakers": 23,
+        "mean_sentiment": 0.383,
         "stance_counts": {
           "neutral": 2,
-          "oppose": 3,
-          "support": 15,
+          "oppose": 5,
+          "support": 16,
           "mixed": 1
         }
       },
       "congress": {
         "family": "US politics",
-        "count": 78,
-        "unique_speakers": 38,
-        "mean_sentiment": -0.657,
+        "count": 81,
+        "unique_speakers": 40,
+        "mean_sentiment": -0.66,
         "stance_counts": {
-          "oppose": 75,
+          "oppose": 78,
           "mixed": 1,
           "neutral": 2
         }
@@ -876,12 +876,12 @@
       },
       "market_analyst": {
         "family": "Markets",
-        "count": 55,
-        "unique_speakers": 44,
-        "mean_sentiment": 0.213,
+        "count": 56,
+        "unique_speakers": 45,
+        "mean_sentiment": 0.204,
         "stance_counts": {
           "support": 27,
-          "mixed": 17,
+          "mixed": 18,
           "neutral": 9,
           "oppose": 2
         }
@@ -931,20 +931,20 @@
       },
       "governor": {
         "family": "US politics",
-        "count": 2,
-        "unique_speakers": 2,
-        "mean_sentiment": -0.75,
+        "count": 3,
+        "unique_speakers": 3,
+        "mean_sentiment": -0.7,
         "stance_counts": {
-          "oppose": 2
+          "oppose": 3
         }
       },
       "civil_society": {
         "family": "Experts",
-        "count": 15,
-        "unique_speakers": 10,
-        "mean_sentiment": -0.68,
+        "count": 16,
+        "unique_speakers": 11,
+        "mean_sentiment": -0.681,
         "stance_counts": {
-          "oppose": 15
+          "oppose": 16
         }
       },
       "political_media": {
@@ -1012,7 +1012,7 @@
     },
     {
       "state": "tier-4",
-      "text": "111 vs 202: Quotes for vs. against. Net sentiment −0.17."
+      "text": "112 vs 215: Quotes for vs. against. Net sentiment −0.18."
     }
   ]
 }
