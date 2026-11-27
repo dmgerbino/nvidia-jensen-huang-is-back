@@ -4,10 +4,10 @@
   "event": "CEO reinstatement (Jensen Huang)",
   "event_date": "2026-11-23",
   "release_url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
-  "generated_at": "2026-11-26T23:05:16+00:00",
-  "batch": "sweep-nov26",
-  "thesis": "Up 31.5%, then down two days in a row: Huang is back, the stock has given back about a third of the rally, and the hearings start Dec 1.",
-  "lede": "NVIDIA's board unanimously reinstated Jensen Huang as President, CEO and director on Nov 23, citing input from senior levels of the US government. NVDA closed Monday at $165.05, up 31.5%; it fell 5.9% Tuesday and 3.9% Wednesday to $149.30, after being down 9.1% at Wednesday's low, as hot inflation data and new tariff plans hit chip stocks worldwide. In 435 verified quotes from 268 voices, opposition outnumbers support about two to one. No member of Congress on record supports the move; Sen. Cory Booker asked the board whether NVIDIA is \"too big to hold accountable.\" The administration doubled down: Trump said a pardon is \"always an option,\" and on Wednesday Vice President JD Vance said \"I don't think he needs a pardon at all\" and that it was \"the board's decision.\" In Taiwan, most people quoted on the street welcomed him back. Huang faces a closed House Intelligence session on Dec 1 and a public Senate Banking hearing on Dec 3.",
+  "generated_at": "2026-11-27T19:37:02+00:00",
+  "batch": "eod-nov27",
+  "thesis": "Week one: NVDA ends up 19.9% but 8.8% below Monday's peak close, while Congress and the credit raters keep weighing in.",
+  "lede": "NVIDIA's board unanimously reinstated Jensen Huang as President, CEO and director on Nov 23, citing input from senior levels of the US government. NVDA closed Monday at $165.05, up 31.5%; it fell 5.9% Tuesday and 3.9% Wednesday, then rose 0.8% to $150.49 in Friday's half-day session, ending the week up 19.9% but lagging a broad chip rally. S&P Global put NVIDIA's AA credit rating on watch for a downgrade, and Reuters, citing the FT, reported NVIDIA told partners to stop shipping servers to four Southeast Asian countries. In 457 verified quotes from 279 voices, opposition outnumbers support about two to one. No member of Congress on record supports the move. The administration doubled down: Trump said a pardon is \"always an option,\" and Vice President JD Vance said \"I don't think he needs a pardon at all.\" Huang faces a closed House Intelligence session on Dec 1 and a public Senate Banking hearing on Dec 3.",
   "takeaways": [
     {
       "big": "+31.5%",
@@ -15,24 +15,24 @@
       "note": "$165.05; about $950B added"
     },
     {
-      "big": "$149.30",
-      "label": "NVDA close, Wed Nov 25",
-      "note": "−5.9% Tue, −3.9% Wed"
+      "big": "$150.49",
+      "label": "NVDA close, Fri Nov 27",
+      "note": "Week +19.9%; 8.8% below Monday"
     },
     {
-      "big": "0 of 40",
+      "big": "0 of 44",
       "label": "Congressional voices in favor",
-      "note": "Members and committees"
+      "note": "Members, committees, joint letters"
     },
     {
-      "big": "215 / 112",
+      "big": "231 / 114",
       "label": "Oppose vs support quotes",
-      "note": "Plus 70 mixed, 38 neutral"
+      "note": "Plus 71 mixed, 41 neutral"
     },
     {
-      "big": "268",
+      "big": "279",
       "label": "Named voices",
-      "note": "435 verified quotes, 10 batches"
+      "note": "457 verified quotes, 11 batches"
     }
   ],
   "market": {
@@ -763,9 +763,80 @@
           "BESI": "−5.6%",
           "Stoxx 600": "−1.1%"
         }
+      },
+      {
+        "label": "Friday, Nov 27 close (half day)",
+        "text": "$150.49, +$1.19 (+0.8%) at the 1 PM ET close (StockTitan, Investing.com, The Glass Desk); about 181M shares. Up 4.9% premarket, down 2.2% at 10 AM, then slightly higher; lagged a broad chip rally. Week: +19.9% vs $125.53 on Nov 20, but 8.8% below Monday's close.",
+        "close": {
+          "price": 150.49,
+          "change_abs": 1.19,
+          "change_pct": 0.8,
+          "volume_m": 180.9,
+          "week_pct": 19.88
+        },
+        "points": [
+          {
+            "t": "2026-11-27T04:11:00-05:00",
+            "price": 156.6,
+            "pct": 4.89,
+            "source": "PreMarket Daily"
+          },
+          {
+            "t": "2026-11-27T10:01:00-05:00",
+            "pct": -2.18,
+            "source": "StockTitan"
+          },
+          {
+            "t": "2026-11-27T11:01:00-05:00",
+            "pct": -1.28,
+            "source": "StockTitan"
+          },
+          {
+            "t": "2026-11-27T12:18:00-05:00",
+            "pct": -0.25,
+            "source": "Finwire"
+          },
+          {
+            "t": "2026-11-27T13:00:00-05:00",
+            "price": 150.49,
+            "pct": 0.8,
+            "source": "StockTitan"
+          }
+        ],
+        "indices": {
+          "Nasdaq": 2.31,
+          "S&P 500": 1.6,
+          "Dow": 1.18
+        },
+        "indices_note": "Yahoo closes; SOX up nearly 5% (Yahoo). Week: Nasdaq +6.7%, S&P +5.6%, Dow +5.5% (The Glass Desk).",
+        "peers": {
+          "MU": "+7.6%",
+          "MRVL": "+7.3%",
+          "TSM": "+2.8% (9:31 AM)",
+          "AMD": "higher",
+          "AVGO": "higher"
+        },
+        "asia": {
+          "TAIEX": "+2.5% Thu, +0.4% Fri",
+          "KOSPI": "+0.3% Thu, +4.3% Fri",
+          "SK Hynix": "+5.4% Fri",
+          "Samsung": "+4.6% Fri",
+          "Nikkei": "+0.9% Thu, +2.1% Fri",
+          "SoftBank": "+7.3% Thu, +3.1% Fri"
+        },
+        "europe": {
+          "ASML": "+2.6% Fri",
+          "Infineon": "+2.7% Fri",
+          "Stoxx 600": "+1.0% Fri, about +3% on the week"
+        },
+        "why": [
+          "Reuters, citing the FT (Nov 26): NVIDIA told partners including Dell and Supermicro to stop shipping servers to Malaysia, Singapore, Thailand and Indonesia",
+          "S&P Global put NVIDIA's AA rating on CreditWatch Negative on Nov 25; a cut, if any, would likely be one notch",
+          "NVDA lagged a broad, low-volume chip rally driven by dip-buying (Yahoo)"
+        ]
       }
     ],
-    "later_days_note": "S&P Global reportedly put NVIDIA's credit rating on watch over governance risk (via StockTitan citing CNBC; time not given)."
+    "later_days_note": "Credit: S&P Global CreditWatch Negative (Nov 25); Moody's affirmed Aa1, outlook stable (Nov 18), comment with no action Nov 25."
   },
   "computed": {
     "recovered_pct_of_slide": 82.0,
@@ -775,12 +846,12 @@
     "pct_below_record": -31.0
   },
   "sentiment": {
-    "total_quotes": 435,
-    "support": 112,
-    "oppose": 215,
-    "mixed": 70,
-    "neutral": 38,
-    "overall_mean": -0.182,
+    "total_quotes": 457,
+    "support": 114,
+    "oppose": 231,
+    "mixed": 71,
+    "neutral": 41,
+    "overall_mean": -0.198,
     "by_group": {
       "tech_media": {
         "family": "Media",
@@ -796,24 +867,24 @@
       },
       "governance_expert": {
         "family": "Experts",
-        "count": 45,
-        "unique_speakers": 22,
-        "mean_sentiment": -0.583,
+        "count": 49,
+        "unique_speakers": 25,
+        "mean_sentiment": -0.595,
         "stance_counts": {
           "mixed": 10,
           "neutral": 1,
-          "oppose": 34
+          "oppose": 38
         }
       },
       "natsec_expert": {
         "family": "Experts",
-        "count": 14,
-        "unique_speakers": 8,
-        "mean_sentiment": -0.475,
+        "count": 16,
+        "unique_speakers": 10,
+        "mean_sentiment": -0.472,
         "stance_counts": {
           "mixed": 4,
-          "oppose": 9,
-          "neutral": 1
+          "oppose": 10,
+          "neutral": 2
         }
       },
       "tech_industry": {
@@ -830,12 +901,12 @@
       },
       "news_media": {
         "family": "Media",
-        "count": 40,
-        "unique_speakers": 26,
-        "mean_sentiment": -0.331,
+        "count": 42,
+        "unique_speakers": 27,
+        "mean_sentiment": -0.339,
         "stance_counts": {
-          "oppose": 23,
-          "mixed": 8,
+          "oppose": 24,
+          "mixed": 9,
           "support": 5,
           "neutral": 4
         }
@@ -854,35 +925,35 @@
       },
       "congress": {
         "family": "US politics",
-        "count": 81,
-        "unique_speakers": 40,
-        "mean_sentiment": -0.66,
+        "count": 91,
+        "unique_speakers": 44,
+        "mean_sentiment": -0.677,
         "stance_counts": {
-          "oppose": 78,
+          "oppose": 88,
           "mixed": 1,
           "neutral": 2
         }
       },
       "administration": {
         "family": "US politics",
-        "count": 26,
+        "count": 27,
         "unique_speakers": 5,
-        "mean_sentiment": 0.685,
+        "mean_sentiment": 0.693,
         "stance_counts": {
-          "support": 24,
+          "support": 25,
           "mixed": 1,
           "neutral": 1
         }
       },
       "market_analyst": {
         "family": "Markets",
-        "count": 56,
-        "unique_speakers": 45,
-        "mean_sentiment": 0.204,
+        "count": 58,
+        "unique_speakers": 46,
+        "mean_sentiment": 0.197,
         "stance_counts": {
           "support": 27,
           "mixed": 18,
-          "neutral": 9,
+          "neutral": 11,
           "oppose": 2
         }
       },
@@ -919,11 +990,11 @@
       },
       "investor": {
         "family": "Markets",
-        "count": 29,
+        "count": 30,
         "unique_speakers": 22,
-        "mean_sentiment": 0.152,
+        "mean_sentiment": 0.175,
         "stance_counts": {
-          "support": 13,
+          "support": 14,
           "mixed": 6,
           "oppose": 5,
           "neutral": 5
@@ -996,7 +1067,7 @@
   "script_seed": [
     {
       "state": "tier-0",
-      "text": "Up 31.5%, then down two days in a row: Huang is back, the stock has given back about a third of the rally, and the hearings start Dec 1."
+      "text": "Week one: NVDA ends up 19.9% but 8.8% below Monday's peak close, while Congress and the credit raters keep weighing in."
     },
     {
       "state": "tier-1",
@@ -1012,7 +1083,7 @@
     },
     {
       "state": "tier-4",
-      "text": "112 vs 215: Quotes for vs. against. Net sentiment −0.18."
+      "text": "114 vs 231: Quotes for vs. against. Net sentiment −0.20."
     }
   ]
 }
